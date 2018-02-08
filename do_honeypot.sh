@@ -40,8 +40,6 @@ run() {
         mkdir -p cowrievolumes/$CONTAINER_NAME/data     # Add custom userdb.txt
 
         # Copy the userdb.txt and cowrie.cfg files into the volume being mounted
-        wget -nc https://raw.githubusercontent.com/micheloosterhof/cowrie/master/cowrie.cfg.dist
-        wget -nc https://raw.githubusercontent.com/micheloosterhof/cowrie/master/data/userdb.txt
         cp "$(pwd)"/userdb.txt cowrievolumes/$CONTAINER_NAME/data/
         cp "$(pwd)"/cowrie.cfg.dist cowrievolumes/$CONTAINER_NAME/cowrie.cfg
 
@@ -91,6 +89,12 @@ define_router() {
         else
                 docker create --name router --cap-add=NET_ADMIN -ti cowrie /bin/bash
                 docker network connect dmz router --ip "10.0.0.254"
+		mkdir -p cowrievolumes/router/dl       
+		mkdir -p cowrievolumes/router/log      
+		mkdir -p cowrievolumes/router/data     
+	        cp "$(pwd)"/userdb.txt cowrievolumes/router/data/
+        	cp "$(pwd)"/cowrie.cfg.dist cowrievolumes/router/cowrie.cfg
+
                 echo "New router defined for network DMZ"
         fi
 }
