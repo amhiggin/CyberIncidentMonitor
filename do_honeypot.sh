@@ -87,14 +87,14 @@ define_router() {
         if [[ -n "$router_defined" ]] ; then
                 echo "Router defined"
         else
-                docker create --name router --cap-add=NET_ADMIN -ti cowrie /bin/bash
+                docker create --name router --cap-add=NET_ADMIN -p 2222:2222 -p 2223:2223 -ti cowrie /bin/bash
                 docker network connect dmz router --ip "10.0.0.254"
 		mkdir -p cowrievolumes/router/dl       
 		mkdir -p cowrievolumes/router/log      
 		mkdir -p cowrievolumes/router/data     
 	        cp "$(pwd)"/userdb.txt cowrievolumes/router/data/
         	cp "$(pwd)"/cowrie.cfg.dist cowrievolumes/router/cowrie.cfg
-
+		docker start router
                 echo "New router defined for network DMZ"
         fi
 }
