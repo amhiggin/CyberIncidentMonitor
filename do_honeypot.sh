@@ -27,6 +27,8 @@ esac
 build() {
         docker build -t cowrie -f ./DockerFile .
         echo "Built cowrie image successfully."
+        # define dmz net
+        create_dmz_net
 }
 
 # Run the docker container in the background, giving it name "CONTAINER_NAME"
@@ -42,9 +44,6 @@ run() {
         wget -nc https://raw.githubusercontent.com/micheloosterhof/cowrie/master/data/userdb.txt
         cp "$(pwd)"/userdb.txt cowrievolumes/$CONTAINER_NAME/data/
         cp "$(pwd)"/cowrie.cfg.dist cowrievolumes/$CONTAINER_NAME/cowrie.cfg
-
-        # define dmz net
-        create_dmz_net
 
         # run the container on network dmz mounting the volumes
         docker run -d --network="dmz" --name $CONTAINER_NAME \
