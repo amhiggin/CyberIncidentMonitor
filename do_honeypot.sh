@@ -25,7 +25,7 @@ esac
 			
 # Build the cowrie image
 build() {
-	docker build -t amhiggin/cowrie .
+	docker build -t cowrie -f ./DockerFile .
         # Create the required host directories if they don't already exist
         mkdir -p cowrievolumes/$CONTAINER_NAME/dl       # Capture malware checksums
         mkdir -p cowrievolumes/$CONTAINER_NAME/log      # Capture logs
@@ -44,8 +44,8 @@ run() {
 	create_dmz_net()
 	docker run -d --network="dmz" --name $CONTAINER_NAME \
 		-p 22:22 -p 23:23 \
-		-v cowrievolumes/$CONTAINER_NAME/etc:/cowrie-cowrie-git/etc \
-		-v cowrievolumes/$CONTAINER_NAME/var:/cowrie-cowrie-git/var cowrie:latest
+		-v ~/cowrievolumes/$CONTAINER_NAME/etc:/cowrie-cowrie-git/etc \
+		-v ~/cowrievolumes/$CONTAINER_NAME/var:/cowrie-cowrie-git/var cowrie:latest
 }
 
 # Start the docker container
