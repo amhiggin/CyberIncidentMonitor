@@ -18,7 +18,7 @@ main() {
                 create_dmz_net)
                         create_dmz_net ;;
 		*)
-                        echo $"Usage: $0 {build|run|start|stop|remove|create_dm$
+                        echo $"Usage: $0 {build|run|start|stop|remove|create_dmz_net}"
                         exit 1  
 esac
 }		
