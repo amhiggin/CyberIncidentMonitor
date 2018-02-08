@@ -31,6 +31,7 @@ build() {
 
 # Run the docker container in the background, giving it name "CONTAINER_NAME"
 run() {
+	check_container_exists
         # Create the required host directories if they don't already exist
         mkdir -p cowrievolumes/$CONTAINER_NAME/dl       # Capture malware checksums
         mkdir -p cowrievolumes/$CONTAINER_NAME/log      # Capture logs
@@ -47,11 +48,9 @@ run() {
 
         # run the container on network dmz mounting the volumes
         docker run -d --network="dmz" --name $CONTAINER_NAME \
-                -p 2222:2222 -p 2223:2223 \
                 -v ~/cowrievolumes/$CONTAINER_NAME/dl:/cowrie-cowrie-git/dl \
                 -v ~/cowrievolumes/$CONTAINER_NAME/log:/cowrie-cowrie-git/log \
                 -v ~/cowrievolumes/$CONTAINER_NAME/data:/cowrie-cowrie-git/data cowrie:latest
-        echo "Container $CONTAINER_NAME running"
 }
 
 # Start the docker container
@@ -97,5 +96,14 @@ define_router() {
         fi
 }
 
+check_container_exists(){
+	exists=$( sudo docker container ls -a | grep '$CONTAINER_NAME' )
+	if [[ -n "$exists" ]] ; then
+                echo "Namecheck passed for $CONTAINER_NAME"
+        else
+		echo "A container named '$CONTAINER_NAME' already exists"
+		exit 2
+        fi
+}
 main
 
