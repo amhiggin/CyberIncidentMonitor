@@ -9,6 +9,8 @@ main() {
                         build ;;
                 run)    
                         run ;;
+		exec)
+			exec ;;
                 start)
                         start ;;
                 stop)
@@ -18,7 +20,7 @@ main() {
                 create_dmz_net)
                         create_dmz_net ;;
 		*)
-                        echo $"Usage: $0 {build|run|start|stop|remove|create_dmz_net}"
+                        echo $"Usage: $0 {build|run|exec|start|stop|remove|create_dmz_net}"
                         exit 1  
 esac
 }		
@@ -48,6 +50,11 @@ run() {
                 -v ~/cowrievolumes/$CONTAINER_NAME/dl:/cowrie-cowrie-git/dl \
                 -v ~/cowrievolumes/$CONTAINER_NAME/log:/cowrie-cowrie-git/log \
                 -v ~/cowrievolumes/$CONTAINER_NAME/data:/cowrie-cowrie-git/data cowrie:latest
+}
+
+exec () {
+	echo "Enter CTRL-P + CTRL-Q to exit container without terminating"
+	docker exec -it $CONTAINER_NAME /bin/bash
 }
 
 # Start the docker container
@@ -101,11 +108,12 @@ define_router() {
 
 check_container_exists(){
 	exists=$( sudo docker container ls -a | grep '$CONTAINER_NAME' )
-	if [[ -n "$exists" ]] ; then
-                echo "Namecheck passed for $CONTAINER_NAME"
-        else
+	if [ "$exists" == "$CONTAINER_NAME" ]
+	then
 		echo "A container named '$CONTAINER_NAME' already exists"
 		exit 2
+        else
+                echo "Namecheck passed for $CONTAINER_NAME"
         fi
 }
 main
