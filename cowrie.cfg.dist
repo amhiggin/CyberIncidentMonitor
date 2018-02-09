@@ -293,7 +293,7 @@ forward_redirect = false
 [telnet]
 
 # Enable Telnet support, disabled by default
-enabled = false
+enabled = true
 
 # IP addresses to listen for incoming Telnet connections.
 # (DEPRECATED: use listen_endpoints instead)
@@ -321,7 +321,7 @@ listen_endpoints = tcp:2223:interface=0.0.0.0
 
 
 # Source Port to report in logs (useful if you use iptables to forward ports to Cowrie)
-#reported_port = 23
+reported_port = 23
 
 
 
@@ -487,9 +487,9 @@ logfile = log/cowrie.json
 # You must signup for an api key.
 #
 #[output_virustotal]
-#api_key = 0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef
-#upload = True
-#debug = False
+api_key = ba30914a5af8ee929898c2be6f3a79e018ca2afde1438adb273384e890933afe
+upload = True
+debug = False
 
 
 # Cuckoo output module
@@ -503,8 +503,8 @@ logfile = log/cowrie.json
 
 #[output_slack]
 # This will produce a _lot_ of messages - you have been warned....
-#channel = channel_that_events_should_be_posted_in
-#token = slack_token_for_your_bot
+channel = cyber-monitor
+#token = xoxp-312736141460-312102839232-312658557651-f6f2b787dac8e30d0c1242f09c48cc52
 ##debug=true
 
 
