@@ -40,10 +40,12 @@ RUN su - cowrie -c "\
         pip install --upgrade setuptools && \
         pip install -r ~cowrie/cowrie-git/requirements.txt"
 
-
 # CONFIGURATION
 USER cowrie
 WORKDIR /cowrie/cowrie-git
 CMD [ "/cowrie/cowrie-git/bin/cowrie", "start", "-n" ]
 EXPOSE 2222 2223
 VOLUME ["/cowrie/cowrie-git/log", "/cowrie/cowrie-git/data", "/cowrie/cowrie-git/dl"]
+
+# Change the permissions for log directory to persist them on host
+RUN chown cowrie /cowrie/cowrie-git/log

@@ -38,18 +38,22 @@ run() {
 	check_container_exists
         # Create the required host directories if they don't already exist
         mkdir -p cowrievolumes/$CONTAINER_NAME/dl       # Capture malware checksums
-        mkdir -p cowrievolumes/$CONTAINER_NAME/log      # Capture logs
+        mkdir -p cowrievolumes/$CONTAINER_NAME/log/tty      # Capture logs
         mkdir -p cowrievolumes/$CONTAINER_NAME/data     # Add custom userdb.txt
 
         # Copy the userdb.txt and cowrie.cfg files into the volume being mounted
         cp "$(pwd)"/userdb.txt cowrievolumes/$CONTAINER_NAME/data/
         cp "$(pwd)"/cowrie.cfg.dist cowrievolumes/$CONTAINER_NAME/cowrie.cfg
+        cp "$(pwd)"/fs.pickle cowrievolumes/$CONTAINER_NAME/data/
+	cp "$(pwd)"/cowrie.log cowrievolumes/$CONTAINER_NAME/log/
+	cp "$(pwd)"/cowrie.json cowrievolumes/$CONTAINER_NAME/log/
 
         # run the container on network dmz mounting the volumes
         docker run -d --network="dmz" --name $CONTAINER_NAME \
-                -v ~/cowrievolumes/$CONTAINER_NAME/dl:/cowrie-cowrie-git/dl \
-                -v ~/cowrievolumes/$CONTAINER_NAME/log:/cowrie-cowrie-git/log \
-                -v ~/cowrievolumes/$CONTAINER_NAME/data:/cowrie-cowrie-git/data cowrie:latest
+                -v ~/cowrievolumes/$CONTAINER_NAME/dl:/cowrie/cowrie-git/dl \
+                -v ~/cowrievolumes/$CONTAINER_NAME/log:/cowrie/cowrie-git/log \
+                -v ~/cowrievolumes/$CONTAINER_NAME/data:/cowrie/cowrie-git/data  cowrie:latest
+	docker cp ~/cowrievolumes/$CONTAINER_NAME/cowrie.cfg $CONTAINER_NAME:/cowrie/cowrie-git 
 }
 
 exec () {
@@ -94,15 +98,25 @@ define_router() {
         if [[ -n "$router_defined" ]] ; then
                 echo "Router defined"
         else
-                docker create --name router --cap-add=NET_ADMIN -p 2222:2222 -p 2223:2223 -ti cowrie /bin/bash
-                docker network connect dmz router --ip "10.0.0.254"
 		mkdir -p cowrievolumes/router/dl       
-		mkdir -p cowrievolumes/router/log      
+		mkdir -p cowrievolumes/router/log/tty
 		mkdir -p cowrievolumes/router/data     
 	        cp "$(pwd)"/userdb.txt cowrievolumes/router/data/
+	        cp "$(pwd)"/fs.pickle cowrievolumes/router/data/
         	cp "$(pwd)"/cowrie.cfg.dist cowrievolumes/router/cowrie.cfg
+		cp "$(pwd)"/cowrie.log cowrievolumes/router/log/ 
+	        cp "$(pwd)"/cowrie.json cowrievolumes/router/log/ 
+
+                docker create --name router --cap-add=NET_ADMIN \
+			-p 2222:2222 -p 2223:2223 \
+	                -v ~/cowrievolumes/router/dl:/cowrie/cowrie-git/dl \
+        	        -v ~/cowrievolumes/router/log:/cowrie/cowrie-git/log \
+                	-v ~/cowrievolumes/router/data:/cowrie/cowrie-git/data \
+			cowrie:latest
+                docker network connect dmz router --ip "10.0.0.254"
+		docker cp ~/cowrievolumes/router/cowrie.cfg router:/cowrie/cowrie-git 
 		docker start router
-                echo "New router defined for network DMZ"
+                echo "New router 'router' defined for network DMZ"
         fi
 }
 
