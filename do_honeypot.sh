@@ -7,10 +7,10 @@ main() {
         case $INSTRUCTION in
                 build)
                         build ;;
-                run)    
-                        run ;;
-		exec)
-			exec ;;
+                create)
+                        create ;;
+                exec)
+                        exec ;;
                 start)
                         start ;;
                 stop)
@@ -19,12 +19,12 @@ main() {
                         remove ;;
                 create_dmz_net)
                         create_dmz_net ;;
-		*)
-                        echo $"Usage: $0 {build|run|exec|start|stop|remove|create_dmz_net}"
-                        exit 1  
+                *)
+                        echo $"Usage: $0 {build|create|exec|start|stop|remove|create_dmz_net}"
+                        exit 1
 esac
-}		
-			
+}
+
 # Build the cowrie image
 build() {
         docker build -t cowrie -f ./DockerFile .
@@ -33,32 +33,34 @@ build() {
         create_dmz_net
 }
 
-# Run the docker container in the background, giving it name "CONTAINER_NAME"
-run() {
-	check_container_exists
+			
+# Create the docker container, giving it name "CONTAINER_NAME"
+create() {
+        check_container_exists
         # Create the required host directories if they don't already exist
-        mkdir -p cowrievolumes/$CONTAINER_NAME/dl       # Capture malware checksums
-        mkdir -p cowrievolumes/$CONTAINER_NAME/log/tty      # Capture logs
-        mkdir -p cowrievolumes/$CONTAINER_NAME/data     # Add custom userdb.txt
+        mkdir -p cowrievolumes/$CONTAINER_NAME/dl       # Malware checksums
+        mkdir -p cowrievolumes/$CONTAINER_NAME/log/tty  # Cowrie logs
+        mkdir -p cowrievolumes/$CONTAINER_NAME/data     # fs.pickle and userdb.txt
 
-        # Copy the userdb.txt and cowrie.cfg files into the volume being mounted
-        cp "$(pwd)"/userdb.txt cowrievolumes/$CONTAINER_NAME/data/
-        cp "$(pwd)"/cowrie.cfg.dist cowrievolumes/$CONTAINER_NAME/cowrie.cfg
-        cp "$(pwd)"/fs.pickle cowrievolumes/$CONTAINER_NAME/data/
-	cp "$(pwd)"/cowrie.log cowrievolumes/$CONTAINER_NAME/log/
-	cp "$(pwd)"/cowrie.json cowrievolumes/$CONTAINER_NAME/log/
+        # Copy config files/log files into the volume being mounted
+        cp "$(pwd)"/userdb.txt "$(pwd)"/cowrievolumes/$CONTAINER_NAME/data/userdb.txt
+        cp "$(pwd)"/cowrie.cfg.dist "$(pwd)"/cowrievolumes/$CONTAINER_NAME/cowrie.cfg
+        cp "$(pwd)"/fs.pickle "$(pwd)"/cowrievolumes/$CONTAINER_NAME/data/fs.pickle
+        cp "$(pwd)"/cowrie.log "$(pwd)"/cowrievolumes/$CONTAINER_NAME/log/cowrie.log
+        cp "$(pwd)"/cowrie.json cowrievolumes/$CONTAINER_NAME/log/cowrie.json
 
-        # run the container on network dmz mounting the volumes
-        docker run -d --network="dmz" --name $CONTAINER_NAME \
-                -v ~/cowrievolumes/$CONTAINER_NAME/dl:/cowrie/cowrie-git/dl \
-                -v ~/cowrievolumes/$CONTAINER_NAME/log:/cowrie/cowrie-git/log \
-                -v ~/cowrievolumes/$CONTAINER_NAME/data:/cowrie/cowrie-git/data  cowrie:latest
-	docker cp ~/cowrievolumes/$CONTAINER_NAME/cowrie.cfg $CONTAINER_NAME:/cowrie/cowrie-git 
+        # create the container on network dmz mounting the volumes
+        docker create --network="dmz" --name $CONTAINER_NAME \
+                -v "$(pwd)"/cowrievolumes/$CONTAINER_NAME/dl:/cowrie/cowrie-git/dl \
+                -v "$(pwd)"/cowrievolumes/$CONTAINER_NAME/log:/cowrie/cowrie-git/log \
+                -v "$(pwd)"/cowrievolumes/$CONTAINER_NAME/data:/cowrie/cowrie-git/data \
+                cowrie:latest
+        docker cp "$(pwd)"/cowrievolumes/$CONTAINER_NAME/cowrie.cfg $CONTAINER_NAME:/cowrie/cowrie-git/co$
 }
 
 exec () {
-	echo "Enter CTRL-P + CTRL-Q to exit container without terminating"
-	docker exec -it $CONTAINER_NAME /bin/bash
+        echo "Enter CTRL-P + CTRL-Q to exit container without terminating"
+        docker exec -it $CONTAINER_NAME /bin/bash
 }
 
 # Start the docker container
@@ -98,27 +100,27 @@ define_router() {
         if [[ -n "$router_defined" ]] ; then
                 echo "Router defined"
         else
-		mkdir -p cowrievolumes/router/dl       
-		mkdir -p cowrievolumes/router/log/tty
-		mkdir -p cowrievolumes/router/data     
-	        cp "$(pwd)"/userdb.txt cowrievolumes/router/data/
-	        cp "$(pwd)"/fs.pickle cowrievolumes/router/data/
-        	cp "$(pwd)"/cowrie.cfg.dist cowrievolumes/router/cowrie.cfg
-		cp "$(pwd)"/cowrie.log cowrievolumes/router/log/ 
-	        cp "$(pwd)"/cowrie.json cowrievolumes/router/log/ 
+                mkdir -p cowrievolumes/router/dl       
+                mkdir -p cowrievolumes/router/log/tty
+                mkdir -p cowrievolumes/router/data     
+                cp "$(pwd)"/userdb.txt "$(pwd)"/cowrievolumes/router/data/userdb.txt
+                cp "$(pwd)"/fs.pickle "$(pwd)"/cowrievolumes/router/data/fs.pickle
+                cp "$(pwd)"/cowrie.cfg.dist "$(pwd)"/cowrievolumes/router/cowrie.cfg
+                cp "$(pwd)"/cowrie.log "$(pwd)"/cowrievolumes/router/log/cowrie.log
+                cp "$(pwd)"/cowrie.json "$(pwd)"/cowrievolumes/router/log/cowrie.json 
 
                 docker create --name router --cap-add=NET_ADMIN \
-			-p 2222:2222 -p 2223:2223 \
-	                -v ~/cowrievolumes/router/dl:/cowrie/cowrie-git/dl \
-        	        -v ~/cowrievolumes/router/log:/cowrie/cowrie-git/log \
-                	-v ~/cowrievolumes/router/data:/cowrie/cowrie-git/data \
-			cowrie:latest
+                        -p 2222:2222 -p 2223:2223 \
+                        -v "$(pwd)"/cowrievolumes/router/dl:/cowrie/cowrie-git/dl \
+                        -v "$(pwd)"/cowrievolumes/router/log:/cowrie/cowrie-git/log \
+                        -v "$(pwd)"/cowrievolumes/router/data:/cowrie/cowrie-git/data \
+                        cowrie:latest
+                docker cp "$(pwd)"/cowrievolumes/router/cowrie.cfg router:/cowrie/cowrie-git/cowrie.cfg
                 docker network connect dmz router --ip "10.0.0.254"
-		docker cp ~/cowrievolumes/router/cowrie.cfg router:/cowrie/cowrie-git 
-		docker start router
-                echo "New router 'router' defined for network DMZ"
+                docker start router
         fi
 }
+
 
 check_container_exists(){
 	exists=$( sudo docker container ls -a | grep '$CONTAINER_NAME' )
