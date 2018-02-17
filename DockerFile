@@ -2,8 +2,6 @@
 FROM debian:jessie-slim
 MAINTAINER Amber Higgins <amhiggin@tcd.ie>
 
-# Tpot: ADD dist/ /root/dist
-
 # Fix uid/gid to 1000 for shared volumes
 RUN groupadd -r -g 1000 cowrie && \
     useradd -r -g 1000 -d /cowrie -m -g cowrie cowrie
@@ -42,7 +40,7 @@ RUN su - cowrie -c "\
 USER cowrie
 WORKDIR /cowrie/cowrie-git
 CMD [ "/cowrie/cowrie-git/bin/cowrie", "start", "-n" ]
-EXPOSE 2222 2223
+EXPOSE 22 23
 VOLUME ["/cowrie/cowrie-git/log/tty", "/cowrie/cowrie-git/data", "/cowrie/cowrie-git/dl"]
 
 # Change the permissions for log directory to persist them on host
