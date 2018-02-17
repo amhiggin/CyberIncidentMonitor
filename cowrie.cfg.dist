@@ -14,7 +14,7 @@
 # server as the sensor name.
 #
 # (default: not specified)
-#sensor_name=myhostname
+sensor_name=myhostname
 
 # Hostname for the honeypot. Displayed by the shell prompt of the virtual
 # environment
