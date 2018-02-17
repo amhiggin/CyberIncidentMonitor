@@ -116,15 +116,15 @@ define_router() {
                 cp "$(pwd)"/cowrie.json "$(pwd)"/cowrievolumes/router/log/cowrie.json
                 sed -i 's/^\(sensor_name\s*=\s*\).*/\1'"router"'/' "$(pwd)"/cowrievolumes/router/cowrie.cfg
 
-                docker create --name $CONTAINER_NAME --cap-add=NET_ADMIN \
+                docker create --name router --cap-add=NET_ADMIN \
                         -p 2222:2222 -p 2223:2223 \
-                        -v "$(pwd)"/cowrievolumes/$CONTAINER_NAME/dl:/cowrie/cowrie-git/dl \
-                        -v "$(pwd)"/cowrievolumes/$CONTAINER_NAME/log:/cowrie/cowrie-git/log \
-                        -v "$(pwd)"/cowrievolumes/$CONTAINER_NAME/data:/cowrie/cowrie-git/data \
+                        -v "$(pwd)"/cowrievolumes/router/dl:/cowrie/cowrie-git/dl \
+                        -v "$(pwd)"/cowrievolumes/router/log:/cowrie/cowrie-git/log \
+                        -v "$(pwd)"/cowrievolumes/router/data:/cowrie/cowrie-git/data \
                         cowrie:latest
-                docker cp "$(pwd)"/cowrievolumes/$CONTAINER_NAME/cowrie.cfg router:/cowrie/cowrie-git/cowrie.cfg
-                docker network connect dmz $CONTAINER_NAME --ip "10.0.0.254"
-                docker start $CONTAINER_NAME
+                docker cp "$(pwd)"/cowrievolumes/router/cowrie.cfg router:/cowrie/cowrie-git/cowrie.cfg
+                docker network connect dmz router --ip "10.0.0.254"
+                docker start router
         fi
 }
 
