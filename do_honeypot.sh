@@ -17,12 +17,14 @@ main() {
                         stop ;;
                 remove)
                         remove ;;
+		remove_all)
+			remove_all ;;
                 create_dmz_net)
                         create_dmz_net ;;
                 help)
                         help ;;
                 *)
-                        echo $"Usage: $0 {build|create|exec|start|stop|remove|create_dmz_net|help}"
+                        echo $"Usage: $0 {build|create|exec|start|stop|remove|remove_all|create_dmz_net|help}"
                         exit 1
 esac
 
@@ -36,7 +38,7 @@ build() {
         create_dmz_net
 }
 
-			
+
 # Create the docker container, giving it name "CONTAINER_NAME"
 create() {
         check_container_exists
@@ -87,8 +89,15 @@ remove() {
 
 }
 
+# Remove all containers
+remove_all() {
+	echo "Removing all containers"
+	docker rm -f  $(docker ps -a -q)
+}
+
 # Local DMZ bridge network to which all containers are connected
 create_dmz_net() {
+	# Define the network 
         network_exists=$( sudo docker network ls | grep "dmz" ) 
         if [[ -n "$network_exists" ]] ; then
                 echo "DMZ network defined"
@@ -117,14 +126,14 @@ define_router() {
                 sed -i 's/^\(sensor_name\s*=\s*\).*/\1'"router"'/' "$(pwd)"/cowrievolumes/router/cowrie.cfg
 
                 docker create --name router --cap-add=NET_ADMIN \
-                        -p 2222:2222 -p 2223:2223 \
+                        -p 2222:22 -p 2223:23 \
                         -v "$(pwd)"/cowrievolumes/router/dl:/cowrie/cowrie-git/dl \
                         -v "$(pwd)"/cowrievolumes/router/log:/cowrie/cowrie-git/log \
                         -v "$(pwd)"/cowrievolumes/router/data:/cowrie/cowrie-git/data \
                         cowrie:latest
                 docker cp "$(pwd)"/cowrievolumes/router/cowrie.cfg router:/cowrie/cowrie-git/cowrie.cfg
                 docker network connect dmz router --ip "10.0.0.254"
-                docker start router
+                # docker start router # Don't want to start until the config has been updated
         fi
 }
 

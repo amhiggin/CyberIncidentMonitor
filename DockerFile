@@ -1,5 +1,5 @@
 # NOTE: anything in same dir is part of the image.
-FROM debian:jessie-slim
+FROM ubuntu:latest
 MAINTAINER Amber Higgins <amhiggin@tcd.ie>
 
 # Fix uid/gid to 1000 for shared volumes
@@ -23,7 +23,8 @@ RUN export DEBIAN_FRONTEND=noninteractive; \
       python-virtualenv \
       python-setuptools \
       net-tools \
-      busybox
+      busybox \ 
+      iptables
 
 # Build the environment for cowrie
 RUN su - cowrie -c "\
@@ -34,7 +35,8 @@ RUN su - cowrie -c "\
         pip install --upgrade cffi && \
         pip install --upgrade pip && \
         pip install --upgrade setuptools && \
-        pip install -r ~cowrie/cowrie-git/requirements.txt"
+        pip install -r ~cowrie/cowrie-git/requirements.txt" 
+
 
 # CONFIGURATION
 USER cowrie
