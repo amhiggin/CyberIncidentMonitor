@@ -24,7 +24,8 @@ RUN export DEBIAN_FRONTEND=noninteractive; \
       python-setuptools \
       net-tools \
       busybox \ 
-      iptables
+      iptables \
+      inetutils-ping
 
 # Build the environment for cowrie
 RUN su - cowrie -c "\

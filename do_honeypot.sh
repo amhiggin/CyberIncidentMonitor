@@ -17,14 +17,16 @@ main() {
                         stop ;;
                 remove)
                         remove ;;
-		remove_all)
-			remove_all ;;
+		remove_all_containers)
+			remove_all_containers ;;
+		remove_all_logs)
+			remove_all_logs ;;
                 create_dmz_net)
                         create_dmz_net ;;
                 help)
                         help ;;
                 *)
-                        echo $"Usage: $0 {build|create|exec|start|stop|remove|remove_all|create_dmz_net|help}"
+                        echo $"Usage: $0 {build|create|exec|start|stop|remove|remove_all_containers|remove_all_logs|create_dmz_net|help}"
                         exit 1
 esac
 
@@ -55,6 +57,7 @@ create() {
         cp "$(pwd)"/cowrie.json cowrievolumes/$CONTAINER_NAME/log/cowrie.json
         echo "Setting logging name to $CONTAINER_NAME in cowrie.cfg"
         sed -i 's/^\(sensor_name\s*=\s*\).*/\1'"$CONTAINER_NAME"'/' "$(pwd)"/cowrievolumes/$CONTAINER_NAME/cowrie.cfg
+	# TODO may need to look at copying files into honeyfs (for banner files motd, issue.net, etc)
 
         # create the container on network dmz mounting the volumes
         docker create --network="dmz" --name $CONTAINER_NAME \
@@ -85,14 +88,21 @@ stop() {
 remove() {
         echo "Removing container $CONTAINER_NAME" && \
                 docker rm -f $CONTAINER_NAME &> /dev/null || true
-        echo "Preserving container directories - delete manually if required"
+        echo "Preserving container directories in ~/cowrievolumes and /var/log/cowrie - delete manually if required"
 
 }
 
 # Remove all containers
-remove_all() {
+remove_all_containers() {
 	echo "Removing all containers"
 	docker rm -f  $(docker ps -a -q)
+}
+
+# Remove all logs
+remove_all_logs() {
+	echo "Erasing all logs"
+	rm -rf "$(pwd)"/cowrievolumes
+	rm -rf /var/log/cowrie/*
 }
 
 # Local DMZ bridge network to which all containers are connected
@@ -159,8 +169,9 @@ help() {
         echo "          4. start - start the container. "
         echo "          5. stop - stop the container. "
         echo "          6. remove - remove the container. "
-        echo "          7. create_dmz_net - create a dmz net with a router."
-        echo "Honeypot directories are preserved after removal of containers. Any deletion must be done manually"
+	echo "          7. remove_all_containers - remove all containers. Doesn't include logs or mounted volumes."
+	echo "          8. remove_all_logs - remove all log files."
+        echo "          9. create_dmz_net - create a dmz net with a router."
 }
 main
 
