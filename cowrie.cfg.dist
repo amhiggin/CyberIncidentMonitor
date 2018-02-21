@@ -504,6 +504,7 @@ debug = False
 #[output_slack]
 # This will produce a _lot_ of messages - you have been warned....
 channel = C96MN4E7N
+# Webhook - https://hooks.slack.com/services/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
 token = xoxp-312736141460-312102839232-312658557651-f6f2b787dac8e30d0c1242f09c48cc52
 ##debug=true
 
