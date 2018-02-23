@@ -1,0 +1,26 @@
+FROM debian:jessie-slim
+MAINTAINER Amber Higgins <amhiggin@tcd.ie>
+
+# Fix uid/gid to 1000 for shared volumes
+RUN groupadd -r -g 1000 admin && \
+    useradd -r -g 1000 -d /admin -m -g admin admin
+
+# Set up env dependencies
+RUN export DEBIAN_FRONTEND=noninteractive; \
+    apt-get update && \
+    apt-get install -y \
+        -o APT::Install-Suggests=false \
+        -o APT::Install-Recommends=false \
+      libssl-dev \
+      libffi-dev \
+      build-essential \
+      net-tools \
+      iptables \
+      inetutils-ping
+
+# CONFIGURATION
+USER admin
+WORKDIR /admin/tmp
+EXPOSE 22 23
+CMD ["/bin/bash","--help"]
+

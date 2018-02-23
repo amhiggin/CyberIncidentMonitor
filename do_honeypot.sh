@@ -34,8 +34,10 @@ esac
 
 # Build the cowrie image
 build() {
+	echo "Building cowrie image..."
         docker build -t cowrie -f "$(pwd)"/cowrie/DockerFile .
         echo "Built cowrie image successfully."
+
         # define dmz net
         create_dmz_net
 }
@@ -102,7 +104,8 @@ remove_all_containers() {
 # Remove all logs
 remove_all_logs() {
 	echo "Erasing all logs"
-	rm -rf "$(pwd)"/cowrievolumes
+	rm -rf "$(pwd)"/cowrievolumes/ 
+	rm -rf "$(pwd)"/router/log 
 	rm -rf /var/log/cowrie/*
 	echo "Done."
 }
@@ -127,26 +130,17 @@ define_router() {
         if [[ -n "$router_defined" ]] ; then
                 echo "Router defined"
         else
-                mkdir -p "$(pwd)"/cowrievolumes/router/dl       
-                mkdir -p "$(pwd)"/cowrievolumes/router/log/tty
-                mkdir -p "$(pwd)"/cowrievolumes/router/data     
-                cp "$(pwd)"/cowrie/userdb.txt "$(pwd)"/cowrievolumes/router/data/userdb.txt 
-                cp "$(pwd)"/cowrie/fs.pickle "$(pwd)"/cowrievolumes/router/data/fs.pickle
-                cp "$(pwd)"/cowrie/cowrie.cfg.dist "$(pwd)"/cowrievolumes/router/cowrie.cfg
-                cp "$(pwd)"/cowrie/cowrie.log "$(pwd)"/cowrievolumes/router/log/cowrie.log
-                cp "$(pwd)"/cowrie/cowrie.json "$(pwd)"/cowrievolumes/router/log/cowrie.json
-                sed -i 's/^\(sensor_name\s*=\s*\).*/\1'"router"'/' "$(pwd)"/cowrievolumes/router/cowrie.cfg
-
+		build_router_image
+                mkdir -p "$(pwd)"/router/log/		# TODO mount as volume
                 docker create --name router --cap-add=NET_ADMIN \
-                        -p 2222:22 -p 2223:23 \
-                        -v "$(pwd)"/cowrievolumes/router/dl:/cowrie/cowrie-git/dl \
-                        -v "$(pwd)"/cowrievolumes/router/log:/cowrie/cowrie-git/log \
-                        -v "$(pwd)"/cowrievolumes/router/data:/cowrie/cowrie-git/data \
-                        cowrie:latest
-                docker cp "$(pwd)"/cowrievolumes/router/cowrie.cfg router:/cowrie/cowrie-git/cowrie.cfg
-                docker network connect dmz router --ip "10.0.0.254"
-                # docker start router # Don't want to start until the config has been updated
+			-p 2222:22 -p 2223:23 \
+                        router
+                docker network connect dmz router --ip="10.0.0.254"
         fi
+}
+
+build_router_image() {
+	docker build -t router -f "$(pwd)"/router/DockerFile .
 }
 
 
