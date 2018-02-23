@@ -34,7 +34,7 @@ esac
 
 # Build the cowrie image
 build() {
-        docker build -t cowrie -f ./DockerFile .
+        docker build -t cowrie -f "$(pwd)"/cowrie/DockerFile .
         echo "Built cowrie image successfully."
         # define dmz net
         create_dmz_net
@@ -45,16 +45,16 @@ build() {
 create() {
         check_container_exists
         # Create the required host directories if they don't already exist
-        mkdir -p cowrievolumes/$CONTAINER_NAME/dl       # Malware checksums
-        mkdir -p cowrievolumes/$CONTAINER_NAME/log/tty  # Cowrie logs
-        mkdir -p cowrievolumes/$CONTAINER_NAME/data     # fs.pickle and userdb.txt
+        mkdir -p "$(pwd)"/cowrievolumes/$CONTAINER_NAME/dl       # Malware checksums
+        mkdir -p "$(pwd)"/cowrievolumes/$CONTAINER_NAME/log/tty  # Cowrie logs
+        mkdir -p "$(pwd)"/cowrievolumes/$CONTAINER_NAME/data     # fs.pickle and userdb.txt
 
         # Copy config files/log files into the volume being mounted
-        cp "$(pwd)"/userdb.txt "$(pwd)"/cowrievolumes/$CONTAINER_NAME/data/userdb.txt
-        cp "$(pwd)"/cowrie.cfg.dist "$(pwd)"/cowrievolumes/$CONTAINER_NAME/cowrie.cfg
-        cp "$(pwd)"/fs.pickle "$(pwd)"/cowrievolumes/$CONTAINER_NAME/data/fs.pickle
-        cp "$(pwd)"/cowrie.log "$(pwd)"/cowrievolumes/$CONTAINER_NAME/log/cowrie.log
-        cp "$(pwd)"/cowrie.json cowrievolumes/$CONTAINER_NAME/log/cowrie.json
+        cp "$(pwd)"/cowrie/userdb.txt "$(pwd)"/cowrievolumes/$CONTAINER_NAME/data/userdb.txt
+        cp "$(pwd)"/cowrie/cowrie.cfg.dist "$(pwd)"/cowrievolumes/$CONTAINER_NAME/cowrie.cfg
+        cp "$(pwd)"/cowrie/fs.pickle "$(pwd)"/cowrievolumes/$CONTAINER_NAME/data/fs.pickle
+        cp "$(pwd)"/cowrie/cowrie.log "$(pwd)"/cowrievolumes/$CONTAINER_NAME/log/cowrie.log
+        cp "$(pwd)"/cowrie/cowrie.json "$(pwd)"/cowrievolumes/$CONTAINER_NAME/log/cowrie.json
         echo "Setting logging name to $CONTAINER_NAME in cowrie.cfg"
         sed -i 's/^\(sensor_name\s*=\s*\).*/\1'"$CONTAINER_NAME"'/' "$(pwd)"/cowrievolumes/$CONTAINER_NAME/cowrie.cfg
 	# TODO may need to look at copying files into honeyfs (for banner files motd, issue.net, etc)
@@ -96,6 +96,7 @@ remove() {
 remove_all_containers() {
 	echo "Removing all containers"
 	docker rm -f  $(docker ps -a -q)
+	echo "Done."
 }
 
 # Remove all logs
@@ -103,6 +104,7 @@ remove_all_logs() {
 	echo "Erasing all logs"
 	rm -rf "$(pwd)"/cowrievolumes
 	rm -rf /var/log/cowrie/*
+	echo "Done."
 }
 
 # Local DMZ bridge network to which all containers are connected
@@ -125,14 +127,14 @@ define_router() {
         if [[ -n "$router_defined" ]] ; then
                 echo "Router defined"
         else
-                mkdir -p cowrievolumes/router/dl       
-                mkdir -p cowrievolumes/router/log/tty
-                mkdir -p cowrievolumes/router/data     
-                cp "$(pwd)"/userdb.txt "$(pwd)"/cowrievolumes/router/data/userdb.txt 
-                cp "$(pwd)"/fs.pickle "$(pwd)"/cowrievolumes/router/data/fs.pickle
-                cp "$(pwd)"/cowrie.cfg.dist "$(pwd)"/cowrievolumes/router/cowrie.cfg
-                cp "$(pwd)"/cowrie.log "$(pwd)"/cowrievolumes/router/log/cowrie.log
-                cp "$(pwd)"/cowrie.json "$(pwd)"/cowrievolumes/router/log/cowrie.json
+                mkdir -p "$(pwd)"/cowrievolumes/router/dl       
+                mkdir -p "$(pwd)"/cowrievolumes/router/log/tty
+                mkdir -p "$(pwd)"/cowrievolumes/router/data     
+                cp "$(pwd)"/cowrie/userdb.txt "$(pwd)"/cowrievolumes/router/data/userdb.txt 
+                cp "$(pwd)"/cowrie/fs.pickle "$(pwd)"/cowrievolumes/router/data/fs.pickle
+                cp "$(pwd)"/cowrie/cowrie.cfg.dist "$(pwd)"/cowrievolumes/router/cowrie.cfg
+                cp "$(pwd)"/cowrie/cowrie.log "$(pwd)"/cowrievolumes/router/log/cowrie.log
+                cp "$(pwd)"/cowrie/cowrie.json "$(pwd)"/cowrievolumes/router/log/cowrie.json
                 sed -i 's/^\(sensor_name\s*=\s*\).*/\1'"router"'/' "$(pwd)"/cowrievolumes/router/cowrie.cfg
 
                 docker create --name router --cap-add=NET_ADMIN \
