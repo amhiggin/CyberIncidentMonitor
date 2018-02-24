@@ -16,11 +16,12 @@ RUN export DEBIAN_FRONTEND=noninteractive; \
       build-essential \
       net-tools \
       iptables \
+      nmap \
       inetutils-ping
 
 # CONFIGURATION
 USER admin
 WORKDIR /admin/tmp
 EXPOSE 22 23
-CMD ["/bin/bash","--help"]
+CMD ["sleep","infinity"]
 
