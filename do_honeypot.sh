@@ -105,7 +105,7 @@ remove_all_containers() {
 remove_all_logs() {
 	echo "Erasing all logs"
 	rm -rf "$(pwd)"/cowrievolumes/ 
-	rm -rf "$(pwd)"/router/log 
+	rm -rf "$(pwd)"/router/log/* 
 	rm -rf /var/log/cowrie/*
 	echo "Done."
 }
@@ -125,13 +125,16 @@ create_dmz_net() {
         define_router
 }
 
+# Note: host must be forwarding 22->2222,23->2223
 define_router() {
         router_defined=$(sudo docker ps -a | grep "router" )
         if [[ -n "$router_defined" ]] ; then
                 echo "Router defined"
         else
+		cp "$(pwd)"/router/zookeeper.log "$(pwd)"/router/log/zookeeper.log
+	        docker cp "$(pwd)"/router/log/zookeeper.log router:/var/log/zookeeper/zookeeper.log
+
 		build_router_image
-                mkdir -p "$(pwd)"/router/log/		# TODO mount as volume
                 docker create --name router --cap-add=NET_ADMIN \
 			-p 2222:22 -p 2223:23 \
                         router

