@@ -104,41 +104,46 @@ remove_all_containers() {
 # Remove all logs
 remove_all_logs() {
 	echo "Erasing all logs"
-	rm -rf "$(pwd)"/cowrievolumes/ 
+	rm -rf "$(pwd)"/cowrievolumes/
 	rm -rf "$(pwd)"/router/log/* 
 	rm -rf /var/log/cowrie/*
+        mkdir /var/log/cowrie/router
 	echo "Done."
 }
 
 # Local DMZ bridge network to which all containers are connected
 create_dmz_net() {
+	# define a router
+        define_router
+
 	# Define the network 
         network_exists=$( sudo docker network ls | grep "dmz" ) 
         if [[ -n "$network_exists" ]] ; then
                 echo "DMZ network defined"
         else
                 echo "Creating DMZ network (10.0.0.0/8)"
-                docker network create -d bridge --subnet 10.0.0.0/8 dmz
+                docker network create -d bridge \
+		--subnet 10.0.0.0/8 \
+		--gateway 10.0.0.254 \
+		dmz
+                docker network connect dmz router #--ip="10.0.0.254"
         fi
-
-        # define a router
-        define_router
 }
 
-# Note: host must be forwarding 22->2222,23->2223
+# Note: host must be forwarding 22->2222,23->2223 for traffic to be routed to container correctly
 define_router() {
         router_defined=$(sudo docker ps -a | grep "router" )
         if [[ -n "$router_defined" ]] ; then
                 echo "Router defined"
         else
-		cp "$(pwd)"/router/zookeeper.log "$(pwd)"/router/log/zookeeper.log
-	        docker cp "$(pwd)"/router/log/zookeeper.log router:/var/log/zookeeper/zookeeper.log
+		mkdir "$(pwd)"/router/log/zookeeper
+		cp "$(pwd)"/router/zookeeper.log "$(pwd)"/router/log/zookeeper/zookeeper.log
 
 		build_router_image
                 docker create --name router --cap-add=NET_ADMIN \
+			-v "$(pwd)"/router/log/zookeeper:/var/log/zookeeper \
 			-p 2222:22 -p 2223:23 \
                         router
-                docker network connect dmz router --ip="10.0.0.254"
         fi
 }
 
