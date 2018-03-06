@@ -3,6 +3,7 @@
 CONTAINER_NAME="$2"
 INSTRUCTION="$1"
 
+
 main() {
         case $INSTRUCTION in
                 build)
@@ -66,6 +67,7 @@ create() {
                 -v "$(pwd)"/cowrievolumes/$CONTAINER_NAME/dl:/cowrie/cowrie-git/dl \
                 -v "$(pwd)"/cowrievolumes/$CONTAINER_NAME/log:/cowrie/cowrie-git/log \
                 -v "$(pwd)"/cowrievolumes/$CONTAINER_NAME/data:/cowrie/cowrie-git/data \
+		--cap-add=NET_BIND_SERVICE \
                 cowrie:latest
         docker cp "$(pwd)"/cowrievolumes/$CONTAINER_NAME/cowrie.cfg $CONTAINER_NAME:/cowrie/cowrie-git/cowrie.cfg
 }
@@ -144,6 +146,7 @@ define_router() {
 			-v "$(pwd)"/router/log/zookeeper:/var/log/zookeeper \
 			-p 2222:22 -p 2223:23 \
                         router
+		echo "Created router"
         fi
 }
 
