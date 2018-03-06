@@ -4,6 +4,8 @@ MAINTAINER Amber Higgins <amhiggin@tcd.ie>
 # Fix uid/gid to 1000 for shared volumes
 RUN groupadd -r -g 1000 admin && \
     useradd -r -g 1000 -d /admin -m -g admin admin
+RUN groupadd -r -g 1001 cisco && \
+    useradd -r -g 1001 -d /cisco -m -g cisco cisco
 
 # Set up env dependencies
 RUN export DEBIAN_FRONTEND=noninteractive; \
@@ -12,29 +14,36 @@ RUN export DEBIAN_FRONTEND=noninteractive; \
         -o APT::Install-Suggests=false \
         -o APT::Install-Recommends=false \
       libssl-dev \
+      apt-utils \
       libffi-dev \
       build-essential \
+      telnet \
+      openssh-server \
       locales \
       net-tools \
-      iptables \
       nmap \
+      traceroute \
       inetutils-ping \
-      logkeys
+      logkeys \
+      autoconf \
+      g++ \
+      unzip \
+      make && \
+    apt-get clean
 
-# Set up environment for logkeys keylogger
+# Consider removing some of these to make the container more secure
+
+WORKDIR .
+COPY router/xinetd.d/telnet /etc/xinetd.d/telnet
 COPY start_router_service.sh start.sh
-RUN locale-gen "en_US.UTF-8" 
-RUN chmod +x start.sh
-RUN /start.sh
+RUN chmod +rwx start.sh
+RUN ./start.sh
 RUN rm -rf start.sh
-    
+
 
 # CONFIGURATION
-USER admin
-WORKDIR /admin/tmp
+#VOLUME ["/dev/input"]
 EXPOSE 22 23
+USER admin
+USER cisco
 CMD ["sleep", "infinity"]
-#ENTRYPOINT ["/start.sh"]
-
-
-

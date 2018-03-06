@@ -1,0 +1,13 @@
+service telnet
+{
+        instances = 100
+        flags           = REUSE
+        socket_type     = stream
+        wait            = no
+        user            = root
+        server          = /usr/sbin/in.telnetd
+        log_type        = FILE /var/log/telnetlog
+        log_on_success  += HOST USERID ATTEMPT DURATION
+        log_on_failure  += HOST USERID ATTEMPT DURATION
+        disable         = no
+}
