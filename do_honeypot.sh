@@ -126,9 +126,8 @@ create_dmz_net() {
                 echo "Creating DMZ network (10.0.0.0/8)"
                 docker network create -d bridge \
 		--subnet 10.0.0.0/8 \
-		--gateway 10.0.0.254 \
 		dmz
-                docker network connect dmz router #--ip="10.0.0.254"
+                docker network connect dmz router --ip="10.0.0.254"
         fi
 }
 
