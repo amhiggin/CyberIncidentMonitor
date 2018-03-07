@@ -143,6 +143,7 @@ define_router() {
 		build_router_image
                 docker create --name router --cap-add=NET_ADMIN \
 			-v "$(pwd)"/router/log/zookeeper:/var/log/zookeeper \
+                        --device /dev/input/event2 \
 			-p 2222:22 -p 2223:23 \
                         router
 		echo "Created router"

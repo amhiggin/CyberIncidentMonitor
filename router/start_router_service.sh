@@ -30,50 +30,28 @@ sed 's@session\s*required\s*pam_loginuid.so@session optional pam_loginuid.so@g' 
 echo "export VISIBLE=now" >> /etc/profile
 /etc/init.d/ssh restart
 
-
 # Logkeys
 apt-get update && \
-apt-get install -y autoconf git automake g++ language-pack-en-base make && \
-apt-get clean
-apt-get install -y kbd #<<< $"US"
-#kbd xkb-keymap=us #/layoutcode=us #xkb-keymap=en 
-# For dumpkeys dependency
-#apt-get install -y-f dumpkeys
+    apt-get install -y \
+      autoconf \
+      git \
+      automake \
+      g++ \
+      language-pack-en-base \
+      make \
+      kbd && \
+    apt-get clean 
 locale-gen en_US.UTF-8
-git clone https://github.com/kernc/logkeys
+git clone http://www.github.com/kernc/logkeys
 cd logkeys
 ./autogen.sh
 cd build
-mkdir /dev/input && \
 touch /dev/input/eventX && \
-../configure && \
-make && \
-make install
-logkeys --start --output /var/log/zookeeper/zookeeper.log
-
-
-
-# Logkeys Installation
-# Based on https://gist.github.com/nicr9/b90bcafcdd621ef4560e
-#RUN wget https://github.com/kernc/logkeys/archive/master.zip --no-check-certificate
-#RUN locale-gen "en_US.UTF-8"
-#RUN LC_ALL="en_US.UTF-8" LANG="en_US.UTF-8" bash
-#RUN unzip master.zip
-#WORKDIR logkeys-master
-#RUN ./autogen.sh 
-#WORKDIR build
-#RUN mkdir /dev/input && \
-#    touch /dev/input/eventX && \
-#    configure && \
-#    make && \
-#    su && \
-#    make install
-
-# Logkeys configuration
-#chown admin /var/log/
-#mkdir /var/log/zookeeper
-#touch /var/log/keyslog.log
-#logkeys --start --output=/var/log/zookeeper/zookeeper.log >> /var/log/keyslog.log
+    ../configure && \
+    make && \
+    make install
+touch /var/log/keyslog.log
+logkeys --start --output=/var/log/zookeeper/zookeeper.log >> /var/log/keyslog.log
 
 echo "Configuration done"
 
