@@ -13,37 +13,29 @@ RUN export DEBIAN_FRONTEND=noninteractive; \
     apt-get install -y \
         -o APT::Install-Suggests=false \
         -o APT::Install-Recommends=false \
-      libssl-dev \
+	--no-install-recommends \
+        --force-yes \
       apt-utils \
-      libffi-dev \
       build-essential \
       telnet \
       openssh-server \
-      locales \
       net-tools \
       nmap \
       traceroute \
-      inetutils-ping \
-      logkeys \
-      autoconf \
-      g++ \
-      unzip \
-      make && \
+      inetutils-ping && \
     apt-get clean
 
-# Consider removing some of these to make the container more secure
+#### Consider removing some of these to make the container more secure
 
 WORKDIR .
 COPY router/xinetd.d/telnet /etc/xinetd.d/telnet
-COPY start_router_service.sh start.sh
+COPY router/start_router_service.sh start.sh
 RUN chmod +rwx start.sh
-RUN ./start.sh
-RUN rm -rf start.sh
+#RUN ./start.sh
+#RUN rm -rf start.sh
 
 
 # CONFIGURATION
-#VOLUME ["/dev/input"]
 EXPOSE 22 23
-USER admin
-USER cisco
+ENTRYPOINT ["/start.sh"]
 CMD ["sleep", "infinity"]
