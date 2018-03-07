@@ -1,5 +1,5 @@
 # NOTE: anything in same dir is part of the image.
-FROM ubuntu:latest
+FROM debian:jessie
 MAINTAINER Amber Higgins <amhiggin@tcd.ie>
 
 # Fix uid/gid to 1000 for shared volumes
@@ -23,9 +23,14 @@ RUN export DEBIAN_FRONTEND=noninteractive; \
       virtualenv \
       python-virtualenv \
       authbind \
-      python-setuptools \
-      iptables \
-      inetutils-ping
+      python-setuptools
+
+# TO BE REMOVED
+#RUN apt-get install -y \
+#      nmap \
+#      traceroute \
+#      net-tools
+
 
 # Build the environment for cowrie
 RUN su - cowrie -c "\
@@ -37,14 +42,6 @@ RUN su - cowrie -c "\
         pip install --upgrade cffi && \
         pip install --upgrade setuptools && \
         pip install --upgrade -r /cowrie/cowrie-git/requirements.txt"
-
-# Set up SSH on cowrie
-RUN sed -i 's/PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config && \
-    sed 's@session\s*required\s*pam_loginuid.so@session optional pam_loginuid.so@g' -i /etc/pam.d/sshd && \
-    echo "export VISIBLE=now" >> /etc/profile && \
-    service ssh restart
-#service sshd restart
-
 
 # Allow cowrie to listen as non-root on ports 22 and 23
 RUN touch /etc/authbind/byport/22 && \
