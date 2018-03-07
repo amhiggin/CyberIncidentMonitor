@@ -6,10 +6,14 @@ RUN groupadd -r -g 1000 admin && \
     useradd -r -g 1000 -d /admin -m -g admin admin
 RUN groupadd -r -g 1001 cisco && \
     useradd -r -g 1001 -d /cisco -m -g cisco cisco
+RUN groupadd -r -g 1002 guest && \
+    useradd -r -g 1002 -d /guest -m -g guest guest
+
+# Prevent interactive options during install
+ENV DEBIAN_FRONTEND noninteractive
 
 # Set up env dependencies
-RUN export DEBIAN_FRONTEND=noninteractive; \
-    apt-get update && \
+RUN apt-get update && \
     apt-get install -y \
         -o APT::Install-Suggests=false \
         -o APT::Install-Recommends=false \
@@ -31,9 +35,6 @@ WORKDIR .
 COPY router/xinetd.d/telnet /etc/xinetd.d/telnet
 COPY router/start_router_service.sh start.sh
 RUN chmod +rwx start.sh
-#RUN ./start.sh
-#RUN rm -rf start.sh
-
 
 # CONFIGURATION
 EXPOSE 22 23

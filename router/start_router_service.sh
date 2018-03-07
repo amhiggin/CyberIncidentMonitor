@@ -3,28 +3,25 @@
 # Allow sudo access to NMAP by appending permissions
 sudo echo "%admin ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers && \
 sudo echo "%cisco ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers && \
+sudo echo "%guest ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers && \
 chmod 0440 /etc/sudoers
 
-echo "Updating routes.."
+echo "Updating container routes.."
 # Delete existing private network route in routing table on eth1
 # Re-add the network route with the container as the gateway
 route del -net 10.0.0.0 netmask 255.0.0.0 dev eth1
 route add -net 10.0.0.0 netmask 255.0.0.0 gw 10.0.0.254 dev eth1
 
-
 # Set up Telnet service
 apt-get update && apt-get install -qq -y openbsd-inetd telnetd
-#sed -i "s/yes/no/"  /etc/inetd.d/telnet && \
 service openbsd-inetd restart
-#service telnetd restart
 
 # Set up SSH service
 mkdir /var/run/sshd
-echo 'root:screencast' | chpasswd
-
+echo 'root:root1234' | chpasswd
 echo 'admin:admin' | chpasswd
 echo 'cisco:cisco' | chpasswd
-
+echo 'guest:12345' | chpasswd
 sed -i 's/PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config
 sed -i  's/PrintMotd no/PrintMotd yes/' /etc/ssh/sshd_config
 sed -i 's/#PasswordAuthentication no/PasswordAuthentication yes/' /etc/ssh/sshd_config
@@ -34,10 +31,28 @@ echo "export VISIBLE=now" >> /etc/profile
 /etc/init.d/ssh restart
 
 
+# Logkeys
+apt-get update && \
+apt-get install -y autoconf git automake g++ language-pack-en-base make && \
+apt-get clean
+apt-get install -y kbd #<<< $"US"
+#kbd xkb-keymap=us #/layoutcode=us #xkb-keymap=en 
+# For dumpkeys dependency
+#apt-get install -y-f dumpkeys
+locale-gen en_US.UTF-8
+git clone https://github.com/kernc/logkeys
+cd logkeys
+./autogen.sh
+cd build
+mkdir /dev/input && \
+touch /dev/input/eventX && \
+../configure && \
+make && \
+make install
+logkeys --start --output /var/log/zookeeper/zookeeper.log
 
 
 
-  
 # Logkeys Installation
 # Based on https://gist.github.com/nicr9/b90bcafcdd621ef4560e
 #RUN wget https://github.com/kernc/logkeys/archive/master.zip --no-check-certificate
@@ -59,9 +74,6 @@ echo "export VISIBLE=now" >> /etc/profile
 #mkdir /var/log/zookeeper
 #touch /var/log/keyslog.log
 #logkeys --start --output=/var/log/zookeeper/zookeeper.log >> /var/log/keyslog.log
-
-# Change user before entering
-su - admin
 
 echo "Configuration done"
 
