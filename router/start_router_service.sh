@@ -5,6 +5,12 @@ sudo echo "%admin ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers && \
 sudo echo "%cisco ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers && \
 chmod 0440 /etc/sudoers
 
+echo "Updating routes.."
+# Delete existing private network route in routing table on eth1
+# Re-add the network route with the container as the gateway
+route del -net 10.0.0.0 netmask 255.0.0.0 dev eth1
+route add -net 10.0.0.0 netmask 255.0.0.0 gw 10.0.0.254 dev eth1
+
 
 # Set up Telnet service
 apt-get update && apt-get install -qq -y openbsd-inetd telnetd
