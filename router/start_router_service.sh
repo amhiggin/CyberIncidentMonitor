@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Allow sudo access to NMAP by appending permissions
-echo "%admin ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers && \
-echo "%cisco ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers && \
+sudo echo "%admin ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers && \
+sudo echo "%cisco ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers && \
 chmod 0440 /etc/sudoers
 
 
@@ -56,6 +56,8 @@ echo "export VISIBLE=now" >> /etc/profile
 
 # Change user before entering
 su - admin
+
+echo "Configuration done"
 
 # Execute the CMD
 exec "$@"
