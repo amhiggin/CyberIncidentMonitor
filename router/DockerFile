@@ -26,15 +26,20 @@ RUN apt-get update && \
       net-tools \
       nmap \
       traceroute \
-      inetutils-ping && \
+      inetutils-ping \
+      rsyslog && \
     apt-get clean
 
 #### Consider removing some of these to make the container more secure
 
+# Add entrypoint script
 WORKDIR .
 COPY router/xinetd.d/telnet /etc/xinetd.d/telnet
 COPY router/start_router_service.sh start.sh
 RUN chmod +rwx start.sh
+
+# Add custom syslog conf file
+ADD router/rsyslog.conf /etc/rsyslog.conf
 
 # CONFIGURATION
 EXPOSE 22 23

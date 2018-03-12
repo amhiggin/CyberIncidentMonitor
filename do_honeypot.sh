@@ -68,6 +68,7 @@ create() {
                 -v "$(pwd)"/cowrievolumes/$CONTAINER_NAME/log:/cowrie/cowrie-git/log \
                 -v "$(pwd)"/cowrievolumes/$CONTAINER_NAME/data:/cowrie/cowrie-git/data \
 		--cap-add=NET_BIND_SERVICE \
+		--cap-add=NET_ADMIN \
                 cowrie:latest
         docker cp "$(pwd)"/cowrievolumes/$CONTAINER_NAME/cowrie.cfg $CONTAINER_NAME:/cowrie/cowrie-git/cowrie.cfg
 }
@@ -115,9 +116,6 @@ remove_all_logs() {
 
 # Local DMZ bridge network to which all containers are connected
 create_dmz_net() {
-	# define a router
-        define_router
-
 	# Define the network 
         network_exists=$( sudo docker network ls | grep "dmz" ) 
         if [[ -n "$network_exists" ]] ; then
@@ -126,9 +124,17 @@ create_dmz_net() {
                 echo "Creating DMZ network (10.0.0.0/8)"
                 docker network create -d bridge \
 		--subnet 10.0.0.0/8 \
+		--attachable \
+		--internal \
 		dmz
-                docker network connect dmz router --ip="10.0.0.254"
         fi
+
+	# define a router
+        define_router
+	dmz_interface="$(docker network ls | grep bridge | awk '$2 != "bridge"' | awk '{print $1}')"
+	sudo route del -net 10.0.0.0 netmask 255.0.0.0 "br-$dmz_interface"
+	docker network connect dmz router --ip="10.0.0.254"
+	docker start router
 }
 
 # Note: host must be forwarding 22->2222,23->2223 for traffic to be routed to container correctly
@@ -143,6 +149,7 @@ define_router() {
 		build_router_image
                 docker create --name router --cap-add=NET_ADMIN \
 			-v "$(pwd)"/router/log/zookeeper:/var/log/zookeeper \
+			-v "$(pwd)"/router/log/syslog:/var/log \
                         --device /dev/input/event2 \
 			-p 2222:22 -p 2223:23 \
                         router
