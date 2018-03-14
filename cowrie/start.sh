@@ -1,10 +1,12 @@
 #!/bin/bash
 
 # Update default route on eth0
-echo "Updating default route"
-route delete default eth0
-route add -net 10.0.0.0 netmask 255.0.0.0 eth0
-route add default gw 10.0.0.254 netmask 0.0.0.0 eth0
+#echo "Reconfiguring routing table.." && echo "$(route)"
+#route del default eth0
+#route add -net 10.0.0.0 netmask 255.0.0.0 dev eth0
+#route add default gw 10.0.0.254 netmask 255.0.0.0 dev eth0
+#echo "Routing table now looks like " && echo "$(route)"
+
 
 # Set up SSH on cowrie
 sed -i 's/PermitRootLogin without-password/PermitRootLogin yes/' /etc/ssh/sshd_config && \

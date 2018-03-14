@@ -30,13 +30,15 @@ RUN export DEBIAN_FRONTEND=noninteractive; \
 RUN apt-get install -y \
       nmap \
       traceroute \
-      net-tools
+      net-tools \
+      iptables
 
 # Set up SSH on cowrie
-#RUN sed -i 's/PermitRootLogin without-password/PermitRootLogin yes/' /etc/ssh/sshd_config && \
-#    sed 's@session\s*required\s*pam_loginuid.so@session optional pam_loginuid.so@g' -i /etc/pam.d/sshd && \
-#    echo "export VISIBLE=now" >> /etc/profile && \
-#    service ssh restart
+RUN sed -i 's/PermitRootLogin without-password/PermitRootLogin yes/' /etc/ssh/sshd_config && \
+    sed 's@session\s*required\s*pam_loginuid.so@session optional pam_loginuid.so@g' -i /etc/pam.d/sshd && \
+    sed -i 's/Port 22/Port 46587/' /etc/ssh/sshd_config && \
+    echo "export VISIBLE=now" >> /etc/profile && \
+    service ssh restart
 #service sshd restart
 
 
@@ -51,15 +53,6 @@ RUN su - cowrie -c "\
         pip install --upgrade setuptools && \
         pip install --upgrade -r /cowrie/cowrie-git/requirements.txt"
 
-# Allow cowrie to listen as non-root on ports 22 and 23
-#RUN touch /etc/authbind/byport/22 && \
-#    touch /etc/authbind/byport/23 && \
-#    chown cowrie:cowrie /etc/authbind/byport/22 && \
-#    chown cowrie:cowrie /etc/authbind/byport/23 && \
-#    chmod 777 /etc/authbind/byport/22 && \
-#    chmod 777 /etc/authbind/byport/23
-#RUN sed -i 's/AUTHBIND_ENABLED=no/AUTHBIND_ENABLED=yes/' /cowrie/cowrie-git/bin/cowrie
-
 COPY /cowrie/start.sh /cowrie/cowrie-git/start.sh
 RUN chmod +rx /cowrie/cowrie-git/start.sh && \
     echo "Copied script and ran permission changes"
@@ -68,6 +61,5 @@ RUN chmod +rx /cowrie/cowrie-git/start.sh && \
 WORKDIR /cowrie/cowrie-git
 RUN chown cowrie /cowrie/cowrie-git/log
 ENTRYPOINT "/cowrie/cowrie-git/start.sh"
-#CMD ["sleep", "infinity"]
 EXPOSE 22 23
 VOLUME ["/cowrie/cowrie-git/log/tty", "/cowrie/cowrie-git/data", "/cowrie/cowrie-git/dl", "/cowrie/cowrie-git/etc"]

@@ -63,10 +63,11 @@ create() {
 	# TODO may need to look at copying files into honeyfs (for banner files motd, issue.net, etc)
 
         # create the container on network dmz mounting the volumes
-        docker create --network="dmz" --name $CONTAINER_NAME \
+        docker create --network "dmz" --name $CONTAINER_NAME \
                 -v "$(pwd)"/cowrievolumes/$CONTAINER_NAME/dl:/cowrie/cowrie-git/dl \
                 -v "$(pwd)"/cowrievolumes/$CONTAINER_NAME/log:/cowrie/cowrie-git/log \
                 -v "$(pwd)"/cowrievolumes/$CONTAINER_NAME/data:/cowrie/cowrie-git/data \
+		--publish 22 --publish 23 \
 		--cap-add=NET_BIND_SERVICE \
 		--cap-add=NET_ADMIN \
                 cowrie:latest
@@ -81,6 +82,8 @@ exec () {
 
 # Start the docker container
 start() {
+	#docker network connect dmz $CONTAINER_NAME
+	#docker network disconnect bridge $CONTAINER_NAME
 	docker start $CONTAINER_NAME
 }
 
@@ -106,11 +109,11 @@ remove_all_containers() {
 
 # Remove all logs
 remove_all_logs() {
-	echo "Erasing all logs"
-	rm -rf "$(pwd)"/cowrievolumes/
-	rm -rf "$(pwd)"/router/log/* 
-	rm -rf /var/log/cowrie/*
-        mkdir /var/log/cowrie/router
+	echo "Erasing all logs" && \
+	rm -rf "$(pwd)"/cowrievolumes/ && \
+	sudo rm -rf "$(pwd)"/router/log/*  && \
+	rm -rf /var/log/cowrie/* && \
+        mkdir /var/log/cowrie/router && \
 	echo "Done."
 }
 
@@ -125,7 +128,6 @@ create_dmz_net() {
                 docker network create -d bridge \
 		--subnet 10.0.0.0/8 \
 		--attachable \
-		--internal \
 		dmz
         fi
 
@@ -133,8 +135,9 @@ create_dmz_net() {
         define_router
 	dmz_interface="$(docker network ls | grep bridge | awk '$2 != "bridge"' | awk '{print $1}')"
 	sudo route del -net 10.0.0.0 netmask 255.0.0.0 "br-$dmz_interface"
-	docker network connect dmz router --ip="10.0.0.254"
+#	docker network disconnect bridge router
 	docker start router
+	docker network connect dmz router --ip="10.0.0.254"
 }
 
 # Note: host must be forwarding 22->2222,23->2223 for traffic to be routed to container correctly
@@ -163,13 +166,12 @@ build_router_image() {
 
 
 check_container_exists(){
-	exists=$( sudo docker container ls -a | grep '$CONTAINER_NAME' )
-	if [ "$exists" == "$CONTAINER_NAME" ]
-	then
-		echo "A container named '$CONTAINER_NAME' already exists"
-		exit 2
+	exists=$( docker container ls -a | grep "$CONTAINER_NAME" )
+	if [ -n "$CONTAINER_NAME" ] ; then
+		echo "Namecheck passed for $CONTAINER_NAME"
         else
-                echo "Namecheck passed for $CONTAINER_NAME"
+                echo "A container named '$CONTAINER_NAME' already exists"
+		exit 2
         fi
 }
 

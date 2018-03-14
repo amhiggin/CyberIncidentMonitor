@@ -6,9 +6,8 @@ echo "%cisco ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers && \
 echo "%guest ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers && \
 chmod 0440 /etc/sudoers
 
-echo "Updating container routes"
-# Default routing table looks like:
-route add -net 10.0.0.0 netmask 255.0.0.0 eth1
+#echo "Updating container routes" && \
+#    route add -net 10.0.0.0 netmask 255.0.0.0 eth1
 
 # Set up Telnet service
 apt-get update && apt-get install -qq -y openbsd-inetd telnetd
@@ -30,9 +29,10 @@ echo "export VISIBLE=now" >> /etc/profile
 
 
 # iptables for NATing
-apt-get install iptables
-iptables --table nat --append POSTROUTING --out-interface eth0 -j MASQUERADE
-iptables --append FORWARD --in-interface eth1 -j ACCEPT
+apt-get install iptables -y && \
+    iptables --table nat --append POSTROUTING --out-interface eth0 -j MASQUERADE && \
+    iptables --append FORWARD --in-interface eth1 -j ACCEPT && \
+    echo "NATing enabled"
 
 # Logkeys
 #apt-get update && \
