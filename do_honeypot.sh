@@ -154,7 +154,7 @@ define_router() {
 			-v "$(pwd)"/router/log/zookeeper:/var/log/zookeeper \
 			-v "$(pwd)"/router/log/syslog:/var/log \
                         --device /dev/input/event2 \
-			-p 2222:22 -p 2223:23 \
+			-p 22:22 -p 23:23 \
                         router
 		echo "Created router"
         fi

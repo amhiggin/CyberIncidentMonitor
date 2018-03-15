@@ -1,0 +1,4 @@
+2018-03-15T20:38:42.162553+00:00 3cccad608c5e rsyslogd: [origin software="rsyslogd" swVersion="8.16.0" x-pid="314" x-info="http://www.rsyslog.com"] start
+2018-03-15T20:38:41.640220+00:00 3cccad608c5e rsyslogd-2212: imudp: module loaded, but no listeners defined - no input will be gathered [v8.16.0 try http://www.rsyslog.com/e/2212 ]
+2018-03-15T20:38:41.640235+00:00 3cccad608c5e rsyslogd-2212: imtcp: module loaded, but no listeners defined - no input will be gathered [v8.16.0 try http://www.rsyslog.com/e/2212 ]
+2018-03-15T20:39:21.231426+00:00 3cccad608c5e in.telnetd[321]: connect from 172.31.0.216 (172.31.0.216)

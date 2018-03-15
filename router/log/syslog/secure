@@ -1,0 +1,4 @@
+2018-03-15T20:39:29.937524+00:00 3cccad608c5e login[322]: pam_env(login:session): Unable to open env file: /etc/default/locale: No such file or directory
+2018-03-15T20:39:29.938652+00:00 3cccad608c5e login[322]: pam_lastlog(login:session): file /var/log/lastlog created
+2018-03-15T20:39:29.947653+00:00 3cccad608c5e login[322]: pam_unix(login:session): session opened for user guest by (uid=0)
+2018-03-15T20:39:31.966851+00:00 3cccad608c5e login[322]: pam_unix(login:session): session closed for user guest
