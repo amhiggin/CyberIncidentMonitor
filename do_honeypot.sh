@@ -35,9 +35,9 @@ esac
 
 # Build the cowrie image
 build() {
-	echo "Building cowrie image..."
-        docker build -t cowrie -f "$(pwd)"/cowrie/DockerFile .
-        echo "Built cowrie image successfully."
+	echo "Building cowrie image..." && \
+	        docker build -t cowrie -f "$(pwd)"/cowrie/DockerFile . && \
+	        echo "Built cowrie image successfully."
 
         # define dmz net
         create_dmz_net
@@ -67,7 +67,6 @@ create() {
                 -v "$(pwd)"/cowrievolumes/$CONTAINER_NAME/dl:/cowrie/cowrie-git/dl \
                 -v "$(pwd)"/cowrievolumes/$CONTAINER_NAME/log:/cowrie/cowrie-git/log \
                 -v "$(pwd)"/cowrievolumes/$CONTAINER_NAME/data:/cowrie/cowrie-git/data \
-		--publish 22 --publish 23 \
 		--cap-add=NET_BIND_SERVICE \
 		--cap-add=NET_ADMIN \
                 cowrie:latest
@@ -76,8 +75,8 @@ create() {
 
 
 exec () {
-        echo "Enter CTRL-P + CTRL-Q to exit container without terminating"
-        docker exec -it $CONTAINER_NAME /bin/bash
+        echo "Enter CTRL-P + CTRL-Q to exit container without terminating" && \
+        	docker exec -it $CONTAINER_NAME /bin/bash
 }
 
 # Start the docker container
@@ -102,9 +101,9 @@ remove() {
 
 # Remove all containers
 remove_all_containers() {
-	echo "Removing all containers"
-	docker rm -f  $(docker ps -a -q)
-	echo "Done."
+	echo "Removing all containers" && \
+		docker rm -f  $(docker ps -a -q) && \
+		echo "Done."
 }
 
 # Remove all logs
@@ -119,8 +118,8 @@ remove_all_logs() {
 
 # Local DMZ bridge network to which all containers are connected
 create_dmz_net() {
-	# Define the network 
-        network_exists=$( sudo docker network ls | grep "dmz" ) 
+	# Define the network
+        network_exists=$( sudo docker network ls | grep "dmz" )
         if [[ -n "$network_exists" ]] ; then
                 echo "DMZ network defined"
         else
@@ -154,7 +153,6 @@ define_router() {
 			-v "$(pwd)"/router/log/zookeeper:/var/log/zookeeper \
 			-v "$(pwd)"/router/log/syslog:/var/log \
                         --device /dev/input/event2 \
-			-p 2222:22 -p 2223:23 \
                         router
 		echo "Created router"
         fi
