@@ -6,9 +6,6 @@ echo "%cisco ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers && \
 echo "%guest ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers && \
 chmod 0440 /etc/sudoers
 
-#echo "Updating container routes" && \
-#    route add -net 10.0.0.0 netmask 255.0.0.0 eth1
-
 # Set up Telnet service
 apt-get update && apt-get install -qq -y openbsd-inetd telnetd
 service openbsd-inetd restart
