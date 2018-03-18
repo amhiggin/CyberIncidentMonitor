@@ -20,27 +20,10 @@ RUN export DEBIAN_FRONTEND=noninteractive; \
       libpython-dev \
       python2.7-minimal \
       git \
-      openssh-server \
       virtualenv \
       python-virtualenv \
       authbind \
       python-setuptools
-
-# TO BE REMOVED
-RUN apt-get install -y \
-      nmap \
-      traceroute \
-      net-tools \
-      iptables
-
-# Set up SSH on cowrie
-RUN sed -i 's/PermitRootLogin without-password/PermitRootLogin yes/' /etc/ssh/sshd_config && \
-    sed 's@session\s*required\s*pam_loginuid.so@session optional pam_loginuid.so@g' -i /etc/pam.d/sshd && \
-    sed -i 's/Port 22/Port 46587/' /etc/ssh/sshd_config && \
-    echo "export VISIBLE=now" >> /etc/profile && \
-    service ssh restart
-#service sshd restart
-
 
 # Build the environment for cowrie
 RUN su - cowrie -c "\
