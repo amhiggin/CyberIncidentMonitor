@@ -1,16 +1,16 @@
 #!/bin/bash
 
-# Allow sudo access to NMAP by appending permissions
-echo "%admin ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers && \
-echo "%cisco ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers && \
-echo "%guest ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers && \
-chmod 0440 /etc/sudoers
-
-#echo "Updating container routes" && \
-#    route add -net 10.0.0.0 netmask 255.0.0.0 eth1
-
 # Set up Telnet service
-apt-get update && apt-get install -qq -y openbsd-inetd telnetd
+echo "pts/0" >> /etc/securetty	# allowing login as root over telnet
+echo "pts/1" >> /etc/securetty
+echo "pts/2" >> /etc/securetty
+echo "pts/3" >> /etc/securetty
+echo "pts/4" >> /etc/securetty
+echo "pts/5" >> /etc/securetty
+echo "pts/6" >> /etc/securetty
+echo "pts/7" >> /etc/securetty
+echo "pts/8" >> /etc/securetty
+echo "pts/9" >> /etc/securetty
 service openbsd-inetd restart
 
 # Set up SSH service
@@ -29,8 +29,7 @@ echo "export VISIBLE=now" >> /etc/profile
 
 
 # iptables for NATing
-apt-get install iptables -y && \
-    iptables --table nat --append POSTROUTING --out-interface eth0 -j MASQUERADE && \
+iptables --table nat --append POSTROUTING --out-interface eth0 -j MASQUERADE && \
     iptables --append FORWARD --in-interface eth1 -j ACCEPT && \
     echo "NATing enabled"
 

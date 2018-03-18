@@ -67,7 +67,6 @@ create() {
                 -v "$(pwd)"/cowrievolumes/$CONTAINER_NAME/dl:/cowrie/cowrie-git/dl \
                 -v "$(pwd)"/cowrievolumes/$CONTAINER_NAME/log:/cowrie/cowrie-git/log \
                 -v "$(pwd)"/cowrievolumes/$CONTAINER_NAME/data:/cowrie/cowrie-git/data \
-		--publish 22 --publish 23 \
 		--cap-add=NET_BIND_SERVICE \
 		--cap-add=NET_ADMIN \
                 cowrie:latest
