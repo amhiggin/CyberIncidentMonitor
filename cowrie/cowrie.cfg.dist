@@ -20,7 +20,7 @@ sensor_name=myhostname
 # environment
 #
 # (default: svr04)
-hostname = svr04
+hostname = myhostname
 
 
 # Directory where to save log files in.
@@ -504,7 +504,7 @@ debug = False
 #[output_slack]
 # This will produce a _lot_ of messages - you have been warned....
 # Webhook - https://hooks.slack.com/services/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
-channel = C96MN4E7N
+channel = https://cyber-monitor.slack.com/messages/C96MN4E7N/
 token = xoxp-312736141460-312102839232-312658557651-f6f2b787dac8e30d0c1242f09c48cc52
 ##debug=true
 
