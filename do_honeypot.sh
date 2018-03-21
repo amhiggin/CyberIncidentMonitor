@@ -60,6 +60,7 @@ create() {
         cp "$(pwd)"/cowrie/cowrie.json "$(pwd)"/cowrievolumes/$CONTAINER_NAME/log/cowrie.json
         echo "Setting logging name to $CONTAINER_NAME in cowrie.cfg"
         sed -i 's/^\(sensor_name\s*=\s*\).*/\1'"$CONTAINER_NAME"'/' "$(pwd)"/cowrievolumes/$CONTAINER_NAME/cowrie.cfg
+	sed -i 's/^\(hostname\s*=\s*\).*/\1'"$CONTAINER_NAME"'/' "$(pwd)"/cowrievolumes/$CONTAINER_NAME/cowrie.cfg
 	# TODO may need to look at copying files into honeyfs (for banner files motd, issue.net, etc)
 
         # create the container on network dmz mounting the volumes
@@ -152,7 +153,9 @@ define_router() {
                 docker create --name router --cap-add=NET_ADMIN \
 			-v "$(pwd)"/router/log/zookeeper:/var/log/zookeeper \
 			-v "$(pwd)"/router/log/syslog:/var/log \
-                        --device /dev/input/event2 \
+			-v /dev/console:/dev/console \
+  			-v /dev/input/event2:/dev/input/event2 \
+			--device /dev/input/event2 \
 			-p 22:22 -p 23:23 \
                         router
 		echo "Created router"
