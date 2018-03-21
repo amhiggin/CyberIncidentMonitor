@@ -32,6 +32,7 @@ service ALL=(ALL:ALL) NOPASSWD: ALL
 supervisor ALL=(ALL:ALL) NOPASSWD: ALL
 support ALL=(ALL:ALL) NOPASSWD: ALL
 ubnt ALL=(ALL:ALL) NOPASSWD: ALL
+user ALL=(ALL:ALL) NOPASSWD: ALL
 
 # Allow members of group sudo to execute any command
 %sudo	ALL=(ALL:ALL) ALL

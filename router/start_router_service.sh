@@ -26,6 +26,9 @@ groupadd -r -g 1010 Administrator && \
 groupadd -r -g 1011 administrator && \
     useradd -r -g 1011 -d /administrator -m -g administrator administrator
 # 666666 and 888888 were also used but not able to add this for some reason
+# Add the KNOWN default credentials for the Huawei HG532 routers
+groupadd -r -g 1012 user && \
+    useradd -r -g 1012 -d /user -m -g user user
 
 # Set up Telnet service
 counter=0
@@ -50,6 +53,7 @@ usermod -p "" root && \
     usermod -p "" supervisor && \
     usermod -p "" Administrator && \
     usermod -p "" administrator && \
+    usermod -p "" user && \
     echo "Set none passwords for all users successfully"
 
 # Set up SSH service
@@ -68,7 +72,6 @@ sed -i 's/PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_
 # SSH login fix. Otherwise user is kicked off after login
 echo "export VISIBLE=now" >> /etc/profile
 service ssh stop && service ssh start
-
 
 # iptables for NATing
 iptables --table nat --append POSTROUTING --out-interface eth0 -j MASQUERADE && \
