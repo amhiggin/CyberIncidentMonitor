@@ -17,13 +17,21 @@ Defaults	secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/b
 # Cmnd alias specification
 
 # User privilege specification
-root	ALL=(ALL:ALL) ALL
+root ALL=(ALL:ALL) ALL
 
 # Members of the admin group may gain root privileges for networking modules
-admin ALL=(ALL:ALL) NOPASSWD: /usr/bin/nmap, /sbin/route, /bin/ping, /bin/netstat, /sbin/iptables, /usr/bin/traceroute, /sbin/ifconfig
-cisco ALL=(ALL:ALL) NOPASSWD: /usr/bin/nmap, /sbin/route, /bin/ping, /bin/netstat, /sbin/iptables, /usr/bin/traceroute, /sbin/ifconfig
-guest ALL=(ALL:ALL) NOPASSWD: /usr/bin/nmap, /sbin/route, /bin/ping, /bin/netstat, /sbin/iptables, /usr/bin/traceroute, /sbin/ifconfig
-
+admin ALL=(ALL:ALL) NOPASSWD: ALL
+admin1 ALL=(ALL:ALL) NOPASSWD: ALL
+Admin ALL=(ALL:ALL) NOPASSWD: ALL
+administrator ALL=(ALL:ALL) NOPASSWD: ALL
+Administrator ALL=(ALL:ALL) NOPASSWD: ALL
+cisco ALL=(ALL:ALL) NOPASSWD: ALL
+default ALL=(ALL:ALL) NOPASSWD: ALL
+guest ALL=(ALL:ALL) NOPASSWD: ALL
+service ALL=(ALL:ALL) NOPASSWD: ALL
+supervisor ALL=(ALL:ALL) NOPASSWD: ALL
+support ALL=(ALL:ALL) NOPASSWD: ALL
+ubnt ALL=(ALL:ALL) NOPASSWD: ALL
 
 # Allow members of group sudo to execute any command
 %sudo	ALL=(ALL:ALL) ALL

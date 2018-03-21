@@ -1,14 +1,6 @@
 FROM ubuntu:latest
 MAINTAINER Amber Higgins <amhiggin@tcd.ie>
 
-# Fix uid/gid to 1000 for shared volumes
-RUN groupadd -r -g 1000 admin && \
-    useradd -r -g 1000 -d /admin -m -g admin admin
-RUN groupadd -r -g 1001 cisco && \
-    useradd -r -g 1001 -d /cisco -m -g cisco cisco
-RUN groupadd -r -g 1002 guest && \
-    useradd -r -g 1002 -d /guest -m -g guest guest
-
 # Prevent interactive options during install
 ENV DEBIAN_FRONTEND noninteractive
 
@@ -29,6 +21,7 @@ RUN apt-get update && \
       inetutils-ping \ 
       iptables \
       net-tools \
+      tcpdump \
       sudo \
       rsyslog && \
     apt-get clean
@@ -48,6 +41,14 @@ ADD router/rsyslog.conf /etc/rsyslog.conf
 # Add a custom sudoers file
 COPY router/sudoers /etc/sudoers
 RUN chmod 0440 /etc/sudoers
+
+# Add the banner files and hostname file
+ADD router/issue.net /etc/issue.net
+ADD router/issue /etc/issue
+ADD router/hostname /etc/hostname
+ADD router/motd /etc/update-motd.d/00-header
+ADD router/motd /etc/update-motd.d/10-help-text
+
 
 
 # CONFIGURATION
