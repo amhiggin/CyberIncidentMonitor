@@ -2,7 +2,7 @@
 
 CONTAINER_NAME="$2"
 INSTRUCTION="$1"
-
+router="huawei-hg532d"
 
 main() {
         case $INSTRUCTION in
@@ -136,13 +136,13 @@ create_dmz_net() {
 	dmz_interface="$(docker network ls | grep bridge | awk '$2 != "bridge"' | awk '{print $1}')"
 	sudo route del -net 10.0.0.0 netmask 255.0.0.0 "br-$dmz_interface"
 #	docker network disconnect bridge router
-	docker start router
-	docker network connect dmz router --ip="10.0.0.254"
+	docker start $router
+	docker network connect dmz $router --ip="10.0.0.254"
 }
 
 # Note: host must be forwarding 22->2222,23->2223 for traffic to be routed to container correctly
 define_router() {
-        router_defined=$(sudo docker ps -a | grep "router" )
+        router_defined=$(sudo docker ps -a | grep "$router" )
         if [[ -n "$router_defined" ]] ; then
                 echo "Router defined"
         else
@@ -150,7 +150,7 @@ define_router() {
 		cp "$(pwd)"/router/zookeeper.log "$(pwd)"/router/log/zookeeper/zookeeper.log
 
 		build_router_image
-                docker create --name router --cap-add=NET_ADMIN \
+                docker create --name $router --cap-add=NET_ADMIN \
 			-v "$(pwd)"/router/log/zookeeper:/var/log/zookeeper \
 			-v "$(pwd)"/router/log/syslog:/var/log \
 			-v /dev/console:/dev/console \
