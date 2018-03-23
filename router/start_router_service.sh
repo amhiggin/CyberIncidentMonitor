@@ -20,7 +20,7 @@ groupadd -r -g 1007 Admin && \
 groupadd -r -g 1008 service && \
     useradd -r -g 1008 -d /service -m -g service service
 groupadd -r -g 1009 supervisor && \
-    useradd -r -g 1005 -d /supervisor -m -g supervisor supervisor
+    useradd -r -g 1009 -d /supervisor -m -g supervisor supervisor
 groupadd -r -g 1010 Administrator && \
     useradd -r -g 1010 -d /Administrator -m -g Administrator Administrator
 groupadd -r -g 1011 administrator && \
