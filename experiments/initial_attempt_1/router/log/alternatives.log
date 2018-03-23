@@ -1,0 +1,12 @@
+update-alternatives 2018-03-21 20:35:40: run with --install /bin/mt mt /bin/mt-gnu 10 --slave /usr/share/man/man1/mt.1.gz mt.1.gz /usr/share/man/man1/mt-gnu.1.gz
+update-alternatives 2018-03-21 20:35:40: link group mt updated to point to /bin/mt-gnu
+update-alternatives 2018-03-21 20:35:40: run with --quiet --install /usr/bin/pager pager /bin/less 77 --slave /usr/share/man/man1/pager.1.gz pager.1.gz /usr/share/man/man1/less.1.gz
+update-alternatives 2018-03-21 20:35:40: link group pager updated to point to /bin/less
+update-alternatives 2018-03-21 20:35:40: run with --quiet --remove pager /usr/bin/less
+update-alternatives 2018-03-21 20:35:40: run with --quiet --install /usr/bin/pager pager /bin/less 77 --slave /usr/share/man/man1/pager.1.gz pager.1.gz /usr/share/man/man1/less.1.gz
+update-alternatives 2018-03-21 20:35:40: run with --quiet --remove pager /usr/bin/less
+update-alternatives 2018-03-21 20:35:41: run with --install /usr/bin/automake automake /usr/bin/automake-1.15 33 --slave /usr/bin/aclocal aclocal /usr/bin/aclocal-1.15 --slave /usr/share/man/man1/automake.1.gz automake.1.gz /usr/share/man/man1/automake-1.15.1.gz --slave /usr/share/man/man1/aclocal.1.gz aclocal.1.gz /usr/share/man/man1/aclocal-1.15.1.gz
+update-alternatives 2018-03-21 20:35:41: link group automake updated to point to /usr/bin/automake-1.15
+update-alternatives 2018-03-21 20:35:42: run with --install /etc/vtrgb vtrgb /etc/console-setup/vtrgb 50
+update-alternatives 2018-03-21 20:35:42: link group vtrgb updated to point to /etc/console-setup/vtrgb
+update-alternatives 2018-03-21 20:35:42: run with --install /etc/vtrgb vtrgb /etc/console-setup/vtrgb.vga 20

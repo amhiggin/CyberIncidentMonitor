@@ -1,0 +1,1373 @@
+2018-03-21T22:40:28.459882+00:00 70c63ece1ec2 sshd[7373]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-21T22:40:30.115474+00:00 70c63ece1ec2 sshd[7373]: pam_unix(sshd:session): session closed for user root
+2018-03-21T23:01:36.397540+00:00 70c63ece1ec2 sshd[7378]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-21T23:01:37.168662+00:00 70c63ece1ec2 sshd[7378]: pam_unix(sshd:session): session closed for user root
+2018-03-21T23:03:20.395204+00:00 70c63ece1ec2 sshd[7382]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-21T23:03:20.625649+00:00 70c63ece1ec2 sshd[7382]: pam_unix(sshd:session): session closed for user root
+2018-03-21T23:05:35.556278+00:00 70c63ece1ec2 sshd[7386]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-21T23:05:35.787482+00:00 70c63ece1ec2 sshd[7386]: pam_unix(sshd:session): session closed for user root
+2018-03-21T23:05:38.215984+00:00 70c63ece1ec2 sshd[7390]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-21T23:05:38.423290+00:00 70c63ece1ec2 sshd[7390]: pam_unix(sshd:session): session closed for user root
+2018-03-21T23:09:57.072363+00:00 70c63ece1ec2 sshd[7394]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-21T23:09:57.413726+00:00 70c63ece1ec2 sshd[7394]: pam_unix(sshd:session): session closed for user root
+2018-03-21T23:10:34.031794+00:00 70c63ece1ec2 sshd[7398]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-21T23:10:34.903865+00:00 70c63ece1ec2 sshd[7398]: pam_unix(sshd:session): session closed for user root
+2018-03-21T23:10:40.450239+00:00 70c63ece1ec2 sshd[7402]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-21T23:10:40.682955+00:00 70c63ece1ec2 sshd[7402]: pam_unix(sshd:session): session closed for user root
+2018-03-21T23:10:52.569237+00:00 70c63ece1ec2 sshd[7406]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-21T23:10:52.801699+00:00 70c63ece1ec2 sshd[7406]: pam_unix(sshd:session): session closed for user root
+2018-03-21T23:12:06.154291+00:00 70c63ece1ec2 sshd[7410]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-21T23:12:06.383979+00:00 70c63ece1ec2 sshd[7410]: pam_unix(sshd:session): session closed for user root
+2018-03-21T23:12:41.667816+00:00 70c63ece1ec2 sshd[7414]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-21T23:12:41.914713+00:00 70c63ece1ec2 sshd[7414]: pam_unix(sshd:session): session closed for user root
+2018-03-21T23:15:11.863999+00:00 70c63ece1ec2 sshd[7418]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-21T23:15:12.095129+00:00 70c63ece1ec2 sshd[7418]: pam_unix(sshd:session): session closed for user root
+2018-03-21T23:16:20.990569+00:00 70c63ece1ec2 sshd[7422]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-21T23:16:21.263124+00:00 70c63ece1ec2 sshd[7422]: pam_unix(sshd:session): session closed for user root
+2018-03-21T23:18:45.943324+00:00 70c63ece1ec2 sshd[7426]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-21T23:18:46.130247+00:00 70c63ece1ec2 sshd[7426]: pam_unix(sshd:session): session closed for user root
+2018-03-21T23:20:07.678297+00:00 70c63ece1ec2 sshd[7430]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-21T23:20:07.990256+00:00 70c63ece1ec2 sshd[7430]: pam_unix(sshd:session): session closed for user root
+2018-03-21T23:23:10.605134+00:00 70c63ece1ec2 sshd[7434]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-21T23:23:10.899984+00:00 70c63ece1ec2 sshd[7434]: pam_unix(sshd:session): session closed for user root
+2018-03-21T23:23:46.941055+00:00 70c63ece1ec2 sshd[7438]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-21T23:23:47.186850+00:00 70c63ece1ec2 sshd[7438]: pam_unix(sshd:session): session closed for user root
+2018-03-21T23:24:23.380512+00:00 70c63ece1ec2 sshd[7442]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-21T23:24:23.642565+00:00 70c63ece1ec2 sshd[7442]: pam_unix(sshd:session): session closed for user root
+2018-03-21T23:27:28.156969+00:00 70c63ece1ec2 sshd[7446]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-21T23:27:28.420639+00:00 70c63ece1ec2 sshd[7446]: pam_unix(sshd:session): session closed for user root
+2018-03-21T23:27:35.130907+00:00 70c63ece1ec2 sshd[7450]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-21T23:27:35.386441+00:00 70c63ece1ec2 sshd[7450]: pam_unix(sshd:session): session closed for user root
+2018-03-21T23:28:39.770223+00:00 70c63ece1ec2 login[7455]: pam_lastlog(login:session): file /var/log/lastlog created
+2018-03-21T23:28:39.770557+00:00 70c63ece1ec2 login[7455]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-21T23:28:39.778436+00:00 70c63ece1ec2 login[7456]: ROOT LOGIN  on '/dev/pts/0' from '179-98-34-201.dsl.telesp.net.br'
+2018-03-21T23:31:41.986458+00:00 70c63ece1ec2 sshd[7470]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-21T23:31:42.399332+00:00 70c63ece1ec2 sshd[7470]: pam_unix(sshd:session): session closed for user root
+2018-03-21T23:34:33.224676+00:00 70c63ece1ec2 sshd[7474]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-21T23:34:33.438490+00:00 70c63ece1ec2 sshd[7474]: pam_unix(sshd:session): session closed for user root
+2018-03-21T23:35:53.484926+00:00 70c63ece1ec2 sshd[7480]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-21T23:35:53.708832+00:00 70c63ece1ec2 sshd[7480]: pam_unix(sshd:session): session closed for user root
+2018-03-21T23:39:44.666439+00:00 70c63ece1ec2 sshd[7498]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-21T23:39:44.887644+00:00 70c63ece1ec2 sshd[7498]: pam_unix(sshd:session): session closed for user root
+2018-03-21T23:40:58.971975+00:00 70c63ece1ec2 sshd[7506]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-21T23:40:59.234827+00:00 70c63ece1ec2 sshd[7506]: pam_unix(sshd:session): session closed for user root
+2018-03-21T23:42:40.347918+00:00 70c63ece1ec2 sshd[7510]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-21T23:42:40.608250+00:00 70c63ece1ec2 sshd[7510]: pam_unix(sshd:session): session closed for user root
+2018-03-21T23:44:01.031143+00:00 70c63ece1ec2 sshd[7514]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-21T23:44:01.255477+00:00 70c63ece1ec2 sshd[7514]: pam_unix(sshd:session): session closed for user root
+2018-03-21T23:51:33.980376+00:00 70c63ece1ec2 login[7519]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-21T23:51:33.988475+00:00 70c63ece1ec2 login[7520]: ROOT LOGIN  on '/dev/pts/0' from '189-110-217-59.dsl.telesp.net.br'
+2018-03-22T00:03:32.296927+00:00 70c63ece1ec2 sshd[7556]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T00:03:32.518504+00:00 70c63ece1ec2 sshd[7556]: pam_unix(sshd:session): session closed for user root
+2018-03-22T00:04:30.500250+00:00 70c63ece1ec2 sshd[7564]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T00:04:30.721547+00:00 70c63ece1ec2 sshd[7564]: pam_unix(sshd:session): session closed for user root
+2018-03-22T00:09:26.321541+00:00 70c63ece1ec2 sshd[7582]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T00:09:26.710578+00:00 70c63ece1ec2 sshd[7582]: pam_unix(sshd:session): session closed for user root
+2018-03-22T00:11:38.816384+00:00 70c63ece1ec2 sshd[7586]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T00:11:40.362219+00:00 70c63ece1ec2 sshd[7586]: pam_unix(sshd:session): session closed for user root
+2018-03-22T00:13:06.681404+00:00 70c63ece1ec2 sshd[7591]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T00:13:06.926883+00:00 70c63ece1ec2 sshd[7591]: pam_unix(sshd:session): session closed for user root
+2018-03-22T00:13:44.655575+00:00 70c63ece1ec2 sshd[7595]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T00:13:45.024229+00:00 70c63ece1ec2 sshd[7595]: pam_unix(sshd:session): session closed for user root
+2018-03-22T00:15:27.778851+00:00 70c63ece1ec2 sshd[7599]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+2018-03-22T00:15:28.796479+00:00 70c63ece1ec2 sshd[7599]: pam_unix(sshd:session): session closed for user admin
+2018-03-22T00:15:32.137872+00:00 70c63ece1ec2 sshd[7604]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+2018-03-22T00:17:00.591244+00:00 70c63ece1ec2 sshd[7604]: pam_unix(sshd:session): session closed for user admin
+2018-03-22T00:20:03.320814+00:00 70c63ece1ec2 sshd[7612]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T00:20:07.362523+00:00 70c63ece1ec2 sshd[7612]: pam_unix(sshd:session): session closed for user root
+2018-03-22T00:22:32.873632+00:00 70c63ece1ec2 sshd[7617]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T00:22:33.182058+00:00 70c63ece1ec2 sshd[7617]: pam_unix(sshd:session): session closed for user root
+2018-03-22T00:22:43.798448+00:00 70c63ece1ec2 sshd[7621]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T00:22:44.103939+00:00 70c63ece1ec2 sshd[7621]: pam_unix(sshd:session): session closed for user root
+2018-03-22T00:24:45.085709+00:00 70c63ece1ec2 login[7626]: pam_unix(login:session): session opened for user admin by (uid=0)
+2018-03-22T00:25:52.829562+00:00 70c63ece1ec2 sshd[7640]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T00:25:53.060958+00:00 70c63ece1ec2 sshd[7640]: pam_unix(sshd:session): session closed for user root
+2018-03-22T00:29:05.909249+00:00 70c63ece1ec2 sshd[7644]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T00:29:06.662450+00:00 70c63ece1ec2 sshd[7644]: pam_unix(sshd:session): session closed for user root
+2018-03-22T00:30:51.987909+00:00 70c63ece1ec2 sshd[7649]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T00:30:52.827260+00:00 70c63ece1ec2 sshd[7649]: pam_unix(sshd:session): session closed for user root
+2018-03-22T00:32:46.438266+00:00 70c63ece1ec2 sshd[7654]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T00:32:47.277809+00:00 70c63ece1ec2 sshd[7654]: pam_unix(sshd:session): session closed for user root
+2018-03-22T00:34:32.300028+00:00 70c63ece1ec2 sshd[7658]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T00:34:33.194766+00:00 70c63ece1ec2 sshd[7658]: pam_unix(sshd:session): session closed for user root
+2018-03-22T00:35:19.861131+00:00 70c63ece1ec2 sshd[7663]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T00:35:20.215238+00:00 70c63ece1ec2 sshd[7663]: pam_unix(sshd:session): session closed for user root
+2018-03-22T00:35:51.981649+00:00 70c63ece1ec2 sshd[7669]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T00:35:52.771745+00:00 70c63ece1ec2 sshd[7669]: pam_unix(sshd:session): session closed for user root
+2018-03-22T00:35:57.507250+00:00 70c63ece1ec2 sshd[7667]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T00:35:57.750849+00:00 70c63ece1ec2 sshd[7667]: pam_unix(sshd:session): session closed for user root
+2018-03-22T00:37:37.705795+00:00 70c63ece1ec2 sshd[7676]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T00:37:38.037638+00:00 70c63ece1ec2 sshd[7676]: pam_unix(sshd:session): session closed for user root
+2018-03-22T00:38:04.750990+00:00 70c63ece1ec2 login[7681]: pam_unix(login:session): session opened for user admin by (uid=0)
+2018-03-22T00:39:28.639946+00:00 70c63ece1ec2 sshd[7697]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T00:39:29.119402+00:00 70c63ece1ec2 sshd[7697]: pam_unix(sshd:session): session closed for user root
+2018-03-22T00:42:23.800837+00:00 70c63ece1ec2 login[7702]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T00:42:23.804138+00:00 70c63ece1ec2 login[7703]: ROOT LOGIN  on '/dev/pts/0' from '220-135-26-1.HINET-IP.hinet.net'
+2018-03-22T00:44:41.722024+00:00 70c63ece1ec2 sshd[7717]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T00:44:42.085637+00:00 70c63ece1ec2 sshd[7717]: pam_unix(sshd:session): session closed for user root
+2018-03-22T00:44:55.506783+00:00 70c63ece1ec2 sshd[7721]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T00:44:58.121537+00:00 70c63ece1ec2 sshd[7721]: pam_unix(sshd:session): session closed for user root
+2018-03-22T00:45:19.712132+00:00 70c63ece1ec2 sshd[7726]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T00:45:20.113074+00:00 70c63ece1ec2 sshd[7726]: pam_unix(sshd:session): session closed for user root
+2018-03-22T00:45:46.895940+00:00 70c63ece1ec2 login[7731]: pam_unix(login:session): session opened for user admin by (uid=0)
+2018-03-22T00:46:04.663004+00:00 70c63ece1ec2 sshd[7745]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T00:46:06.039858+00:00 70c63ece1ec2 sshd[7745]: pam_unix(sshd:session): session closed for user root
+2018-03-22T00:54:02.688921+00:00 70c63ece1ec2 sshd[7772]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T00:54:04.181713+00:00 70c63ece1ec2 sshd[7772]: pam_unix(sshd:session): session closed for user root
+2018-03-22T00:55:16.110579+00:00 70c63ece1ec2 sshd[7777]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T00:55:16.749166+00:00 70c63ece1ec2 sshd[7777]: pam_unix(sshd:session): session closed for user root
+2018-03-22T00:59:20.187273+00:00 70c63ece1ec2 sshd[7781]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T00:59:20.415159+00:00 70c63ece1ec2 sshd[7781]: pam_unix(sshd:session): session closed for user root
+2018-03-22T01:02:02.990708+00:00 70c63ece1ec2 sshd[7785]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T01:02:03.371072+00:00 70c63ece1ec2 sshd[7785]: pam_unix(sshd:session): session closed for user root
+2018-03-22T01:08:59.144966+00:00 70c63ece1ec2 sshd[7789]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T01:08:59.501413+00:00 70c63ece1ec2 sshd[7789]: pam_unix(sshd:session): session closed for user root
+2018-03-22T01:10:29.859518+00:00 70c63ece1ec2 sshd[7793]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T01:10:30.217181+00:00 70c63ece1ec2 sshd[7793]: pam_unix(sshd:session): session closed for user root
+2018-03-22T01:13:36.582907+00:00 70c63ece1ec2 sshd[7798]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T01:13:37.967077+00:00 70c63ece1ec2 sshd[7798]: pam_unix(sshd:session): session closed for user root
+2018-03-22T01:16:46.698567+00:00 70c63ece1ec2 sshd[7803]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T01:16:47.985854+00:00 70c63ece1ec2 sshd[7803]: pam_unix(sshd:session): session closed for user root
+2018-03-22T01:27:11.689063+00:00 70c63ece1ec2 sshd[7808]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T01:27:11.917932+00:00 70c63ece1ec2 sshd[7808]: pam_unix(sshd:session): session closed for user root
+2018-03-22T01:36:19.180819+00:00 70c63ece1ec2 sshd[7812]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T01:36:19.493119+00:00 70c63ece1ec2 sshd[7812]: pam_unix(sshd:session): session closed for user root
+2018-03-22T01:38:03.183379+00:00 70c63ece1ec2 sshd[7816]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T01:38:03.421342+00:00 70c63ece1ec2 sshd[7816]: pam_unix(sshd:session): session closed for user root
+2018-03-22T01:39:02.702222+00:00 70c63ece1ec2 login[7821]: pam_unix(login:session): session opened for user admin by (uid=0)
+2018-03-22T01:50:47.062341+00:00 70c63ece1ec2 sshd[7857]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T01:50:49.537601+00:00 70c63ece1ec2 sshd[7857]: pam_unix(sshd:session): session closed for user root
+2018-03-22T01:50:56.306094+00:00 70c63ece1ec2 login[7863]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T01:50:56.313789+00:00 70c63ece1ec2 login[7864]: ROOT LOGIN  on '/dev/pts/0' from '177-188-216-31.dsl.telesp.net.br'
+2018-03-22T01:57:36.181185+00:00 70c63ece1ec2 sshd[7878]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T01:57:36.494581+00:00 70c63ece1ec2 sshd[7878]: pam_unix(sshd:session): session closed for user root
+2018-03-22T01:59:12.324867+00:00 70c63ece1ec2 login[7883]: pam_unix(login:session): session opened for user admin by (uid=0)
+2018-03-22T01:59:44.031968+00:00 70c63ece1ec2 sshd[7899]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+2018-03-22T02:01:57.358952+00:00 70c63ece1ec2 sshd[7904]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T02:01:57.724629+00:00 70c63ece1ec2 sshd[7904]: pam_unix(sshd:session): session closed for user root
+2018-03-22T02:03:24.782708+00:00 70c63ece1ec2 sshd[7908]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T02:03:25.188592+00:00 70c63ece1ec2 sshd[7908]: pam_unix(sshd:session): session closed for user root
+2018-03-22T02:04:19.545312+00:00 70c63ece1ec2 sshd[7912]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T02:04:20.350377+00:00 70c63ece1ec2 sshd[7912]: pam_unix(sshd:session): session closed for user root
+2018-03-22T02:07:33.711032+00:00 70c63ece1ec2 login[7919]: pam_unix(login:session): session opened for user admin by (uid=0)
+2018-03-22T02:07:33.806514+00:00 70c63ece1ec2 login[7920]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T02:07:33.807400+00:00 70c63ece1ec2 login[7931]: ROOT LOGIN  on '/dev/pts/1' from '5.221.55.27'
+2018-03-22T02:08:47.926260+00:00 70c63ece1ec2 sshd[7950]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T02:08:48.258123+00:00 70c63ece1ec2 sshd[7950]: pam_unix(sshd:session): session closed for user root
+2018-03-22T02:13:36.861839+00:00 70c63ece1ec2 sshd[7954]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T02:13:38.085328+00:00 70c63ece1ec2 sshd[7954]: pam_unix(sshd:session): session closed for user root
+2018-03-22T02:20:11.380084+00:00 70c63ece1ec2 login[7960]: pam_unix(login:session): session opened for user admin by (uid=0)
+2018-03-22T02:22:38.414783+00:00 70c63ece1ec2 sshd[7976]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T02:22:39.364649+00:00 70c63ece1ec2 sshd[7976]: pam_unix(sshd:session): session closed for user root
+2018-03-22T02:23:30.390972+00:00 70c63ece1ec2 sshd[7981]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T02:23:31.430486+00:00 70c63ece1ec2 sshd[7981]: pam_unix(sshd:session): session closed for user root
+2018-03-22T02:25:44.718894+00:00 70c63ece1ec2 sshd[7986]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T02:25:45.154014+00:00 70c63ece1ec2 sshd[7986]: pam_unix(sshd:session): session closed for user root
+2018-03-22T02:29:45.317717+00:00 70c63ece1ec2 sshd[7990]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T02:29:45.657620+00:00 70c63ece1ec2 sshd[7990]: pam_unix(sshd:session): session closed for user root
+2018-03-22T02:34:06.463168+00:00 70c63ece1ec2 sshd[7994]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T02:34:06.864628+00:00 70c63ece1ec2 sshd[7994]: pam_unix(sshd:session): session closed for user root
+2018-03-22T02:37:02.804114+00:00 70c63ece1ec2 login[7999]: pam_unix(login:session): session opened for user admin by (uid=0)
+2018-03-22T02:37:55.186727+00:00 70c63ece1ec2 login[8016]: pam_unix(login:session): session opened for user admin by (uid=0)
+2018-03-22T02:41:24.001370+00:00 70c63ece1ec2 sshd[8032]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T02:41:24.326048+00:00 70c63ece1ec2 sshd[8032]: pam_unix(sshd:session): session closed for user root
+2018-03-22T02:41:28.889502+00:00 70c63ece1ec2 sshd[8036]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T02:41:30.599303+00:00 70c63ece1ec2 sshd[8036]: pam_unix(sshd:session): session closed for user root
+2018-03-22T02:41:57.861760+00:00 70c63ece1ec2 sshd[8041]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T02:41:58.106620+00:00 70c63ece1ec2 sshd[8041]: pam_unix(sshd:session): session closed for user root
+2018-03-22T02:44:03.338107+00:00 70c63ece1ec2 login[8046]: pam_unix(login:session): session opened for user supervisor by (uid=0)
+2018-03-22T02:46:17.928916+00:00 70c63ece1ec2 login[8063]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T02:46:17.932240+00:00 70c63ece1ec2 login[8064]: ROOT LOGIN  on '/dev/pts/0' from '201-92-221-214.dsl.telesp.net.br'
+2018-03-22T02:50:51.929828+00:00 70c63ece1ec2 sshd[8078]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T02:50:52.273605+00:00 70c63ece1ec2 sshd[8078]: pam_unix(sshd:session): session closed for user root
+2018-03-22T02:55:16.909171+00:00 70c63ece1ec2 sshd[8088]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T02:55:18.847670+00:00 70c63ece1ec2 sshd[8088]: pam_unix(sshd:session): session closed for user root
+2018-03-22T02:58:38.549580+00:00 70c63ece1ec2 sshd[8105]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T02:58:39.263975+00:00 70c63ece1ec2 sshd[8105]: pam_unix(sshd:session): session closed for user root
+2018-03-22T02:59:24.196784+00:00 70c63ece1ec2 login[8113]: pam_unix(login:session): session opened for user admin by (uid=0)
+2018-03-22T03:02:25.864386+00:00 70c63ece1ec2 sshd[8141]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T03:02:26.237382+00:00 70c63ece1ec2 sshd[8141]: pam_unix(sshd:session): session closed for user root
+2018-03-22T03:06:05.820766+00:00 70c63ece1ec2 sshd[8169]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T03:06:06.896068+00:00 70c63ece1ec2 sshd[8169]: pam_unix(sshd:session): session closed for user root
+2018-03-22T03:08:11.323435+00:00 70c63ece1ec2 sshd[8178]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T03:08:12.060529+00:00 70c63ece1ec2 sshd[8178]: pam_unix(sshd:session): session closed for user root
+2018-03-22T03:10:51.575229+00:00 70c63ece1ec2 login[8184]: pam_unix(login:session): session opened for user admin by (uid=0)
+2018-03-22T03:14:59.013467+00:00 70c63ece1ec2 login[8201]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T03:14:59.016865+00:00 70c63ece1ec2 login[8202]: ROOT LOGIN  on '/dev/pts/0' from '201-43-75-153.dsl.telesp.net.br'
+2018-03-22T03:22:37.498810+00:00 70c63ece1ec2 sshd[8218]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T03:22:38.937522+00:00 70c63ece1ec2 sshd[8218]: pam_unix(sshd:session): session closed for user root
+2018-03-22T03:28:10.783319+00:00 70c63ece1ec2 sshd[8227]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T03:28:12.272929+00:00 70c63ece1ec2 sshd[8227]: pam_unix(sshd:session): session closed for user root
+2018-03-22T03:31:49.955583+00:00 70c63ece1ec2 sshd[8246]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T03:31:50.659593+00:00 70c63ece1ec2 sshd[8246]: pam_unix(sshd:session): session closed for user root
+2018-03-22T03:33:10.712645+00:00 70c63ece1ec2 sshd[8253]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T03:33:11.107041+00:00 70c63ece1ec2 sshd[8253]: pam_unix(sshd:session): session closed for user root
+2018-03-22T03:39:28.124048+00:00 70c63ece1ec2 login[8259]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T03:39:28.125076+00:00 70c63ece1ec2 login[8260]: ROOT LOGIN  on '/dev/pts/0' from '211.225.183.246'
+2018-03-22T03:45:03.616397+00:00 70c63ece1ec2 sshd[8284]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-22T03:45:03.616467+00:00 70c63ece1ec2 sshd[8284]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=189.135.213.47 
+2018-03-22T03:51:42.150534+00:00 70c63ece1ec2 login[8297]: pam_unix(login:auth): check pass; user unknown
+2018-03-22T03:51:42.150628+00:00 70c63ece1ec2 login[8297]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=177-9-193-194.dsl.telesp.net.br 
+2018-03-22T03:51:46.081554+00:00 70c63ece1ec2 login[8297]: FAILED LOGIN (1) on '/dev/pts/0' from '177-9-193-194.dsl.telesp.net.br' FOR 'UNKNOWN', Authentication failure
+2018-03-22T03:51:46.514134+00:00 70c63ece1ec2 login[8297]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T03:51:46.521726+00:00 70c63ece1ec2 login[8298]: ROOT LOGIN  on '/dev/pts/0' from '177-9-193-194.dsl.telesp.net.br'
+2018-03-22T03:54:58.729052+00:00 70c63ece1ec2 sshd[8312]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T03:55:00.355957+00:00 70c63ece1ec2 sshd[8312]: pam_unix(sshd:session): session closed for user root
+2018-03-22T03:57:52.237864+00:00 70c63ece1ec2 sshd[8317]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T03:57:52.473328+00:00 70c63ece1ec2 sshd[8317]: pam_unix(sshd:session): session closed for user root
+2018-03-22T03:58:53.274143+00:00 70c63ece1ec2 sshd[8321]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T03:58:54.755671+00:00 70c63ece1ec2 sshd[8321]: pam_unix(sshd:session): session closed for user root
+2018-03-22T04:01:17.459245+00:00 70c63ece1ec2 sshd[8326]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T04:01:17.811493+00:00 70c63ece1ec2 sshd[8326]: pam_unix(sshd:session): session closed for user root
+2018-03-22T04:03:17.508568+00:00 70c63ece1ec2 sshd[8330]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T04:03:17.939723+00:00 70c63ece1ec2 sshd[8330]: pam_unix(sshd:session): session closed for user root
+2018-03-22T04:03:59.581400+00:00 70c63ece1ec2 sshd[8334]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T04:04:00.599005+00:00 70c63ece1ec2 sshd[8334]: pam_unix(sshd:session): session closed for user root
+2018-03-22T04:04:52.945502+00:00 70c63ece1ec2 sshd[8339]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T04:04:53.112360+00:00 70c63ece1ec2 sshd[8339]: pam_unix(sshd:session): session closed for user root
+2018-03-22T04:04:54.772999+00:00 70c63ece1ec2 sshd[8343]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T04:04:55.863008+00:00 70c63ece1ec2 sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/bin/sh
+2018-03-22T04:04:55.863514+00:00 70c63ece1ec2 sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+2018-03-22T04:07:27.708058+00:00 70c63ece1ec2 sshd[8343]: pam_unix(sshd:session): session closed for user root
+2018-03-22T04:07:27.708217+00:00 70c63ece1ec2 sudo: pam_unix(sudo:session): session closed for user root
+2018-03-22T04:08:18.959675+00:00 70c63ece1ec2 sshd[8363]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T04:08:20.270066+00:00 70c63ece1ec2 sshd[8363]: pam_unix(sshd:session): session closed for user root
+2018-03-22T04:11:21.082426+00:00 70c63ece1ec2 sshd[8368]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T04:11:21.602554+00:00 70c63ece1ec2 sshd[8368]: pam_unix(sshd:session): session closed for user root
+2018-03-22T04:11:47.947594+00:00 70c63ece1ec2 sshd[8373]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T04:11:48.839401+00:00 70c63ece1ec2 sshd[8373]: pam_unix(sshd:session): session closed for user root
+2018-03-22T04:13:27.020136+00:00 70c63ece1ec2 login[8379]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T04:13:27.023655+00:00 70c63ece1ec2 login[8380]: ROOT LOGIN  on '/dev/pts/0' from 'bzq-121-30.red.bezeqint.net'
+2018-03-22T04:18:39.487036+00:00 70c63ece1ec2 sshd[8394]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T04:18:40.711913+00:00 70c63ece1ec2 sshd[8394]: pam_unix(sshd:session): session closed for user root
+2018-03-22T04:21:20.841981+00:00 70c63ece1ec2 login[8399]: pam_unix(login:auth): check pass; user unknown
+2018-03-22T04:21:20.842065+00:00 70c63ece1ec2 login[8399]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=189-78-13-68.dsl.telesp.net.br 
+2018-03-22T04:21:24.985560+00:00 70c63ece1ec2 login[8399]: FAILED LOGIN (1) on '/dev/pts/0' from '189-78-13-68.dsl.telesp.net.br' FOR 'UNKNOWN', Authentication failure
+2018-03-22T04:21:25.709122+00:00 70c63ece1ec2 login[8399]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T04:21:25.717141+00:00 70c63ece1ec2 login[8400]: ROOT LOGIN  on '/dev/pts/0' from '189-78-13-68.dsl.telesp.net.br'
+2018-03-22T04:30:49.012132+00:00 70c63ece1ec2 sshd[8414]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T04:30:49.832507+00:00 70c63ece1ec2 sshd[8414]: pam_unix(sshd:session): session closed for user root
+2018-03-22T04:35:41.930256+00:00 70c63ece1ec2 sshd[8418]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T04:35:43.678897+00:00 70c63ece1ec2 sshd[8418]: pam_unix(sshd:session): session closed for user root
+2018-03-22T04:42:38.542140+00:00 70c63ece1ec2 login[8424]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T04:42:38.545623+00:00 70c63ece1ec2 login[8425]: ROOT LOGIN  on '/dev/pts/0' from '201-68-178-45.dsl.telesp.net.br'
+2018-03-22T04:56:36.597466+00:00 70c63ece1ec2 sshd[8439]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-22T04:56:36.597540+00:00 70c63ece1ec2 sshd[8439]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=73.61.67.248 
+2018-03-22T04:56:36.677322+00:00 70c63ece1ec2 sshd[8441]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-22T04:56:36.677385+00:00 70c63ece1ec2 sshd[8441]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=73.61.67.248 
+2018-03-22T04:56:38.499458+00:00 70c63ece1ec2 sshd[8439]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-22T04:56:38.571335+00:00 70c63ece1ec2 sshd[8441]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-22T04:56:40.003731+00:00 70c63ece1ec2 sshd[8439]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=73.61.67.248 
+2018-03-22T04:56:40.069764+00:00 70c63ece1ec2 sshd[8441]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=73.61.67.248 
+2018-03-22T05:00:35.451644+00:00 70c63ece1ec2 sshd[8443]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T05:00:37.200082+00:00 70c63ece1ec2 sshd[8443]: pam_unix(sshd:session): session closed for user root
+2018-03-22T05:05:19.075378+00:00 70c63ece1ec2 login[8449]: pam_unix(login:session): session opened for user administrator by (uid=0)
+2018-03-22T05:08:24.926277+00:00 70c63ece1ec2 sshd[8465]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T05:08:26.556376+00:00 70c63ece1ec2 sshd[8465]: pam_unix(sshd:session): session closed for user root
+2018-03-22T05:09:29.267592+00:00 70c63ece1ec2 sshd[8470]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T05:09:29.488642+00:00 70c63ece1ec2 sshd[8470]: pam_unix(sshd:session): session closed for user root
+2018-03-22T05:12:54.428877+00:00 70c63ece1ec2 login[8475]: pam_unix(login:session): session opened for user admin by (uid=0)
+2018-03-22T05:19:37.189920+00:00 70c63ece1ec2 sshd[8499]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T05:19:37.939326+00:00 70c63ece1ec2 sshd[8499]: pam_unix(sshd:session): session closed for user root
+2018-03-22T05:21:21.574698+00:00 70c63ece1ec2 sshd[8504]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T05:21:23.132327+00:00 70c63ece1ec2 sshd[8504]: pam_unix(sshd:session): session closed for user root
+2018-03-22T05:26:21.627304+00:00 70c63ece1ec2 login[8510]: pam_unix(login:session): session opened for user Admin by (uid=0)
+2018-03-22T05:27:06.487349+00:00 70c63ece1ec2 sshd[8526]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T05:27:06.831061+00:00 70c63ece1ec2 sshd[8526]: pam_unix(sshd:session): session closed for user root
+2018-03-22T05:32:17.160421+00:00 70c63ece1ec2 login[8533]: pam_unix(login:session): session opened for user support by (uid=0)
+2018-03-22T05:36:03.457906+00:00 70c63ece1ec2 login[8558]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T05:36:03.466694+00:00 70c63ece1ec2 login[8560]: ROOT LOGIN  on '/dev/pts/1' from '191-19-223-142.user.vivozap.com.br'
+2018-03-22T05:50:43.641084+00:00 70c63ece1ec2 sshd[8601]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T05:50:43.937938+00:00 70c63ece1ec2 sshd[8601]: pam_unix(sshd:session): session closed for user root
+2018-03-22T05:52:32.625883+00:00 70c63ece1ec2 sshd[8611]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T05:52:34.402366+00:00 70c63ece1ec2 sshd[8611]: pam_unix(sshd:session): session closed for user root
+2018-03-22T05:55:00.628776+00:00 70c63ece1ec2 sshd[8624]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T05:55:00.938964+00:00 70c63ece1ec2 sshd[8624]: pam_unix(sshd:session): session closed for user root
+2018-03-22T05:55:35.605597+00:00 70c63ece1ec2 login[8629]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T05:55:35.608965+00:00 70c63ece1ec2 login[8630]: ROOT LOGIN  on '/dev/pts/0' from '189-46-82-72.dsl.telesp.net.br'
+2018-03-22T06:00:21.642724+00:00 70c63ece1ec2 sshd[8644]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T06:00:22.696542+00:00 70c63ece1ec2 sshd[8644]: pam_unix(sshd:session): session closed for user root
+2018-03-22T06:04:13.094524+00:00 70c63ece1ec2 sshd[8649]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T06:04:13.391918+00:00 70c63ece1ec2 sshd[8649]: pam_unix(sshd:session): session closed for user root
+2018-03-22T06:05:11.074149+00:00 70c63ece1ec2 sshd[8653]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T06:05:11.915274+00:00 70c63ece1ec2 sshd[8653]: pam_unix(sshd:session): session closed for user root
+2018-03-22T06:07:41.669766+00:00 70c63ece1ec2 sshd[8658]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T06:07:42.051445+00:00 70c63ece1ec2 sshd[8658]: pam_unix(sshd:session): session closed for user root
+2018-03-22T06:19:05.725581+00:00 70c63ece1ec2 sshd[8670]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T06:19:07.335624+00:00 70c63ece1ec2 sshd[8670]: pam_unix(sshd:session): session closed for user root
+2018-03-22T06:24:18.896470+00:00 70c63ece1ec2 sshd[8687]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T06:24:19.197845+00:00 70c63ece1ec2 sshd[8687]: pam_unix(sshd:session): session closed for user root
+2018-03-22T06:30:18.502082+00:00 70c63ece1ec2 login[8692]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T06:30:18.510425+00:00 70c63ece1ec2 login[8693]: ROOT LOGIN  on '/dev/pts/0' from '95.9.55.11.static.ttnet.com.tr'
+2018-03-22T06:44:40.002729+00:00 70c63ece1ec2 sshd[8707]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T06:44:40.924939+00:00 70c63ece1ec2 sshd[8707]: pam_unix(sshd:session): session closed for user root
+2018-03-22T06:48:29.666680+00:00 70c63ece1ec2 login[8721]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T06:48:29.674303+00:00 70c63ece1ec2 login[8722]: ROOT LOGIN  on '/dev/pts/1' from '189-79-224-81.dsl.telesp.net.br'
+2018-03-22T06:49:28.086374+00:00 70c63ece1ec2 sshd[8740]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T06:49:28.627933+00:00 70c63ece1ec2 sshd[8740]: pam_unix(sshd:session): session closed for user root
+2018-03-22T06:53:21.656666+00:00 70c63ece1ec2 sshd[8757]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T06:53:22.105639+00:00 70c63ece1ec2 sshd[8757]: pam_unix(sshd:session): session closed for user root
+2018-03-22T06:53:25.178583+00:00 70c63ece1ec2 sshd[8761]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T06:53:26.558595+00:00 70c63ece1ec2 sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/bin/sh
+2018-03-22T06:53:26.559100+00:00 70c63ece1ec2 sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+2018-03-22T06:54:39.803231+00:00 70c63ece1ec2 sshd[8761]: pam_unix(sshd:session): session closed for user root
+2018-03-22T06:54:39.803353+00:00 70c63ece1ec2 sudo: pam_unix(sudo:session): session closed for user root
+2018-03-22T06:55:22.761555+00:00 70c63ece1ec2 sshd[8781]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T06:55:23.096285+00:00 70c63ece1ec2 sshd[8781]: pam_unix(sshd:session): session closed for user root
+2018-03-22T07:08:33.561707+00:00 70c63ece1ec2 sshd[8785]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T07:08:35.151915+00:00 70c63ece1ec2 sshd[8785]: pam_unix(sshd:session): session closed for user root
+2018-03-22T07:09:34.831285+00:00 70c63ece1ec2 sshd[8790]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+2018-03-22T07:09:36.264658+00:00 70c63ece1ec2 sshd[8790]: pam_unix(sshd:session): session closed for user admin
+2018-03-22T07:17:25.784811+00:00 70c63ece1ec2 sshd[8795]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T07:17:26.496361+00:00 70c63ece1ec2 sshd[8795]: pam_unix(sshd:session): session closed for user root
+2018-03-22T07:21:34.800117+00:00 70c63ece1ec2 sshd[8800]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T07:21:36.231624+00:00 70c63ece1ec2 sshd[8800]: pam_unix(sshd:session): session closed for user root
+2018-03-22T07:31:50.680308+00:00 70c63ece1ec2 sshd[8805]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+2018-03-22T07:32:14.073298+00:00 70c63ece1ec2 sshd[8810]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T07:32:15.585633+00:00 70c63ece1ec2 sshd[8810]: pam_unix(sshd:session): session closed for user root
+2018-03-22T07:34:58.842362+00:00 70c63ece1ec2 sshd[8827]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T07:35:00.345737+00:00 70c63ece1ec2 sshd[8827]: pam_unix(sshd:session): session closed for user root
+2018-03-22T07:41:03.720103+00:00 70c63ece1ec2 login[8835]: pam_unix(login:session): session opened for user default by (uid=0)
+2018-03-22T07:48:39.733459+00:00 70c63ece1ec2 login[8872]: pam_unix(login:session): session opened for user admin by (uid=0)
+2018-03-22T07:51:17.226367+00:00 70c63ece1ec2 sshd[8888]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T07:51:19.287633+00:00 70c63ece1ec2 sshd[8888]: pam_unix(sshd:session): session closed for user root
+2018-03-22T07:56:44.209814+00:00 70c63ece1ec2 login[8894]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T07:56:44.213043+00:00 70c63ece1ec2 login[8895]: ROOT LOGIN  on '/dev/pts/0' from '86-60-185-124-dyn-dsl.ssp.fi'
+2018-03-22T07:59:11.444032+00:00 70c63ece1ec2 sshd[8909]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T07:59:12.233044+00:00 70c63ece1ec2 sshd[8909]: pam_unix(sshd:session): session closed for user root
+2018-03-22T08:05:32.427991+00:00 70c63ece1ec2 login[8915]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T08:05:32.435803+00:00 70c63ece1ec2 login[8916]: ROOT LOGIN  on '/dev/pts/0' from '191-254-162-99.dsl.telesp.net.br'
+2018-03-22T08:13:08.485994+00:00 70c63ece1ec2 login[8931]: pam_unix(login:session): session opened for user admin1 by (uid=0)
+2018-03-22T08:17:50.574544+00:00 70c63ece1ec2 login[8948]: pam_unix(login:auth): check pass; user unknown
+2018-03-22T08:17:50.574623+00:00 70c63ece1ec2 login[8948]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=187-57-45-195.dsl.telesp.net.br 
+2018-03-22T08:17:55.289258+00:00 70c63ece1ec2 login[8948]: FAILED LOGIN (1) on '/dev/pts/0' from '187-57-45-195.dsl.telesp.net.br' FOR 'UNKNOWN', Authentication failure
+2018-03-22T08:17:55.940882+00:00 70c63ece1ec2 login[8948]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T08:17:55.950855+00:00 70c63ece1ec2 login[8949]: ROOT LOGIN  on '/dev/pts/0' from '187-57-45-195.dsl.telesp.net.br'
+2018-03-22T08:18:16.392745+00:00 70c63ece1ec2 sshd[8963]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T08:18:17.335293+00:00 70c63ece1ec2 sshd[8963]: pam_unix(sshd:session): session closed for user root
+2018-03-22T08:24:17.627623+00:00 70c63ece1ec2 sshd[8978]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T08:24:17.939889+00:00 70c63ece1ec2 sshd[8978]: pam_unix(sshd:session): session closed for user root
+2018-03-22T08:38:11.598270+00:00 70c63ece1ec2 sshd[8992]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T08:38:11.906204+00:00 70c63ece1ec2 sshd[8992]: pam_unix(sshd:session): session closed for user root
+2018-03-22T08:45:35.869144+00:00 70c63ece1ec2 sshd[8996]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T08:45:37.115452+00:00 70c63ece1ec2 sshd[8996]: pam_unix(sshd:session): session closed for user root
+2018-03-22T08:49:14.183868+00:00 70c63ece1ec2 sshd[9001]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T08:49:14.504243+00:00 70c63ece1ec2 sshd[9001]: pam_unix(sshd:session): session closed for user root
+2018-03-22T08:53:57.811960+00:00 70c63ece1ec2 sshd[9005]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T08:53:57.908737+00:00 70c63ece1ec2 sshd[9005]: pam_unix(sshd:session): session closed for user root
+2018-03-22T08:54:08.217619+00:00 70c63ece1ec2 sshd[9009]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T08:54:09.201796+00:00 70c63ece1ec2 sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/bin/sh
+2018-03-22T08:54:09.202298+00:00 70c63ece1ec2 sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+2018-03-22T08:56:07.850854+00:00 70c63ece1ec2 sshd[9009]: pam_unix(sshd:session): session closed for user root
+2018-03-22T08:56:07.851029+00:00 70c63ece1ec2 sudo: pam_unix(sudo:session): session closed for user root
+2018-03-22T08:58:23.748600+00:00 70c63ece1ec2 login[9042]: pam_unix(login:session): session opened for user supervisor by (uid=0)
+2018-03-22T09:00:43.062176+00:00 70c63ece1ec2 sshd[9066]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T09:00:43.439948+00:00 70c63ece1ec2 sshd[9066]: pam_unix(sshd:session): session closed for user root
+2018-03-22T09:01:39.471245+00:00 70c63ece1ec2 sshd[9070]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T09:01:39.896604+00:00 70c63ece1ec2 sshd[9070]: pam_unix(sshd:session): session closed for user root
+2018-03-22T09:30:40.284774+00:00 70c63ece1ec2 sshd[9074]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T09:30:40.647513+00:00 70c63ece1ec2 sshd[9074]: pam_unix(sshd:session): session closed for user root
+2018-03-22T09:33:41.846269+00:00 70c63ece1ec2 sshd[9078]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T09:33:42.923355+00:00 70c63ece1ec2 sshd[9078]: pam_unix(sshd:session): session closed for user root
+2018-03-22T09:45:20.226947+00:00 70c63ece1ec2 sshd[9083]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T09:45:21.383837+00:00 70c63ece1ec2 sshd[9083]: pam_unix(sshd:session): session closed for user root
+2018-03-22T09:48:50.322128+00:00 70c63ece1ec2 login[9089]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T09:48:50.330266+00:00 70c63ece1ec2 login[9090]: ROOT LOGIN  on '/dev/pts/0' from '179-99-39-158.dsl.telesp.net.br'
+2018-03-22T09:50:25.359567+00:00 70c63ece1ec2 sshd[9104]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T09:50:25.773392+00:00 70c63ece1ec2 sshd[9104]: pam_unix(sshd:session): session closed for user root
+2018-03-22T09:53:19.134635+00:00 70c63ece1ec2 login[9109]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T09:53:19.138054+00:00 70c63ece1ec2 login[9110]: ROOT LOGIN  on '/dev/pts/0' from '201-92-215-92.dsl.telesp.net.br'
+2018-03-22T09:54:50.435445+00:00 70c63ece1ec2 sshd[9125]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T09:54:51.010651+00:00 70c63ece1ec2 sshd[9125]: pam_unix(sshd:session): session closed for user root
+2018-03-22T09:54:53.598303+00:00 70c63ece1ec2 sshd[9129]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T09:54:54.263602+00:00 70c63ece1ec2 sshd[9129]: pam_unix(sshd:session): session closed for user root
+2018-03-22T09:54:56.425004+00:00 70c63ece1ec2 sshd[9133]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T09:55:00.472010+00:00 70c63ece1ec2 sshd[9133]: pam_unix(sshd:session): session closed for user root
+2018-03-22T10:04:46.082777+00:00 70c63ece1ec2 sshd[9151]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-22T10:04:46.082847+00:00 70c63ece1ec2 sshd[9151]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=125.69.52.89 
+2018-03-22T10:04:46.090886+00:00 70c63ece1ec2 sshd[9149]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-22T10:04:46.090945+00:00 70c63ece1ec2 sshd[9149]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=125.69.52.89 
+2018-03-22T10:04:47.910662+00:00 70c63ece1ec2 sshd[9151]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-22T10:04:47.925734+00:00 70c63ece1ec2 sshd[9149]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-22T10:04:50.200728+00:00 70c63ece1ec2 sshd[9151]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=125.69.52.89 
+2018-03-22T10:04:50.223832+00:00 70c63ece1ec2 sshd[9149]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=125.69.52.89 
+2018-03-22T10:10:32.108323+00:00 70c63ece1ec2 login[9156]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T10:10:32.116225+00:00 70c63ece1ec2 login[9157]: ROOT LOGIN  on '/dev/pts/0' from '177-68-58-186.dsl.telesp.net.br'
+2018-03-22T10:20:52.139214+00:00 70c63ece1ec2 sshd[9171]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T10:20:52.438813+00:00 70c63ece1ec2 sshd[9171]: pam_unix(sshd:session): session closed for user root
+2018-03-22T10:23:23.771095+00:00 70c63ece1ec2 sshd[9175]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T10:23:24.939408+00:00 70c63ece1ec2 sshd[9175]: pam_unix(sshd:session): session closed for user root
+2018-03-22T10:23:35.515142+00:00 70c63ece1ec2 sshd[9180]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T10:29:26.413968+00:00 70c63ece1ec2 login[9186]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T10:29:26.414132+00:00 70c63ece1ec2 login[9187]: pam_unix(login:session): session opened for user admin by (uid=0)
+2018-03-22T10:29:26.421720+00:00 70c63ece1ec2 login[9189]: ROOT LOGIN  on '/dev/pts/1' from '80-247-241-34.dynamic.lounea.fi'
+2018-03-22T10:30:24.342246+00:00 70c63ece1ec2 sshd[9217]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T10:30:25.497516+00:00 70c63ece1ec2 sshd[9217]: pam_unix(sshd:session): session closed for user root
+2018-03-22T10:30:36.128967+00:00 70c63ece1ec2 sshd[9222]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T10:30:36.796664+00:00 70c63ece1ec2 sshd[9222]: pam_unix(sshd:session): session closed for user root
+2018-03-22T10:32:45.435911+00:00 70c63ece1ec2 login[9228]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T10:32:45.444341+00:00 70c63ece1ec2 login[9229]: ROOT LOGIN  on '/dev/pts/0' from '88.250.208.155.static.ttnet.com.tr'
+2018-03-22T10:37:37.623733+00:00 70c63ece1ec2 sshd[9243]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T10:37:38.072171+00:00 70c63ece1ec2 sshd[9243]: pam_unix(sshd:session): session closed for user root
+2018-03-22T10:37:40.585358+00:00 70c63ece1ec2 sshd[9247]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T10:37:42.035170+00:00 70c63ece1ec2 sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/bin/sh
+2018-03-22T10:37:42.035667+00:00 70c63ece1ec2 sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+2018-03-22T10:38:57.667790+00:00 70c63ece1ec2 sshd[9267]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T10:38:58.699573+00:00 70c63ece1ec2 sshd[9267]: pam_unix(sshd:session): session closed for user root
+2018-03-22T10:39:07.904489+00:00 70c63ece1ec2 sshd[9247]: pam_unix(sshd:session): session closed for user root
+2018-03-22T10:39:07.904671+00:00 70c63ece1ec2 sudo: pam_unix(sudo:session): session closed for user root
+2018-03-22T10:42:54.624837+00:00 70c63ece1ec2 sshd[9272]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T10:42:55.951688+00:00 70c63ece1ec2 sshd[9272]: pam_unix(sshd:session): session closed for user root
+2018-03-22T10:46:41.280594+00:00 70c63ece1ec2 sshd[9276]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T10:46:42.443998+00:00 70c63ece1ec2 sshd[9276]: pam_unix(sshd:session): session closed for user root
+2018-03-22T10:47:43.656238+00:00 70c63ece1ec2 login[9282]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T10:47:43.663621+00:00 70c63ece1ec2 login[9283]: ROOT LOGIN  on '/dev/pts/0' from 'b3ded6fd.virtua.com.br'
+2018-03-22T10:49:06.197144+00:00 70c63ece1ec2 login[9298]: pam_unix(login:session): session opened for user admin by (uid=0)
+2018-03-22T10:52:27.640838+00:00 70c63ece1ec2 login[9314]: pam_unix(login:session): session opened for user admin by (uid=0)
+2018-03-22T10:57:37.430077+00:00 70c63ece1ec2 sshd[9348]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T10:57:37.798979+00:00 70c63ece1ec2 sshd[9348]: pam_unix(sshd:session): session closed for user root
+2018-03-22T11:07:12.518613+00:00 70c63ece1ec2 sshd[9360]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-22T11:07:12.518679+00:00 70c63ece1ec2 sshd[9360]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=139.162.122.110 
+2018-03-22T11:07:14.807613+00:00 70c63ece1ec2 sshd[9360]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-22T11:07:17.359502+00:00 70c63ece1ec2 sshd[9360]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=139.162.122.110 
+2018-03-22T11:07:49.367452+00:00 70c63ece1ec2 sshd[9362]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T11:07:49.701906+00:00 70c63ece1ec2 sshd[9362]: pam_unix(sshd:session): session closed for user root
+2018-03-22T11:11:37.308320+00:00 70c63ece1ec2 login[9367]: pam_unix(login:session): session opened for user supervisor by (uid=0)
+2018-03-22T11:17:23.043909+00:00 70c63ece1ec2 sshd[9385]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T11:17:23.375706+00:00 70c63ece1ec2 sshd[9385]: pam_unix(sshd:session): session closed for user root
+2018-03-22T11:27:23.038732+00:00 70c63ece1ec2 login[9430]: pam_unix(login:session): session opened for user guest by (uid=0)
+2018-03-22T11:38:08.616232+00:00 70c63ece1ec2 sshd[9454]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T11:38:08.942352+00:00 70c63ece1ec2 sshd[9454]: pam_unix(sshd:session): session closed for user root
+2018-03-22T11:38:25.096735+00:00 70c63ece1ec2 sshd[9460]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T11:38:25.412472+00:00 70c63ece1ec2 sshd[9460]: pam_unix(sshd:session): session closed for user root
+2018-03-22T11:47:57.452085+00:00 70c63ece1ec2 sshd[9464]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T11:47:58.796343+00:00 70c63ece1ec2 sshd[9464]: pam_unix(sshd:session): session closed for user root
+2018-03-22T11:54:20.711922+00:00 70c63ece1ec2 sshd[9469]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T11:54:22.042448+00:00 70c63ece1ec2 sshd[9469]: pam_unix(sshd:session): session closed for user root
+2018-03-22T11:55:07.165554+00:00 70c63ece1ec2 login[9475]: pam_unix(login:auth): check pass; user unknown
+2018-03-22T11:55:07.165633+00:00 70c63ece1ec2 login[9475]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/1 ruser= rhost=201-68-100-81.dsl.telesp.net.br 
+2018-03-22T11:55:10.153849+00:00 70c63ece1ec2 login[9475]: FAILED LOGIN (1) on '/dev/pts/1' from '201-68-100-81.dsl.telesp.net.br' FOR 'UNKNOWN', Authentication failure
+2018-03-22T11:55:10.592894+00:00 70c63ece1ec2 login[9475]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T11:55:10.596193+00:00 70c63ece1ec2 login[9476]: ROOT LOGIN  on '/dev/pts/1' from '201-68-100-81.dsl.telesp.net.br'
+2018-03-22T12:02:51.757481+00:00 70c63ece1ec2 login[9491]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T12:02:51.766130+00:00 70c63ece1ec2 login[9492]: ROOT LOGIN  on '/dev/pts/1' from '191-255-145-227.dsl.telesp.net.br'
+2018-03-22T12:27:55.605887+00:00 70c63ece1ec2 sshd[9520]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T12:27:56.877087+00:00 70c63ece1ec2 sshd[9520]: pam_unix(sshd:session): session closed for user root
+2018-03-22T12:29:45.234624+00:00 70c63ece1ec2 sshd[9533]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T12:29:46.375440+00:00 70c63ece1ec2 sshd[9533]: pam_unix(sshd:session): session closed for user root
+2018-03-22T12:31:36.741675+00:00 70c63ece1ec2 login[9543]: pam_unix(login:session): session opened for user admin by (uid=0)
+2018-03-22T12:32:29.092495+00:00 70c63ece1ec2 sshd[9559]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-22T12:32:29.092567+00:00 70c63ece1ec2 sshd[9559]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=111.230.100.145 
+2018-03-22T12:37:07.786575+00:00 70c63ece1ec2 login[9563]: pam_unix(login:session): session opened for user admin by (uid=0)
+2018-03-22T13:02:45.811446+00:00 70c63ece1ec2 sshd[9580]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T13:02:46.504693+00:00 70c63ece1ec2 sshd[9580]: pam_unix(sshd:session): session closed for user root
+2018-03-22T13:04:07.843374+00:00 70c63ece1ec2 sshd[9585]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T13:04:08.159904+00:00 70c63ece1ec2 sshd[9585]: pam_unix(sshd:session): session closed for user root
+2018-03-22T13:05:25.594642+00:00 70c63ece1ec2 sshd[9589]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T13:05:28.808180+00:00 70c63ece1ec2 sshd[9589]: pam_unix(sshd:session): session closed for user root
+2018-03-22T13:31:42.973865+00:00 70c63ece1ec2 sshd[9594]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T13:31:43.407697+00:00 70c63ece1ec2 sshd[9594]: pam_unix(sshd:session): session closed for user root
+2018-03-22T13:35:59.024078+00:00 70c63ece1ec2 sshd[9598]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T13:35:59.372998+00:00 70c63ece1ec2 sshd[9598]: pam_unix(sshd:session): session closed for user root
+2018-03-22T13:47:26.097310+00:00 70c63ece1ec2 login[9603]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T13:47:26.100601+00:00 70c63ece1ec2 login[9604]: ROOT LOGIN  on '/dev/pts/0' from '80-44-169-43.dynamic.dsl.as9105.com'
+2018-03-22T13:52:51.929868+00:00 70c63ece1ec2 sshd[9636]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T13:52:52.284009+00:00 70c63ece1ec2 sshd[9636]: pam_unix(sshd:session): session closed for user root
+2018-03-22T13:55:01.485986+00:00 70c63ece1ec2 sshd[9642]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T13:55:02.041131+00:00 70c63ece1ec2 sshd[9642]: pam_unix(sshd:session): session closed for user root
+2018-03-22T13:55:49.495659+00:00 70c63ece1ec2 sshd[8805]: pam_unix(sshd:session): session closed for user admin
+2018-03-22T13:56:02.353204+00:00 70c63ece1ec2 sshd[9646]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+2018-03-22T14:03:18.711780+00:00 70c63ece1ec2 login[9657]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T14:03:18.719404+00:00 70c63ece1ec2 login[9658]: ROOT LOGIN  on '/dev/pts/0' from '179-228-182-107.user.vivozap.com.br'
+2018-03-22T14:05:25.092946+00:00 70c63ece1ec2 sshd[9672]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T14:05:26.019542+00:00 70c63ece1ec2 sshd[9672]: pam_unix(sshd:session): session closed for user root
+2018-03-22T14:07:13.383842+00:00 70c63ece1ec2 sshd[9677]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T14:07:14.796506+00:00 70c63ece1ec2 sshd[9677]: pam_unix(sshd:session): session closed for user root
+2018-03-22T14:10:30.292472+00:00 70c63ece1ec2 sshd[9682]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T14:10:31.615565+00:00 70c63ece1ec2 sshd[9682]: pam_unix(sshd:session): session closed for user root
+2018-03-22T14:16:25.665557+00:00 70c63ece1ec2 sshd[9687]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T14:16:27.377352+00:00 70c63ece1ec2 sshd[9687]: pam_unix(sshd:session): session closed for user root
+2018-03-22T14:16:38.382433+00:00 70c63ece1ec2 sshd[9692]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T14:16:43.406975+00:00 70c63ece1ec2 sshd[9692]: pam_unix(sshd:session): session closed for user root
+2018-03-22T14:18:37.978465+00:00 70c63ece1ec2 sshd[9697]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T14:18:38.348006+00:00 70c63ece1ec2 sshd[9697]: pam_unix(sshd:session): session closed for user root
+2018-03-22T14:19:26.611317+00:00 70c63ece1ec2 sshd[9701]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T14:19:27.731592+00:00 70c63ece1ec2 sshd[9701]: pam_unix(sshd:session): session closed for user root
+2018-03-22T14:20:27.870817+00:00 70c63ece1ec2 login[9707]: pam_unix(login:session): session opened for user admin by (uid=0)
+2018-03-22T14:30:55.575630+00:00 70c63ece1ec2 sshd[9723]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T14:30:57.200703+00:00 70c63ece1ec2 sshd[9723]: pam_unix(sshd:session): session closed for user root
+2018-03-22T14:35:19.785938+00:00 70c63ece1ec2 sshd[9728]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T14:35:21.232165+00:00 70c63ece1ec2 sshd[9728]: pam_unix(sshd:session): session closed for user root
+2018-03-22T14:45:33.720257+00:00 70c63ece1ec2 login[9734]: pam_unix(login:session): session opened for user ubnt by (uid=0)
+2018-03-22T15:04:16.171458+00:00 70c63ece1ec2 sshd[9770]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T15:04:16.922992+00:00 70c63ece1ec2 sshd[9770]: pam_unix(sshd:session): session closed for user root
+2018-03-22T15:07:11.362453+00:00 70c63ece1ec2 sshd[9777]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T15:07:11.717864+00:00 70c63ece1ec2 sshd[9777]: pam_unix(sshd:session): session closed for user root
+2018-03-22T15:10:10.054544+00:00 70c63ece1ec2 sshd[9787]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T15:10:10.508909+00:00 70c63ece1ec2 sshd[9787]: pam_unix(sshd:session): session closed for user root
+2018-03-22T15:13:32.769240+00:00 70c63ece1ec2 sshd[9805]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T15:13:33.006542+00:00 70c63ece1ec2 sshd[9805]: pam_unix(sshd:session): session closed for user root
+2018-03-22T15:13:49.195722+00:00 70c63ece1ec2 sshd[9810]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T15:13:49.625335+00:00 70c63ece1ec2 sshd[9810]: pam_unix(sshd:session): session closed for user root
+2018-03-22T15:14:26.790100+00:00 70c63ece1ec2 login[9815]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T15:14:26.797796+00:00 70c63ece1ec2 login[9816]: ROOT LOGIN  on '/dev/pts/0' from '177-197-111-67.user.vivozap.com.br'
+2018-03-22T15:18:43.649548+00:00 70c63ece1ec2 login[9831]: pam_unix(login:auth): check pass; user unknown
+2018-03-22T15:18:43.649629+00:00 70c63ece1ec2 login[9831]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=201-13-215-128.dial-up.telesp.net.br 
+2018-03-22T15:18:46.714131+00:00 70c63ece1ec2 login[9831]: FAILED LOGIN (1) on '/dev/pts/0' from '201-13-215-128.dial-up.telesp.net.br' FOR 'UNKNOWN', Authentication failure
+2018-03-22T15:18:47.621826+00:00 70c63ece1ec2 login[9831]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T15:18:47.625163+00:00 70c63ece1ec2 login[9832]: ROOT LOGIN  on '/dev/pts/0' from '201-13-215-128.dial-up.telesp.net.br'
+2018-03-22T15:25:05.699627+00:00 70c63ece1ec2 sshd[9846]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T15:25:06.044809+00:00 70c63ece1ec2 sshd[9846]: pam_unix(sshd:session): session closed for user root
+2018-03-22T15:35:53.526151+00:00 70c63ece1ec2 sshd[9858]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T15:35:54.407385+00:00 70c63ece1ec2 sshd[9858]: pam_unix(sshd:session): session closed for user root
+2018-03-22T15:37:02.128957+00:00 70c63ece1ec2 login[9864]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T15:37:02.136670+00:00 70c63ece1ec2 login[9865]: ROOT LOGIN  on '/dev/pts/0' from '179-99-188-118.dsl.telesp.net.br'
+2018-03-22T15:38:02.894144+00:00 70c63ece1ec2 login[9880]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T15:38:02.895124+00:00 70c63ece1ec2 login[9881]: ROOT LOGIN  on '/dev/pts/0' from '190.98.23.62'
+2018-03-22T15:39:44.726856+00:00 70c63ece1ec2 sshd[9895]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T15:39:46.816375+00:00 70c63ece1ec2 sshd[9895]: pam_unix(sshd:session): session closed for user root
+2018-03-22T15:42:33.931573+00:00 70c63ece1ec2 login[9901]: pam_unix(login:session): session opened for user supervisor by (uid=0)
+2018-03-22T15:47:48.401803+00:00 70c63ece1ec2 sshd[9933]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+2018-03-22T15:47:48.695772+00:00 70c63ece1ec2 sshd[9933]: pam_unix(sshd:session): session closed for user admin
+2018-03-22T15:51:59.953950+00:00 70c63ece1ec2 login[9943]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T15:51:59.954941+00:00 70c63ece1ec2 login[9944]: ROOT LOGIN  on '/dev/pts/0' from '94.120.47.254'
+2018-03-22T15:52:05.962224+00:00 70c63ece1ec2 sshd[9958]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T15:52:07.848207+00:00 70c63ece1ec2 sshd[9958]: pam_unix(sshd:session): session closed for user root
+2018-03-22T15:58:04.753093+00:00 70c63ece1ec2 sshd[9981]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+2018-03-22T15:58:04.940172+00:00 70c63ece1ec2 sshd[9981]: pam_unix(sshd:session): session closed for user admin
+2018-03-22T16:01:40.861641+00:00 70c63ece1ec2 sshd[9988]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T16:01:42.295952+00:00 70c63ece1ec2 sshd[9988]: pam_unix(sshd:session): session closed for user root
+2018-03-22T16:02:34.800213+00:00 70c63ece1ec2 login[9994]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T16:02:34.808071+00:00 70c63ece1ec2 login[9995]: ROOT LOGIN  on '/dev/pts/0' from '78.188.5.209.static.ttnet.com.tr'
+2018-03-22T16:07:27.451815+00:00 70c63ece1ec2 sshd[10011]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T16:07:27.783103+00:00 70c63ece1ec2 sshd[10011]: pam_unix(sshd:session): session closed for user root
+2018-03-22T16:07:56.357635+00:00 70c63ece1ec2 sshd[10015]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T16:07:56.697914+00:00 70c63ece1ec2 sshd[10015]: pam_unix(sshd:session): session closed for user root
+2018-03-22T16:11:53.968318+00:00 70c63ece1ec2 login[10022]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T16:11:53.976126+00:00 70c63ece1ec2 login[10023]: ROOT LOGIN  on '/dev/pts/1' from '177-138-187-226.dsl.telesp.net.br'
+2018-03-22T16:15:27.511788+00:00 70c63ece1ec2 sshd[10051]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+2018-03-22T16:15:48.888218+00:00 70c63ece1ec2 sshd[10059]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T16:15:49.998375+00:00 70c63ece1ec2 sshd[10059]: pam_unix(sshd:session): session closed for user root
+2018-03-22T16:19:23.079668+00:00 70c63ece1ec2 sshd[10051]: pam_unix(sshd:session): session closed for user admin
+2018-03-22T16:20:57.753851+00:00 70c63ece1ec2 login[10069]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T16:20:57.761939+00:00 70c63ece1ec2 login[10070]: ROOT LOGIN  on '/dev/pts/0' from '179-228-190-95.user.vivozap.com.br'
+2018-03-22T16:24:56.198110+00:00 70c63ece1ec2 sshd[10084]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T16:24:57.742026+00:00 70c63ece1ec2 sshd[10084]: pam_unix(sshd:session): session closed for user root
+2018-03-22T16:53:52.029539+00:00 70c63ece1ec2 sshd[10089]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T16:53:53.523715+00:00 70c63ece1ec2 sshd[10089]: pam_unix(sshd:session): session closed for user root
+2018-03-22T16:56:48.407143+00:00 70c63ece1ec2 login[10097]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T16:56:48.410367+00:00 70c63ece1ec2 login[10098]: ROOT LOGIN  on '/dev/pts/1' from '189-68-76-249.dsl.telesp.net.br'
+2018-03-22T17:04:46.474101+00:00 70c63ece1ec2 sshd[10138]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T17:04:47.182824+00:00 70c63ece1ec2 sshd[10138]: pam_unix(sshd:session): session closed for user root
+2018-03-22T17:04:59.883397+00:00 70c63ece1ec2 sshd[10145]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T17:05:00.862072+00:00 70c63ece1ec2 sshd[10145]: pam_unix(sshd:session): session closed for user root
+2018-03-22T17:05:11.639557+00:00 70c63ece1ec2 sshd[10152]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T17:05:13.634049+00:00 70c63ece1ec2 sshd[10152]: pam_unix(sshd:session): session closed for user root
+2018-03-22T17:08:07.245346+00:00 70c63ece1ec2 sshd[10168]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T17:08:07.533717+00:00 70c63ece1ec2 sshd[10168]: pam_unix(sshd:session): session closed for user root
+2018-03-22T17:15:57.430861+00:00 70c63ece1ec2 sshd[10172]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T17:15:57.687793+00:00 70c63ece1ec2 sshd[10172]: pam_unix(sshd:session): session closed for user root
+2018-03-22T17:20:23.873889+00:00 70c63ece1ec2 sshd[10178]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T17:20:24.085566+00:00 70c63ece1ec2 sshd[10178]: pam_unix(sshd:session): session closed for user root
+2018-03-22T17:21:53.149387+00:00 70c63ece1ec2 sshd[10182]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T17:21:53.411572+00:00 70c63ece1ec2 sshd[10182]: pam_unix(sshd:session): session closed for user root
+2018-03-22T17:24:32.944202+00:00 70c63ece1ec2 sshd[10186]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T17:24:33.634867+00:00 70c63ece1ec2 sshd[10186]: pam_unix(sshd:session): session closed for user root
+2018-03-22T17:27:46.982569+00:00 70c63ece1ec2 login[10192]: pam_unix(login:session): session opened for user guest by (uid=0)
+2018-03-22T17:28:53.516384+00:00 70c63ece1ec2 sshd[10208]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T17:28:55.106073+00:00 70c63ece1ec2 sshd[10208]: pam_unix(sshd:session): session closed for user root
+2018-03-22T17:32:17.273287+00:00 70c63ece1ec2 login[10214]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T17:32:17.276534+00:00 70c63ece1ec2 login[10215]: ROOT LOGIN  on '/dev/pts/0' from '189-18-11-46.dsl.telesp.net.br'
+2018-03-22T17:36:31.568324+00:00 70c63ece1ec2 login[10231]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T17:36:31.569381+00:00 70c63ece1ec2 login[10233]: ROOT LOGIN  on '/dev/pts/1' from '2.179.218.232'
+2018-03-22T17:36:31.572942+00:00 70c63ece1ec2 login[10232]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T17:36:31.573911+00:00 70c63ece1ec2 login[10238]: ROOT LOGIN  on '/dev/pts/0' from '2.179.218.232'
+2018-03-22T17:38:31.656491+00:00 70c63ece1ec2 sshd[10261]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T17:38:31.871877+00:00 70c63ece1ec2 sshd[10261]: pam_unix(sshd:session): session closed for user root
+2018-03-22T17:52:32.129559+00:00 70c63ece1ec2 sshd[10265]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T17:52:33.351035+00:00 70c63ece1ec2 sshd[10265]: pam_unix(sshd:session): session closed for user root
+2018-03-22T18:03:59.455072+00:00 70c63ece1ec2 sshd[10272]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T18:03:59.674762+00:00 70c63ece1ec2 sshd[10270]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T18:03:59.921563+00:00 70c63ece1ec2 sshd[10270]: pam_unix(sshd:session): session closed for user root
+2018-03-22T18:04:00.980758+00:00 70c63ece1ec2 sshd[10272]: pam_unix(sshd:session): session closed for user root
+2018-03-22T18:11:00.380597+00:00 70c63ece1ec2 login[10280]: pam_unix(login:auth): check pass; user unknown
+2018-03-22T18:11:00.380678+00:00 70c63ece1ec2 login[10280]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=220-235-175-181.dyn.iinet.net.au 
+2018-03-22T18:11:03.946711+00:00 70c63ece1ec2 login[10280]: FAILED LOGIN (1) on '/dev/pts/0' from '220-235-175-181.dyn.iinet.net.au' FOR 'UNKNOWN', Authentication failure
+2018-03-22T18:11:04.384157+00:00 70c63ece1ec2 login[10280]: pam_unix(login:session): session opened for user admin by (uid=0)
+2018-03-22T18:55:39.931269+00:00 70c63ece1ec2 sshd[10301]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T18:55:40.194626+00:00 70c63ece1ec2 sshd[10301]: pam_unix(sshd:session): session closed for user root
+2018-03-22T18:58:54.332241+00:00 70c63ece1ec2 sshd[10305]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T18:58:55.600492+00:00 70c63ece1ec2 sshd[10305]: pam_unix(sshd:session): session closed for user root
+2018-03-22T19:02:27.744408+00:00 70c63ece1ec2 login[10311]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T19:02:27.751785+00:00 70c63ece1ec2 login[10312]: ROOT LOGIN  on '/dev/pts/0' from '179-110-200-228.dsl.telesp.net.br'
+2018-03-22T19:03:02.701335+00:00 70c63ece1ec2 sshd[10326]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T19:03:02.981606+00:00 70c63ece1ec2 sshd[10326]: pam_unix(sshd:session): session closed for user root
+2018-03-22T19:26:43.002053+00:00 70c63ece1ec2 sshd[10371]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T19:26:44.578700+00:00 70c63ece1ec2 sshd[10371]: pam_unix(sshd:session): session closed for user root
+2018-03-22T19:28:45.134200+00:00 70c63ece1ec2 sshd[10380]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T19:28:45.512735+00:00 70c63ece1ec2 sshd[10380]: pam_unix(sshd:session): session closed for user root
+2018-03-22T19:30:44.224833+00:00 70c63ece1ec2 sshd[10386]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T19:30:44.671221+00:00 70c63ece1ec2 sshd[10386]: pam_unix(sshd:session): session closed for user root
+2018-03-22T19:34:54.203489+00:00 70c63ece1ec2 sshd[10396]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T19:34:55.580290+00:00 70c63ece1ec2 sshd[10396]: pam_unix(sshd:session): session closed for user root
+2018-03-22T19:38:48.085822+00:00 70c63ece1ec2 login[10406]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T19:38:48.088990+00:00 70c63ece1ec2 login[10407]: ROOT LOGIN  on '/dev/pts/0' from '122-117-134-163.HINET-IP.hinet.net'
+2018-03-22T19:40:00.918223+00:00 70c63ece1ec2 sshd[10423]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T19:40:02.783146+00:00 70c63ece1ec2 sshd[10423]: pam_unix(sshd:session): session closed for user root
+2018-03-22T19:41:08.714139+00:00 70c63ece1ec2 sshd[10430]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T19:41:08.947989+00:00 70c63ece1ec2 sshd[10430]: pam_unix(sshd:session): session closed for user root
+2018-03-22T20:07:19.221243+00:00 70c63ece1ec2 sshd[10484]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T20:07:19.586328+00:00 70c63ece1ec2 sshd[10484]: pam_unix(sshd:session): session closed for user root
+2018-03-22T20:19:15.364986+00:00 70c63ece1ec2 login[10501]: pam_unix(login:session): session opened for user admin by (uid=0)
+2018-03-22T20:28:35.669639+00:00 70c63ece1ec2 sshd[10517]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T20:28:36.549339+00:00 70c63ece1ec2 sshd[10517]: pam_unix(sshd:session): session closed for user root
+2018-03-22T20:31:55.868961+00:00 70c63ece1ec2 login[10523]: pam_unix(login:auth): check pass; user unknown
+2018-03-22T20:31:55.869035+00:00 70c63ece1ec2 login[10523]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=177-138-207-18.dsl.telesp.net.br 
+2018-03-22T20:31:59.731104+00:00 70c63ece1ec2 login[10523]: FAILED LOGIN (1) on '/dev/pts/0' from '177-138-207-18.dsl.telesp.net.br' FOR 'UNKNOWN', Authentication failure
+2018-03-22T20:32:00.173048+00:00 70c63ece1ec2 login[10523]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T20:32:00.180350+00:00 70c63ece1ec2 login[10524]: ROOT LOGIN  on '/dev/pts/0' from '177-138-207-18.dsl.telesp.net.br'
+2018-03-22T20:35:18.114768+00:00 70c63ece1ec2 sshd[10538]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T20:35:20.408393+00:00 70c63ece1ec2 sshd[10538]: pam_unix(sshd:session): session closed for user root
+2018-03-22T20:41:40.463963+00:00 70c63ece1ec2 sshd[10543]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T20:41:41.856617+00:00 70c63ece1ec2 sshd[10543]: pam_unix(sshd:session): session closed for user root
+2018-03-22T20:43:22.962102+00:00 70c63ece1ec2 sshd[10548]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T20:43:23.231043+00:00 70c63ece1ec2 sshd[10548]: pam_unix(sshd:session): session closed for user root
+2018-03-22T20:51:01.070373+00:00 70c63ece1ec2 sshd[10552]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T20:51:01.833830+00:00 70c63ece1ec2 sshd[10552]: pam_unix(sshd:session): session closed for user root
+2018-03-22T21:01:46.973603+00:00 70c63ece1ec2 login[10559]: pam_unix(login:session): session opened for user supervisor by (uid=0)
+2018-03-22T21:13:04.587346+00:00 70c63ece1ec2 login[10576]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T21:13:04.594856+00:00 70c63ece1ec2 login[10577]: ROOT LOGIN  on '/dev/pts/0' from '179-99-255-105.dsl.telesp.net.br'
+2018-03-22T21:14:17.761342+00:00 70c63ece1ec2 sshd[10591]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T21:14:18.802239+00:00 70c63ece1ec2 sshd[10591]: pam_unix(sshd:session): session closed for user root
+2018-03-22T21:25:24.452913+00:00 70c63ece1ec2 sshd[10596]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T21:25:24.720822+00:00 70c63ece1ec2 sshd[10596]: pam_unix(sshd:session): session closed for user root
+2018-03-22T21:25:50.231614+00:00 70c63ece1ec2 login[10601]: pam_unix(login:session): session opened for user admin by (uid=0)
+2018-03-22T21:37:21.304203+00:00 70c63ece1ec2 sshd[10616]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T21:37:22.825307+00:00 70c63ece1ec2 sshd[10616]: pam_unix(sshd:session): session closed for user root
+2018-03-22T21:44:16.898862+00:00 70c63ece1ec2 login[10622]: pam_unix(login:session): session opened for user admin1 by (uid=0)
+2018-03-22T21:44:29.105135+00:00 70c63ece1ec2 login[10637]: pam_unix(login:session): session opened for user ubnt by (uid=0)
+2018-03-22T21:45:47.193582+00:00 70c63ece1ec2 sshd[10655]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T21:45:48.383517+00:00 70c63ece1ec2 sshd[10655]: pam_unix(sshd:session): session closed for user root
+2018-03-22T21:50:16.118927+00:00 70c63ece1ec2 sshd[10660]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T21:50:16.494766+00:00 70c63ece1ec2 sshd[10660]: pam_unix(sshd:session): session closed for user root
+2018-03-22T21:50:49.930795+00:00 70c63ece1ec2 sshd[10665]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T21:50:51.336990+00:00 70c63ece1ec2 sshd[10665]: pam_unix(sshd:session): session closed for user root
+2018-03-22T21:51:04.372662+00:00 70c63ece1ec2 sshd[10670]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T21:51:06.033717+00:00 70c63ece1ec2 sshd[10670]: pam_unix(sshd:session): session closed for user root
+2018-03-22T21:53:15.456555+00:00 70c63ece1ec2 sshd[10675]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T21:53:15.666150+00:00 70c63ece1ec2 sshd[10675]: pam_unix(sshd:session): session closed for user root
+2018-03-22T22:01:18.568016+00:00 70c63ece1ec2 sshd[10691]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T22:01:19.302627+00:00 70c63ece1ec2 sshd[10691]: pam_unix(sshd:session): session closed for user root
+2018-03-22T22:04:02.172272+00:00 70c63ece1ec2 login[10704]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T22:04:02.180565+00:00 70c63ece1ec2 login[10705]: ROOT LOGIN  on '/dev/pts/0' from '179-110-143-208.dsl.telesp.net.br'
+2018-03-22T22:05:33.441801+00:00 70c63ece1ec2 login[10720]: pam_unix(login:session): session opened for user admin by (uid=0)
+2018-03-22T22:15:35.387077+00:00 70c63ece1ec2 login[10739]: pam_unix(login:session): session opened for user admin by (uid=0)
+2018-03-22T22:33:34.766958+00:00 70c63ece1ec2 sshd[10776]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T22:33:34.999553+00:00 70c63ece1ec2 sshd[10776]: pam_unix(sshd:session): session closed for user root
+2018-03-22T22:35:12.035419+00:00 70c63ece1ec2 sshd[10780]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-22T22:35:12.035491+00:00 70c63ece1ec2 sshd[10780]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=187.188.18.90 
+2018-03-22T22:41:56.225796+00:00 70c63ece1ec2 login[10784]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T22:41:56.229032+00:00 70c63ece1ec2 login[10785]: ROOT LOGIN  on '/dev/pts/0' from '189-68-58-80.dsl.telesp.net.br'
+2018-03-22T22:52:22.392368+00:00 70c63ece1ec2 login[10822]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T22:52:22.395571+00:00 70c63ece1ec2 login[10823]: ROOT LOGIN  on '/dev/pts/0' from '14-200-117-245.static.tpgi.com.au'
+2018-03-22T22:56:27.969103+00:00 70c63ece1ec2 sshd[10837]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T22:56:28.209358+00:00 70c63ece1ec2 sshd[10837]: pam_unix(sshd:session): session closed for user root
+2018-03-22T23:00:46.228035+00:00 70c63ece1ec2 sshd[10841]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T23:00:46.469062+00:00 70c63ece1ec2 sshd[10841]: pam_unix(sshd:session): session closed for user root
+2018-03-22T23:05:01.798728+00:00 70c63ece1ec2 login[10846]: pam_unix(login:session): session opened for user Admin by (uid=0)
+2018-03-22T23:09:02.794119+00:00 70c63ece1ec2 sshd[10862]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T23:09:03.992192+00:00 70c63ece1ec2 sshd[10862]: pam_unix(sshd:session): session closed for user root
+2018-03-22T23:18:26.544200+00:00 70c63ece1ec2 login[10870]: pam_unix(login:session): session opened for user supervisor by (uid=0)
+2018-03-22T23:19:54.077126+00:00 70c63ece1ec2 login[10887]: pam_unix(login:session): session opened for user admin by (uid=0)
+2018-03-22T23:22:00.233508+00:00 70c63ece1ec2 sshd[10903]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T23:22:00.480645+00:00 70c63ece1ec2 sshd[10903]: pam_unix(sshd:session): session closed for user root
+2018-03-22T23:29:31.401702+00:00 70c63ece1ec2 sshd[10927]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T23:29:31.726631+00:00 70c63ece1ec2 sshd[10927]: pam_unix(sshd:session): session closed for user root
+2018-03-22T23:30:52.515421+00:00 70c63ece1ec2 login[10932]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T23:30:52.518791+00:00 70c63ece1ec2 login[10933]: ROOT LOGIN  on '/dev/pts/0' from '189-46-114-172.dsl.telesp.net.br'
+2018-03-22T23:35:20.061272+00:00 70c63ece1ec2 sshd[10949]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T23:35:20.224521+00:00 70c63ece1ec2 sshd[10949]: pam_unix(sshd:session): session closed for user root
+2018-03-22T23:38:45.905784+00:00 70c63ece1ec2 login[10958]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T23:38:45.913122+00:00 70c63ece1ec2 login[10959]: ROOT LOGIN  on '/dev/pts/1' from '179-228-52-150.user.vivozap.com.br'
+2018-03-22T23:49:33.023429+00:00 70c63ece1ec2 login[10974]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-22T23:49:33.102433+00:00 70c63ece1ec2 login[10975]: ROOT LOGIN  on '/dev/pts/0' from '177-68-221-89.dsl.telesp.net.br'
+2018-03-22T23:50:30.642771+00:00 70c63ece1ec2 sshd[10989]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T23:50:30.925685+00:00 70c63ece1ec2 sshd[10989]: pam_unix(sshd:session): session closed for user root
+2018-03-22T23:52:17.642828+00:00 70c63ece1ec2 sshd[10993]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-22T23:52:18.202439+00:00 70c63ece1ec2 sshd[10993]: pam_unix(sshd:session): session closed for user root
+2018-03-22T23:56:52.655482+00:00 70c63ece1ec2 login[10998]: pam_unix(login:session): session opened for user guest by (uid=0)
+2018-03-23T00:04:11.983393+00:00 70c63ece1ec2 sshd[11014]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T00:04:13.461583+00:00 70c63ece1ec2 sshd[11014]: pam_unix(sshd:session): session closed for user root
+2018-03-23T00:09:44.480498+00:00 70c63ece1ec2 sshd[11019]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T00:09:44.673799+00:00 70c63ece1ec2 sshd[11019]: pam_unix(sshd:session): session closed for user root
+2018-03-23T00:09:48.493285+00:00 70c63ece1ec2 sshd[11023]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T00:09:49.885812+00:00 70c63ece1ec2 sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/bin/sh
+2018-03-23T00:09:49.886332+00:00 70c63ece1ec2 sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+2018-03-23T00:11:03.319595+00:00 70c63ece1ec2 sshd[11023]: pam_unix(sshd:session): session closed for user root
+2018-03-23T00:11:03.319918+00:00 70c63ece1ec2 sudo: pam_unix(sudo:session): session closed for user root
+2018-03-23T00:43:52.090951+00:00 70c63ece1ec2 sshd[11063]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T00:43:52.395844+00:00 70c63ece1ec2 sshd[11063]: pam_unix(sshd:session): session closed for user root
+2018-03-23T01:08:27.492961+00:00 70c63ece1ec2 sshd[11086]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T01:08:27.870166+00:00 70c63ece1ec2 sshd[11086]: pam_unix(sshd:session): session closed for user root
+2018-03-23T01:12:05.612212+00:00 70c63ece1ec2 sshd[11090]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T01:12:06.139533+00:00 70c63ece1ec2 sshd[11090]: pam_unix(sshd:session): session closed for user root
+2018-03-23T01:12:34.534675+00:00 70c63ece1ec2 sshd[11094]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T01:12:34.534745+00:00 70c63ece1ec2 sshd[11094]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=211.24.100.29 
+2018-03-23T01:12:53.806303+00:00 70c63ece1ec2 login[11097]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-23T01:12:53.814107+00:00 70c63ece1ec2 login[11098]: ROOT LOGIN  on '/dev/pts/0' from '187-56-19-183.dsl.telesp.net.br'
+2018-03-23T01:15:45.806219+00:00 70c63ece1ec2 sshd[11112]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T01:15:46.069093+00:00 70c63ece1ec2 sshd[11112]: pam_unix(sshd:session): session closed for user root
+2018-03-23T01:22:31.097302+00:00 70c63ece1ec2 login[11117]: pam_unix(login:session): session opened for user admin by (uid=0)
+2018-03-23T01:31:27.202600+00:00 70c63ece1ec2 sshd[11139]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T01:31:30.579036+00:00 70c63ece1ec2 sshd[11139]: pam_unix(sshd:session): session closed for user root
+2018-03-23T01:33:11.842199+00:00 70c63ece1ec2 sshd[11150]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T01:33:12.103050+00:00 70c63ece1ec2 sshd[11150]: pam_unix(sshd:session): session closed for user root
+2018-03-23T01:43:38.051260+00:00 70c63ece1ec2 login[11163]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-23T01:43:38.059463+00:00 70c63ece1ec2 login[11164]: ROOT LOGIN  on '/dev/pts/0' from 'ip-187-116-100-169.user.vivozap.com.br'
+2018-03-23T01:56:12.492201+00:00 70c63ece1ec2 login[11180]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-23T01:56:12.500042+00:00 70c63ece1ec2 login[11181]: ROOT LOGIN  on '/dev/pts/0' from '179-225-176-52.user.vivozap.com.br'
+2018-03-23T01:56:23.230045+00:00 70c63ece1ec2 login[11196]: pam_unix(login:session): session opened for user Administrator by (uid=0)
+2018-03-23T01:57:29.634597+00:00 70c63ece1ec2 sshd[11211]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T01:57:30.419777+00:00 70c63ece1ec2 sshd[11211]: pam_unix(sshd:session): session closed for user root
+2018-03-23T01:58:34.530067+00:00 70c63ece1ec2 login[11217]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-23T01:58:34.537980+00:00 70c63ece1ec2 login[11218]: ROOT LOGIN  on '/dev/pts/0' from '179-228-84-91.user.vivozap.com.br'
+2018-03-23T02:08:51.526274+00:00 70c63ece1ec2 sshd[11232]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T02:08:52.306525+00:00 70c63ece1ec2 sshd[11232]: pam_unix(sshd:session): session closed for user root
+2018-03-23T02:10:07.841449+00:00 70c63ece1ec2 sshd[11237]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T02:10:09.290420+00:00 70c63ece1ec2 sshd[11237]: pam_unix(sshd:session): session closed for user root
+2018-03-23T02:26:44.005055+00:00 70c63ece1ec2 sshd[11242]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T02:26:44.830231+00:00 70c63ece1ec2 sshd[11242]: pam_unix(sshd:session): session closed for user root
+2018-03-23T02:40:02.128163+00:00 70c63ece1ec2 sshd[11266]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T02:40:02.433892+00:00 70c63ece1ec2 sshd[11266]: pam_unix(sshd:session): session closed for user root
+2018-03-23T02:45:01.874279+00:00 70c63ece1ec2 sshd[11270]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T02:45:01.941343+00:00 70c63ece1ec2 sshd[11270]: pam_unix(sshd:session): session closed for user root
+2018-03-23T02:45:04.565415+00:00 70c63ece1ec2 sshd[11274]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T02:45:05.585598+00:00 70c63ece1ec2 sudo:     root : TTY=pts/0 ; PWD=/root ; USER=root ; COMMAND=/bin/sh
+2018-03-23T02:45:05.586091+00:00 70c63ece1ec2 sudo: pam_unix(sudo:session): session opened for user root by root(uid=0)
+2018-03-23T02:47:27.393752+00:00 70c63ece1ec2 sshd[11274]: pam_unix(sshd:session): session closed for user root
+2018-03-23T02:47:27.393920+00:00 70c63ece1ec2 sudo: pam_unix(sudo:session): session closed for user root
+2018-03-23T03:02:04.366041+00:00 70c63ece1ec2 sshd[11294]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T03:02:05.752620+00:00 70c63ece1ec2 sshd[11294]: pam_unix(sshd:session): session closed for user root
+2018-03-23T03:29:09.403847+00:00 70c63ece1ec2 login[11313]: pam_unix(login:session): session opened for user admin by (uid=0)
+2018-03-23T03:30:52.845666+00:00 70c63ece1ec2 login[11336]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-23T03:30:52.853443+00:00 70c63ece1ec2 login[11337]: ROOT LOGIN  on '/dev/pts/1' from 'host-77-41-94-2.qwerty.ru'
+2018-03-23T03:31:37.615521+00:00 70c63ece1ec2 sshd[11351]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T03:31:38.963451+00:00 70c63ece1ec2 sshd[11351]: pam_unix(sshd:session): session closed for user root
+2018-03-23T03:34:57.998056+00:00 70c63ece1ec2 sshd[11356]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T03:34:58.325936+00:00 70c63ece1ec2 sshd[11356]: pam_unix(sshd:session): session closed for user root
+2018-03-23T03:37:33.813035+00:00 70c63ece1ec2 sshd[11362]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T03:37:34.068075+00:00 70c63ece1ec2 sshd[11362]: pam_unix(sshd:session): session closed for user root
+2018-03-23T03:49:43.262980+00:00 70c63ece1ec2 sshd[11366]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T03:49:44.330835+00:00 70c63ece1ec2 sshd[11366]: pam_unix(sshd:session): session closed for user root
+2018-03-23T03:58:36.796246+00:00 70c63ece1ec2 sshd[11391]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T03:58:37.279084+00:00 70c63ece1ec2 sshd[11391]: pam_unix(sshd:session): session closed for user root
+2018-03-23T04:06:33.719278+00:00 70c63ece1ec2 sshd[11396]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T04:06:34.121412+00:00 70c63ece1ec2 sshd[11396]: pam_unix(sshd:session): session closed for user root
+2018-03-23T04:07:22.117170+00:00 70c63ece1ec2 login[11401]: pam_unix(login:session): session opened for user admin by (uid=0)
+2018-03-23T04:12:15.889590+00:00 70c63ece1ec2 sshd[11417]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T04:12:17.106157+00:00 70c63ece1ec2 sshd[11417]: pam_unix(sshd:session): session closed for user root
+2018-03-23T04:24:47.613948+00:00 70c63ece1ec2 login[11423]: pam_unix(login:session): session opened for user admin1 by (uid=0)
+2018-03-23T04:25:34.675151+00:00 70c63ece1ec2 sshd[11439]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T04:25:36.333307+00:00 70c63ece1ec2 sshd[11439]: pam_unix(sshd:session): session closed for user root
+2018-03-23T04:30:41.930711+00:00 70c63ece1ec2 sshd[11444]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T04:30:41.930781+00:00 70c63ece1ec2 sshd[11444]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=96.72.197.200 
+2018-03-23T04:30:41.977019+00:00 70c63ece1ec2 sshd[11446]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T04:30:41.977088+00:00 70c63ece1ec2 sshd[11446]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=96.72.197.200 
+2018-03-23T04:30:43.891261+00:00 70c63ece1ec2 sshd[11444]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T04:30:43.932044+00:00 70c63ece1ec2 sshd[11446]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T04:30:46.124416+00:00 70c63ece1ec2 sshd[11444]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=96.72.197.200 
+2018-03-23T04:30:46.162906+00:00 70c63ece1ec2 sshd[11446]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=96.72.197.200 
+2018-03-23T04:33:19.533760+00:00 70c63ece1ec2 sshd[11460]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T04:33:19.760142+00:00 70c63ece1ec2 sshd[11460]: pam_unix(sshd:session): session closed for user root
+2018-03-23T04:35:49.487896+00:00 70c63ece1ec2 sshd[11482]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T04:35:49.854065+00:00 70c63ece1ec2 sshd[11482]: pam_unix(sshd:session): session closed for user root
+2018-03-23T04:36:18.475271+00:00 70c63ece1ec2 sshd[11490]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T04:36:18.801400+00:00 70c63ece1ec2 sshd[11490]: pam_unix(sshd:session): session closed for user root
+2018-03-23T04:54:28.722713+00:00 70c63ece1ec2 login[11515]: pam_unix(login:session): session opened for user admin by (uid=0)
+2018-03-23T04:56:28.522709+00:00 70c63ece1ec2 login[11532]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-23T04:56:28.530771+00:00 70c63ece1ec2 login[11533]: ROOT LOGIN  on '/dev/pts/0' from '187-34-200-50.dsl.telesp.net.br'
+2018-03-23T05:01:01.353853+00:00 70c63ece1ec2 login[11548]: pam_unix(login:session): session opened for user guest by (uid=0)
+2018-03-23T05:12:58.488362+00:00 70c63ece1ec2 login[11565]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-23T05:12:58.491913+00:00 70c63ece1ec2 login[11566]: ROOT LOGIN  on '/dev/pts/0' from '189-46-90-81.dsl.telesp.net.br'
+2018-03-23T05:13:47.536900+00:00 70c63ece1ec2 sshd[11580]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+2018-03-23T05:13:47.570348+00:00 70c63ece1ec2 sshd[11580]: pam_unix(sshd:session): session closed for user admin
+2018-03-23T05:13:50.389304+00:00 70c63ece1ec2 sshd[11585]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+2018-03-23T05:14:50.007389+00:00 70c63ece1ec2 sshd[11593]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T05:14:51.124262+00:00 70c63ece1ec2 sshd[11593]: pam_unix(sshd:session): session closed for user root
+2018-03-23T05:15:05.472322+00:00 70c63ece1ec2 sshd[11585]: pam_unix(sshd:session): session closed for user admin
+2018-03-23T05:21:09.141689+00:00 70c63ece1ec2 login[11598]: pam_unix(login:session): session opened for user Administrator by (uid=0)
+2018-03-23T05:23:31.553981+00:00 70c63ece1ec2 sshd[11614]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T05:23:33.421412+00:00 70c63ece1ec2 sshd[11614]: pam_unix(sshd:session): session closed for user root
+2018-03-23T05:50:50.464427+00:00 70c63ece1ec2 login[11654]: pam_unix(login:session): session opened for user admin by (uid=0)
+2018-03-23T05:55:16.698343+00:00 70c63ece1ec2 login[11677]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-23T05:55:16.705927+00:00 70c63ece1ec2 login[11678]: ROOT LOGIN  on '/dev/pts/0' from '217-60-70-93.tcg.ir'
+2018-03-23T06:00:27.382887+00:00 70c63ece1ec2 sshd[11694]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T06:00:27.608338+00:00 70c63ece1ec2 sshd[11694]: pam_unix(sshd:session): session closed for user root
+2018-03-23T06:04:28.743401+00:00 70c63ece1ec2 sshd[11710]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T06:04:30.096751+00:00 70c63ece1ec2 sshd[11710]: pam_unix(sshd:session): session closed for user root
+2018-03-23T06:09:34.645417+00:00 70c63ece1ec2 login[11724]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-23T06:09:34.653558+00:00 70c63ece1ec2 login[11725]: ROOT LOGIN  on '/dev/pts/0' from '191-254-44-35.dsl.telesp.net.br'
+2018-03-23T06:11:18.928593+00:00 70c63ece1ec2 login[11740]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-23T06:11:18.936533+00:00 70c63ece1ec2 login[11741]: ROOT LOGIN  on '/dev/pts/0' from '179-113-119-129.user.vivozap.com.br'
+2018-03-23T06:12:39.840515+00:00 70c63ece1ec2 sshd[11755]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T06:12:41.237860+00:00 70c63ece1ec2 sshd[11755]: pam_unix(sshd:session): session closed for user root
+2018-03-23T06:19:27.885765+00:00 70c63ece1ec2 login[11760]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-23T06:19:27.889047+00:00 70c63ece1ec2 login[11761]: ROOT LOGIN  on '/dev/pts/0' from '200-161-236-150.dsl.telesp.net.br'
+2018-03-23T06:19:54.287434+00:00 70c63ece1ec2 sshd[11775]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T06:19:54.700428+00:00 70c63ece1ec2 sshd[11775]: pam_unix(sshd:session): session closed for user root
+2018-03-23T06:23:43.576806+00:00 70c63ece1ec2 sshd[11779]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T06:23:43.694395+00:00 70c63ece1ec2 sshd[11779]: pam_unix(sshd:session): session closed for user root
+2018-03-23T06:35:53.028897+00:00 70c63ece1ec2 login[11784]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-23T06:35:53.037011+00:00 70c63ece1ec2 login[11785]: ROOT LOGIN  on '/dev/pts/0' from '189-110-93-108.dsl.telesp.net.br'
+2018-03-23T06:36:17.752447+00:00 70c63ece1ec2 sshd[11801]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T06:36:18.091089+00:00 70c63ece1ec2 sshd[11801]: pam_unix(sshd:session): session closed for user root
+2018-03-23T06:39:02.405898+00:00 70c63ece1ec2 sshd[11805]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T06:39:07.167798+00:00 70c63ece1ec2 sshd[11805]: pam_unix(sshd:session): session closed for user root
+2018-03-23T06:48:05.294912+00:00 70c63ece1ec2 login[11811]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-23T06:48:05.298279+00:00 70c63ece1ec2 login[11812]: ROOT LOGIN  on '/dev/pts/0' from '189-69-72-9.dsl.telesp.net.br'
+2018-03-23T06:53:36.059870+00:00 70c63ece1ec2 login[11827]: pam_unix(login:session): session opened for user admin by (uid=0)
+2018-03-23T06:58:53.395780+00:00 70c63ece1ec2 sshd[11861]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T06:58:53.705680+00:00 70c63ece1ec2 sshd[11861]: pam_unix(sshd:session): session closed for user root
+2018-03-23T07:12:24.836129+00:00 70c63ece1ec2 sshd[11868]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:12:24.836199+00:00 70c63ece1ec2 sshd[11868]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:13:00.183250+00:00 70c63ece1ec2 sshd[11870]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:13:00.183322+00:00 70c63ece1ec2 sshd[11870]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:13:35.023142+00:00 70c63ece1ec2 sshd[11872]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:13:35.023215+00:00 70c63ece1ec2 sshd[11872]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:13:50.182829+00:00 70c63ece1ec2 login[11875]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-23T07:13:50.186086+00:00 70c63ece1ec2 login[11876]: ROOT LOGIN  on '/dev/pts/0' from '201-1-50-199.dsl.telesp.net.br'
+2018-03-23T07:14:09.825892+00:00 70c63ece1ec2 sshd[11890]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:14:09.825967+00:00 70c63ece1ec2 sshd[11890]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:14:44.385974+00:00 70c63ece1ec2 sshd[11892]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:14:44.386050+00:00 70c63ece1ec2 sshd[11892]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:15:19.467378+00:00 70c63ece1ec2 sshd[11894]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:15:19.467457+00:00 70c63ece1ec2 sshd[11894]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:15:54.206436+00:00 70c63ece1ec2 sshd[11896]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:15:54.206510+00:00 70c63ece1ec2 sshd[11896]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:16:07.903913+00:00 70c63ece1ec2 login[11899]: pam_unix(login:session): session opened for user admin by (uid=0)
+2018-03-23T07:16:28.936894+00:00 70c63ece1ec2 sshd[11913]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:16:28.936969+00:00 70c63ece1ec2 sshd[11913]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:17:03.256381+00:00 70c63ece1ec2 sshd[11917]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:17:03.256456+00:00 70c63ece1ec2 sshd[11917]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:17:38.319906+00:00 70c63ece1ec2 sshd[11919]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:17:38.319974+00:00 70c63ece1ec2 sshd[11919]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:18:12.286680+00:00 70c63ece1ec2 sshd[11921]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:18:12.286755+00:00 70c63ece1ec2 sshd[11921]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:18:46.675976+00:00 70c63ece1ec2 sshd[11923]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:18:46.676047+00:00 70c63ece1ec2 sshd[11923]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:19:21.600809+00:00 70c63ece1ec2 sshd[11925]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:19:21.600886+00:00 70c63ece1ec2 sshd[11925]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:19:56.679068+00:00 70c63ece1ec2 sshd[11927]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:19:56.679138+00:00 70c63ece1ec2 sshd[11927]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:20:30.778586+00:00 70c63ece1ec2 sshd[11929]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:20:30.778656+00:00 70c63ece1ec2 sshd[11929]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:21:05.155112+00:00 70c63ece1ec2 sshd[11931]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:21:05.155180+00:00 70c63ece1ec2 sshd[11931]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:21:40.471805+00:00 70c63ece1ec2 sshd[11933]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:21:40.471877+00:00 70c63ece1ec2 sshd[11933]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:22:14.940965+00:00 70c63ece1ec2 sshd[11935]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:22:14.941034+00:00 70c63ece1ec2 sshd[11935]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:22:49.646226+00:00 70c63ece1ec2 sshd[11937]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:22:49.646295+00:00 70c63ece1ec2 sshd[11937]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:23:21.096062+00:00 70c63ece1ec2 login[11940]: pam_unix(login:session): session opened for user admin by (uid=0)
+2018-03-23T07:23:24.619269+00:00 70c63ece1ec2 sshd[11954]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:23:24.619343+00:00 70c63ece1ec2 sshd[11954]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:23:58.744973+00:00 70c63ece1ec2 sshd[11958]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:23:58.745048+00:00 70c63ece1ec2 sshd[11958]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:24:33.699838+00:00 70c63ece1ec2 sshd[11960]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:24:33.699909+00:00 70c63ece1ec2 sshd[11960]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:24:52.370872+00:00 70c63ece1ec2 login[11963]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-23T07:24:52.374284+00:00 70c63ece1ec2 login[11964]: ROOT LOGIN  on '/dev/pts/0' from 'cpe-98-148-242-189.socal.res.rr.com'
+2018-03-23T07:25:08.697771+00:00 70c63ece1ec2 sshd[11978]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:25:08.697849+00:00 70c63ece1ec2 sshd[11978]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:25:43.176206+00:00 70c63ece1ec2 sshd[11980]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:25:43.176286+00:00 70c63ece1ec2 sshd[11980]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:26:18.077894+00:00 70c63ece1ec2 sshd[11982]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:26:18.077962+00:00 70c63ece1ec2 sshd[11982]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:26:52.920758+00:00 70c63ece1ec2 sshd[11984]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:26:52.920827+00:00 70c63ece1ec2 sshd[11984]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:27:28.101108+00:00 70c63ece1ec2 sshd[11986]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116  user=backup
+2018-03-23T07:28:02.753916+00:00 70c63ece1ec2 sshd[11988]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:28:02.753984+00:00 70c63ece1ec2 sshd[11988]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:28:37.534293+00:00 70c63ece1ec2 sshd[11990]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:28:37.534364+00:00 70c63ece1ec2 sshd[11990]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:29:13.085464+00:00 70c63ece1ec2 sshd[11992]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:29:13.085535+00:00 70c63ece1ec2 sshd[11992]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:29:48.080372+00:00 70c63ece1ec2 sshd[11994]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:29:48.080440+00:00 70c63ece1ec2 sshd[11994]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:30:22.336299+00:00 70c63ece1ec2 sshd[11996]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:30:22.336372+00:00 70c63ece1ec2 sshd[11996]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:30:56.380205+00:00 70c63ece1ec2 sshd[11998]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:30:56.380276+00:00 70c63ece1ec2 sshd[11998]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:31:31.552099+00:00 70c63ece1ec2 sshd[12000]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:31:31.552169+00:00 70c63ece1ec2 sshd[12000]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:32:05.626761+00:00 70c63ece1ec2 sshd[12004]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:32:05.626831+00:00 70c63ece1ec2 sshd[12004]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:32:40.467845+00:00 70c63ece1ec2 sshd[12006]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:32:40.467915+00:00 70c63ece1ec2 sshd[12006]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:33:15.866087+00:00 70c63ece1ec2 sshd[12008]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:33:15.866156+00:00 70c63ece1ec2 sshd[12008]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:33:49.910763+00:00 70c63ece1ec2 sshd[12010]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:33:49.910835+00:00 70c63ece1ec2 sshd[12010]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:34:24.673099+00:00 70c63ece1ec2 sshd[12012]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:34:24.673173+00:00 70c63ece1ec2 sshd[12012]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:34:59.733529+00:00 70c63ece1ec2 sshd[12014]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:34:59.733599+00:00 70c63ece1ec2 sshd[12014]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:35:34.877114+00:00 70c63ece1ec2 sshd[12016]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:35:34.877183+00:00 70c63ece1ec2 sshd[12016]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:35:41.432771+00:00 70c63ece1ec2 sshd[12018]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+2018-03-23T07:35:43.141911+00:00 70c63ece1ec2 sshd[12018]: pam_unix(sshd:session): session closed for user admin
+2018-03-23T07:36:08.626762+00:00 70c63ece1ec2 sshd[12023]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:36:08.626834+00:00 70c63ece1ec2 sshd[12023]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:36:43.537803+00:00 70c63ece1ec2 sshd[12025]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:36:43.537874+00:00 70c63ece1ec2 sshd[12025]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:37:17.941991+00:00 70c63ece1ec2 sshd[12027]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:37:17.942061+00:00 70c63ece1ec2 sshd[12027]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:37:53.117097+00:00 70c63ece1ec2 sshd[12029]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:37:53.117171+00:00 70c63ece1ec2 sshd[12029]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:38:27.472850+00:00 70c63ece1ec2 sshd[12031]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:38:27.472918+00:00 70c63ece1ec2 sshd[12031]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:39:03.102542+00:00 70c63ece1ec2 sshd[12033]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:39:03.102610+00:00 70c63ece1ec2 sshd[12033]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:39:37.732527+00:00 70c63ece1ec2 sshd[12035]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:39:37.732596+00:00 70c63ece1ec2 sshd[12035]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:40:12.267283+00:00 70c63ece1ec2 sshd[12037]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:40:12.267352+00:00 70c63ece1ec2 sshd[12037]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:40:47.806709+00:00 70c63ece1ec2 sshd[12039]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:40:47.806778+00:00 70c63ece1ec2 sshd[12039]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:41:22.473079+00:00 70c63ece1ec2 sshd[12041]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:41:22.473150+00:00 70c63ece1ec2 sshd[12041]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:41:57.129576+00:00 70c63ece1ec2 sshd[12043]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:41:57.129644+00:00 70c63ece1ec2 sshd[12043]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:42:32.202207+00:00 70c63ece1ec2 sshd[12045]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:42:32.202276+00:00 70c63ece1ec2 sshd[12045]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:43:06.787184+00:00 70c63ece1ec2 sshd[12048]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:43:06.787255+00:00 70c63ece1ec2 sshd[12048]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:43:41.095422+00:00 70c63ece1ec2 sshd[12050]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:43:41.095490+00:00 70c63ece1ec2 sshd[12050]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:44:16.314044+00:00 70c63ece1ec2 sshd[12052]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:44:16.314112+00:00 70c63ece1ec2 sshd[12052]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:44:50.712501+00:00 70c63ece1ec2 sshd[12054]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:44:50.712569+00:00 70c63ece1ec2 sshd[12054]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:45:25.348653+00:00 70c63ece1ec2 sshd[12056]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:45:25.348722+00:00 70c63ece1ec2 sshd[12056]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:46:00.293452+00:00 70c63ece1ec2 sshd[12058]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:46:00.293523+00:00 70c63ece1ec2 sshd[12058]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:46:34.820482+00:00 70c63ece1ec2 sshd[12060]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:46:34.820551+00:00 70c63ece1ec2 sshd[12060]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:47:09.667281+00:00 70c63ece1ec2 sshd[12062]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:47:09.667350+00:00 70c63ece1ec2 sshd[12062]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:47:43.575163+00:00 70c63ece1ec2 sshd[12064]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:47:43.575232+00:00 70c63ece1ec2 sshd[12064]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:48:18.793691+00:00 70c63ece1ec2 sshd[12066]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:48:18.793759+00:00 70c63ece1ec2 sshd[12066]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:48:53.374878+00:00 70c63ece1ec2 sshd[12068]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:48:53.374949+00:00 70c63ece1ec2 sshd[12068]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:49:28.108190+00:00 70c63ece1ec2 sshd[12070]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:49:28.108261+00:00 70c63ece1ec2 sshd[12070]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:50:02.666290+00:00 70c63ece1ec2 sshd[12072]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:50:02.666360+00:00 70c63ece1ec2 sshd[12072]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:50:37.567356+00:00 70c63ece1ec2 sshd[12074]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:50:37.567424+00:00 70c63ece1ec2 sshd[12074]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:51:12.659109+00:00 70c63ece1ec2 sshd[12076]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:51:12.659178+00:00 70c63ece1ec2 sshd[12076]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:51:47.339845+00:00 70c63ece1ec2 sshd[12080]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:51:47.339921+00:00 70c63ece1ec2 sshd[12080]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:52:21.970860+00:00 70c63ece1ec2 sshd[12084]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:52:21.970930+00:00 70c63ece1ec2 sshd[12084]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:52:56.932012+00:00 70c63ece1ec2 sshd[12088]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:52:56.932082+00:00 70c63ece1ec2 sshd[12088]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:53:32.522694+00:00 70c63ece1ec2 sshd[12092]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:53:32.522761+00:00 70c63ece1ec2 sshd[12092]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:54:07.597591+00:00 70c63ece1ec2 sshd[12096]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:54:07.597659+00:00 70c63ece1ec2 sshd[12096]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:54:16.770689+00:00 70c63ece1ec2 sshd[12098]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T07:54:19.210016+00:00 70c63ece1ec2 sshd[12098]: pam_unix(sshd:session): session closed for user root
+2018-03-23T07:54:42.255781+00:00 70c63ece1ec2 sshd[12105]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:54:42.255851+00:00 70c63ece1ec2 sshd[12105]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:55:16.234869+00:00 70c63ece1ec2 sshd[12108]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:55:16.234948+00:00 70c63ece1ec2 sshd[12108]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:55:51.074107+00:00 70c63ece1ec2 sshd[12111]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:55:51.074175+00:00 70c63ece1ec2 sshd[12111]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:56:25.785029+00:00 70c63ece1ec2 sshd[12117]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:56:25.785102+00:00 70c63ece1ec2 sshd[12117]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:57:01.661171+00:00 70c63ece1ec2 sshd[12125]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:57:01.661276+00:00 70c63ece1ec2 sshd[12125]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:57:35.882508+00:00 70c63ece1ec2 sshd[12131]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:57:35.882574+00:00 70c63ece1ec2 sshd[12131]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:58:09.773307+00:00 70c63ece1ec2 sshd[12137]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:58:09.773375+00:00 70c63ece1ec2 sshd[12137]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:58:44.691058+00:00 70c63ece1ec2 sshd[12143]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:58:44.691126+00:00 70c63ece1ec2 sshd[12143]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:59:19.559924+00:00 70c63ece1ec2 sshd[12149]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:59:19.559993+00:00 70c63ece1ec2 sshd[12149]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T07:59:54.094172+00:00 70c63ece1ec2 sshd[12155]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T07:59:54.094243+00:00 70c63ece1ec2 sshd[12155]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:00:28.435419+00:00 70c63ece1ec2 sshd[12161]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:00:28.435492+00:00 70c63ece1ec2 sshd[12161]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:01:04.278426+00:00 70c63ece1ec2 sshd[12167]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:01:04.278495+00:00 70c63ece1ec2 sshd[12167]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:01:38.933834+00:00 70c63ece1ec2 sshd[12173]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:01:38.933903+00:00 70c63ece1ec2 sshd[12173]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:02:13.548837+00:00 70c63ece1ec2 sshd[12179]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:02:13.548905+00:00 70c63ece1ec2 sshd[12179]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:02:47.553021+00:00 70c63ece1ec2 sshd[12185]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:02:47.553096+00:00 70c63ece1ec2 sshd[12185]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:03:23.292486+00:00 70c63ece1ec2 sshd[12192]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:03:23.292556+00:00 70c63ece1ec2 sshd[12192]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:03:33.963792+00:00 70c63ece1ec2 login[12196]: pam_unix(login:session): session opened for user service by (uid=0)
+2018-03-23T08:03:57.514072+00:00 70c63ece1ec2 sshd[12214]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:03:57.514147+00:00 70c63ece1ec2 sshd[12214]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:04:32.091832+00:00 70c63ece1ec2 sshd[12222]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:04:32.091901+00:00 70c63ece1ec2 sshd[12222]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:05:07.432097+00:00 70c63ece1ec2 sshd[12228]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:05:07.432167+00:00 70c63ece1ec2 sshd[12228]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:05:41.855204+00:00 70c63ece1ec2 sshd[12234]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:05:41.855276+00:00 70c63ece1ec2 sshd[12234]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:06:17.380593+00:00 70c63ece1ec2 sshd[12240]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:06:17.380660+00:00 70c63ece1ec2 sshd[12240]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:06:52.199071+00:00 70c63ece1ec2 sshd[12246]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:06:52.199140+00:00 70c63ece1ec2 sshd[12246]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:07:27.173053+00:00 70c63ece1ec2 sshd[12252]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:07:27.173119+00:00 70c63ece1ec2 sshd[12252]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:08:02.178898+00:00 70c63ece1ec2 sshd[12258]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:08:02.178966+00:00 70c63ece1ec2 sshd[12258]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:08:37.006328+00:00 70c63ece1ec2 sshd[12264]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:08:37.006400+00:00 70c63ece1ec2 sshd[12264]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:09:11.688319+00:00 70c63ece1ec2 sshd[12270]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:09:11.688388+00:00 70c63ece1ec2 sshd[12270]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:09:45.911313+00:00 70c63ece1ec2 sshd[12276]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:09:45.911382+00:00 70c63ece1ec2 sshd[12276]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:10:21.129291+00:00 70c63ece1ec2 sshd[12282]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:10:21.129362+00:00 70c63ece1ec2 sshd[12282]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:10:55.731325+00:00 70c63ece1ec2 sshd[12288]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:10:55.731403+00:00 70c63ece1ec2 sshd[12288]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:11:30.545299+00:00 70c63ece1ec2 sshd[12294]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:11:30.545368+00:00 70c63ece1ec2 sshd[12294]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:12:05.256675+00:00 70c63ece1ec2 sshd[12300]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:12:05.256744+00:00 70c63ece1ec2 sshd[12300]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:12:20.682570+00:00 70c63ece1ec2 login[12305]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-23T08:12:20.689905+00:00 70c63ece1ec2 login[12306]: ROOT LOGIN  on '/dev/pts/1' from '179-98-174-73.dsl.telesp.net.br'
+2018-03-23T08:12:40.382348+00:00 70c63ece1ec2 sshd[12322]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:12:40.382416+00:00 70c63ece1ec2 sshd[12322]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:13:14.266211+00:00 70c63ece1ec2 sshd[12328]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:13:14.266280+00:00 70c63ece1ec2 sshd[12328]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:13:48.889976+00:00 70c63ece1ec2 sshd[12334]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:13:48.890041+00:00 70c63ece1ec2 sshd[12334]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:14:23.365030+00:00 70c63ece1ec2 sshd[12340]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:14:23.365099+00:00 70c63ece1ec2 sshd[12340]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:14:57.887182+00:00 70c63ece1ec2 sshd[12347]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:14:57.887258+00:00 70c63ece1ec2 sshd[12347]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:15:33.110700+00:00 70c63ece1ec2 sshd[12354]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:15:33.110768+00:00 70c63ece1ec2 sshd[12354]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:16:08.050829+00:00 70c63ece1ec2 sshd[12360]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:16:08.050904+00:00 70c63ece1ec2 sshd[12360]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:16:42.769895+00:00 70c63ece1ec2 sshd[12366]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:16:42.769964+00:00 70c63ece1ec2 sshd[12366]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:17:17.436375+00:00 70c63ece1ec2 sshd[12371]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:17:17.436446+00:00 70c63ece1ec2 sshd[12371]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:17:51.716516+00:00 70c63ece1ec2 sshd[12377]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:17:51.716592+00:00 70c63ece1ec2 sshd[12377]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:18:26.569937+00:00 70c63ece1ec2 sshd[12384]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:18:26.570007+00:00 70c63ece1ec2 sshd[12384]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:19:02.038125+00:00 70c63ece1ec2 sshd[12390]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:19:02.038196+00:00 70c63ece1ec2 sshd[12390]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:19:36.620822+00:00 70c63ece1ec2 sshd[12396]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:19:36.620894+00:00 70c63ece1ec2 sshd[12396]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:20:11.010677+00:00 70c63ece1ec2 sshd[12402]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:20:11.010744+00:00 70c63ece1ec2 sshd[12402]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:20:45.174579+00:00 70c63ece1ec2 sshd[12408]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:20:45.174649+00:00 70c63ece1ec2 sshd[12408]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:21:20.067198+00:00 70c63ece1ec2 sshd[12414]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:21:20.067267+00:00 70c63ece1ec2 sshd[12414]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:21:54.712771+00:00 70c63ece1ec2 sshd[12420]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:21:54.712842+00:00 70c63ece1ec2 sshd[12420]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:22:29.315668+00:00 70c63ece1ec2 sshd[12426]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:22:29.315737+00:00 70c63ece1ec2 sshd[12426]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:23:03.986660+00:00 70c63ece1ec2 sshd[12432]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:23:03.986733+00:00 70c63ece1ec2 sshd[12432]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:23:38.775009+00:00 70c63ece1ec2 sshd[12438]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:23:38.775078+00:00 70c63ece1ec2 sshd[12438]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:24:13.520465+00:00 70c63ece1ec2 sshd[12444]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:24:13.520534+00:00 70c63ece1ec2 sshd[12444]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:24:48.262561+00:00 70c63ece1ec2 sshd[12450]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:24:48.262631+00:00 70c63ece1ec2 sshd[12450]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:25:23.111615+00:00 70c63ece1ec2 sshd[12456]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:25:23.111684+00:00 70c63ece1ec2 sshd[12456]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:25:57.738830+00:00 70c63ece1ec2 sshd[12462]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:25:57.738899+00:00 70c63ece1ec2 sshd[12462]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:26:31.440825+00:00 70c63ece1ec2 sshd[12468]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:26:31.440897+00:00 70c63ece1ec2 sshd[12468]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:27:06.322510+00:00 70c63ece1ec2 sshd[12474]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:27:06.322579+00:00 70c63ece1ec2 sshd[12474]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:27:41.260889+00:00 70c63ece1ec2 sshd[12480]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:27:41.260958+00:00 70c63ece1ec2 sshd[12480]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:28:15.778577+00:00 70c63ece1ec2 sshd[12486]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:28:15.778647+00:00 70c63ece1ec2 sshd[12486]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:28:50.607077+00:00 70c63ece1ec2 sshd[12492]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:28:50.607145+00:00 70c63ece1ec2 sshd[12492]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:29:25.176061+00:00 70c63ece1ec2 sshd[12498]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:29:25.176126+00:00 70c63ece1ec2 sshd[12498]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:29:59.887359+00:00 70c63ece1ec2 sshd[12504]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:29:59.887430+00:00 70c63ece1ec2 sshd[12504]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:30:35.808885+00:00 70c63ece1ec2 sshd[12512]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:30:35.808953+00:00 70c63ece1ec2 sshd[12512]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:31:10.622973+00:00 70c63ece1ec2 sshd[12518]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:31:10.623042+00:00 70c63ece1ec2 sshd[12518]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:31:45.360839+00:00 70c63ece1ec2 sshd[12524]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:31:45.360907+00:00 70c63ece1ec2 sshd[12524]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:32:20.053810+00:00 70c63ece1ec2 sshd[12530]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:32:20.053880+00:00 70c63ece1ec2 sshd[12530]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:32:54.950132+00:00 70c63ece1ec2 sshd[12536]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:32:54.950202+00:00 70c63ece1ec2 sshd[12536]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:33:29.569547+00:00 70c63ece1ec2 sshd[12542]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:33:29.569615+00:00 70c63ece1ec2 sshd[12542]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:34:04.237879+00:00 70c63ece1ec2 sshd[12554]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:34:04.237949+00:00 70c63ece1ec2 sshd[12554]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:34:34.967090+00:00 70c63ece1ec2 login[12564]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-23T08:34:34.974718+00:00 70c63ece1ec2 login[12566]: ROOT LOGIN  on '/dev/pts/3' from '152-250-134-65.user.vivozap.com.br'
+2018-03-23T08:34:38.867732+00:00 70c63ece1ec2 sshd[12580]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:34:38.867808+00:00 70c63ece1ec2 sshd[12580]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:35:13.543918+00:00 70c63ece1ec2 sshd[12590]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:35:13.543987+00:00 70c63ece1ec2 sshd[12590]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:35:48.343344+00:00 70c63ece1ec2 sshd[12600]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:35:48.343412+00:00 70c63ece1ec2 sshd[12600]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:36:23.262347+00:00 70c63ece1ec2 sshd[12610]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:36:23.262417+00:00 70c63ece1ec2 sshd[12610]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:36:57.497690+00:00 70c63ece1ec2 sshd[12620]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:36:57.497757+00:00 70c63ece1ec2 sshd[12620]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:37:32.155787+00:00 70c63ece1ec2 sshd[12630]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:37:32.155850+00:00 70c63ece1ec2 sshd[12630]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:38:06.616884+00:00 70c63ece1ec2 sshd[12642]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:38:06.616951+00:00 70c63ece1ec2 sshd[12642]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:38:41.206905+00:00 70c63ece1ec2 sshd[12652]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:38:41.206974+00:00 70c63ece1ec2 sshd[12652]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:39:15.832070+00:00 70c63ece1ec2 sshd[12658]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:39:15.832138+00:00 70c63ece1ec2 sshd[12658]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:39:51.239818+00:00 70c63ece1ec2 sshd[12664]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:39:51.239887+00:00 70c63ece1ec2 sshd[12664]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:40:25.756513+00:00 70c63ece1ec2 sshd[12670]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:40:25.756581+00:00 70c63ece1ec2 sshd[12670]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:41:00.394170+00:00 70c63ece1ec2 sshd[12676]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:41:00.394241+00:00 70c63ece1ec2 sshd[12676]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:41:21.947531+00:00 70c63ece1ec2 login[12683]: pam_unix(login:session): session opened for user Administrator by (uid=0)
+2018-03-23T08:41:34.919408+00:00 70c63ece1ec2 sshd[12697]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:41:34.919484+00:00 70c63ece1ec2 sshd[12697]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:42:09.485384+00:00 70c63ece1ec2 sshd[12705]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:42:09.485453+00:00 70c63ece1ec2 sshd[12705]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:42:45.146874+00:00 70c63ece1ec2 sshd[12711]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:42:45.146945+00:00 70c63ece1ec2 sshd[12711]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:43:19.465464+00:00 70c63ece1ec2 sshd[12718]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:43:19.465532+00:00 70c63ece1ec2 sshd[12718]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:43:54.824178+00:00 70c63ece1ec2 sshd[12725]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:43:54.824246+00:00 70c63ece1ec2 sshd[12725]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:44:29.336682+00:00 70c63ece1ec2 sshd[12731]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:44:29.336751+00:00 70c63ece1ec2 sshd[12731]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:45:03.845796+00:00 70c63ece1ec2 sshd[12737]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:45:03.845870+00:00 70c63ece1ec2 sshd[12737]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:45:38.481719+00:00 70c63ece1ec2 sshd[12743]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:45:38.481787+00:00 70c63ece1ec2 sshd[12743]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:46:14.212625+00:00 70c63ece1ec2 sshd[12749]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:46:14.212694+00:00 70c63ece1ec2 sshd[12749]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:46:53.575320+00:00 70c63ece1ec2 sshd[12755]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:46:53.575390+00:00 70c63ece1ec2 sshd[12755]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:47:28.093271+00:00 70c63ece1ec2 sshd[12761]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:47:28.093336+00:00 70c63ece1ec2 sshd[12761]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:47:45.364794+00:00 70c63ece1ec2 sshd[12765]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T08:47:45.595782+00:00 70c63ece1ec2 sshd[12765]: pam_unix(sshd:session): session closed for user root
+2018-03-23T08:48:02.792781+00:00 70c63ece1ec2 sshd[12771]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:48:02.792848+00:00 70c63ece1ec2 sshd[12771]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:48:38.112922+00:00 70c63ece1ec2 sshd[12777]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:48:38.113002+00:00 70c63ece1ec2 sshd[12777]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:49:13.874584+00:00 70c63ece1ec2 sshd[12783]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:49:13.874653+00:00 70c63ece1ec2 sshd[12783]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:49:53.622537+00:00 70c63ece1ec2 sshd[12791]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:49:53.622609+00:00 70c63ece1ec2 sshd[12791]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:50:17.177593+00:00 70c63ece1ec2 login[12796]: pam_unix(login:session): session opened for user guest by (uid=0)
+2018-03-23T08:50:29.222594+00:00 70c63ece1ec2 sshd[12812]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:50:29.222663+00:00 70c63ece1ec2 sshd[12812]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:51:04.996714+00:00 70c63ece1ec2 sshd[12822]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:51:04.996781+00:00 70c63ece1ec2 sshd[12822]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:51:39.206681+00:00 70c63ece1ec2 sshd[12830]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:51:39.206750+00:00 70c63ece1ec2 sshd[12830]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:52:13.487471+00:00 70c63ece1ec2 sshd[12838]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T08:52:13.487539+00:00 70c63ece1ec2 sshd[12838]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=95.110.236.116 
+2018-03-23T08:56:15.452384+00:00 70c63ece1ec2 sshd[12884]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T08:56:16.789471+00:00 70c63ece1ec2 sshd[12884]: pam_unix(sshd:session): session closed for user root
+2018-03-23T08:56:56.087673+00:00 70c63ece1ec2 sshd[12894]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T08:56:56.553484+00:00 70c63ece1ec2 sshd[12894]: pam_unix(sshd:session): session closed for user root
+2018-03-23T08:57:10.684351+00:00 70c63ece1ec2 sshd[12898]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T08:57:14.097326+00:00 70c63ece1ec2 sshd[12898]: pam_unix(sshd:session): session closed for user root
+2018-03-23T08:59:06.577237+00:00 70c63ece1ec2 sshd[12916]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T08:59:07.099972+00:00 70c63ece1ec2 sshd[12916]: pam_unix(sshd:session): session closed for user root
+2018-03-23T08:59:44.272364+00:00 70c63ece1ec2 sshd[12926]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T08:59:44.586162+00:00 70c63ece1ec2 sshd[12926]: pam_unix(sshd:session): session closed for user root
+2018-03-23T09:00:25.583222+00:00 70c63ece1ec2 login[12935]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-23T09:00:25.590814+00:00 70c63ece1ec2 login[12936]: ROOT LOGIN  on '/dev/pts/1' from 'ip-187-116-119-252.user.vivozap.com.br'
+2018-03-23T09:00:36.181485+00:00 70c63ece1ec2 sshd[12952]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T09:00:36.528983+00:00 70c63ece1ec2 sshd[12952]: pam_unix(sshd:session): session closed for user root
+2018-03-23T09:02:31.149127+00:00 70c63ece1ec2 sshd[12968]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T09:02:31.626021+00:00 70c63ece1ec2 sshd[12968]: pam_unix(sshd:session): session closed for user root
+2018-03-23T09:02:44.617966+00:00 70c63ece1ec2 sshd[12974]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T09:02:45.272049+00:00 70c63ece1ec2 sshd[12974]: pam_unix(sshd:session): session closed for user root
+2018-03-23T09:03:17.669019+00:00 70c63ece1ec2 sshd[12980]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T09:03:17.921771+00:00 70c63ece1ec2 sshd[12980]: pam_unix(sshd:session): session closed for user root
+2018-03-23T09:04:04.877381+00:00 70c63ece1ec2 sshd[12992]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T09:04:05.521838+00:00 70c63ece1ec2 sshd[12992]: pam_unix(sshd:session): session closed for user root
+2018-03-23T09:04:07.067486+00:00 70c63ece1ec2 sshd[12993]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T09:04:07.402546+00:00 70c63ece1ec2 sshd[12993]: pam_unix(sshd:session): session closed for user root
+2018-03-23T09:05:07.374862+00:00 70c63ece1ec2 sshd[13008]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T09:05:07.634401+00:00 70c63ece1ec2 sshd[13008]: pam_unix(sshd:session): session closed for user root
+2018-03-23T09:05:28.124066+00:00 70c63ece1ec2 sshd[13012]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T09:05:28.348768+00:00 70c63ece1ec2 sshd[13012]: pam_unix(sshd:session): session closed for user root
+2018-03-23T09:08:18.956510+00:00 70c63ece1ec2 login[13035]: pam_unix(login:session): session opened for user admin by (uid=0)
+2018-03-23T09:08:49.964013+00:00 70c63ece1ec2 sshd[13049]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T09:08:50.539256+00:00 70c63ece1ec2 sshd[13049]: pam_unix(sshd:session): session closed for user root
+2018-03-23T09:09:19.088834+00:00 70c63ece1ec2 sshd[13055]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T09:09:19.427821+00:00 70c63ece1ec2 sshd[13055]: pam_unix(sshd:session): session closed for user root
+2018-03-23T09:10:06.626725+00:00 70c63ece1ec2 sshd[13059]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T09:10:07.983103+00:00 70c63ece1ec2 sshd[13059]: pam_unix(sshd:session): session closed for user root
+2018-03-23T09:10:19.788815+00:00 70c63ece1ec2 sshd[13064]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T09:10:22.949455+00:00 70c63ece1ec2 sshd[13064]: pam_unix(sshd:session): session closed for user root
+2018-03-23T09:10:26.429535+00:00 70c63ece1ec2 sshd[13068]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T09:10:26.767217+00:00 70c63ece1ec2 sshd[13068]: pam_unix(sshd:session): session closed for user root
+2018-03-23T09:12:08.364845+00:00 70c63ece1ec2 sshd[13072]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T09:12:09.635570+00:00 70c63ece1ec2 sshd[13072]: pam_unix(sshd:session): session closed for user root
+2018-03-23T09:12:46.882002+00:00 70c63ece1ec2 sshd[13076]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T09:12:47.123024+00:00 70c63ece1ec2 sshd[13076]: pam_unix(sshd:session): session closed for user root
+2018-03-23T09:13:20.822640+00:00 70c63ece1ec2 sshd[13080]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T09:13:21.126300+00:00 70c63ece1ec2 sshd[13080]: pam_unix(sshd:session): session closed for user root
+2018-03-23T09:18:06.019601+00:00 70c63ece1ec2 sshd[13084]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T09:18:06.371405+00:00 70c63ece1ec2 sshd[13084]: pam_unix(sshd:session): session closed for user root
+2018-03-23T09:19:27.351447+00:00 70c63ece1ec2 sshd[13088]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T09:19:27.684509+00:00 70c63ece1ec2 sshd[13088]: pam_unix(sshd:session): session closed for user root
+2018-03-23T09:20:41.632203+00:00 70c63ece1ec2 sshd[13092]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T09:20:41.944045+00:00 70c63ece1ec2 sshd[13092]: pam_unix(sshd:session): session closed for user root
+2018-03-23T09:21:36.668862+00:00 70c63ece1ec2 login[13097]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-23T09:21:36.676831+00:00 70c63ece1ec2 login[13098]: ROOT LOGIN  on '/dev/pts/0' from '85.105.84.166.static.ttnet.com.tr'
+2018-03-23T09:22:03.970902+00:00 70c63ece1ec2 sshd[13112]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T09:22:04.902620+00:00 70c63ece1ec2 sshd[13112]: pam_unix(sshd:session): session closed for user root
+2018-03-23T09:22:35.336780+00:00 70c63ece1ec2 sshd[13116]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T09:22:35.647395+00:00 70c63ece1ec2 sshd[13116]: pam_unix(sshd:session): session closed for user root
+2018-03-23T09:23:36.435272+00:00 70c63ece1ec2 sshd[13120]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T09:23:37.394084+00:00 70c63ece1ec2 sshd[13120]: pam_unix(sshd:session): session closed for user root
+2018-03-23T09:25:15.838082+00:00 70c63ece1ec2 sshd[13124]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T09:25:16.161259+00:00 70c63ece1ec2 sshd[13124]: pam_unix(sshd:session): session closed for user root
+2018-03-23T09:28:22.525771+00:00 70c63ece1ec2 sshd[13134]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T09:28:22.972493+00:00 70c63ece1ec2 sshd[13134]: pam_unix(sshd:session): session closed for user root
+2018-03-23T09:29:42.047096+00:00 70c63ece1ec2 sshd[13144]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T09:29:42.352479+00:00 70c63ece1ec2 sshd[13144]: pam_unix(sshd:session): session closed for user root
+2018-03-23T09:30:16.269893+00:00 70c63ece1ec2 sshd[13150]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T09:30:16.964278+00:00 70c63ece1ec2 sshd[13150]: pam_unix(sshd:session): session closed for user root
+2018-03-23T09:30:37.184824+00:00 70c63ece1ec2 login[13155]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-23T09:30:37.193109+00:00 70c63ece1ec2 login[13158]: ROOT LOGIN  on '/dev/pts/1' from '78.189.87.239.static.ttnet.com.tr'
+2018-03-23T09:31:53.595398+00:00 70c63ece1ec2 sshd[13176]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T09:31:54.144766+00:00 70c63ece1ec2 sshd[13176]: pam_unix(sshd:session): session closed for user root
+2018-03-23T09:33:34.288928+00:00 70c63ece1ec2 sshd[13180]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T09:33:34.630505+00:00 70c63ece1ec2 sshd[13180]: pam_unix(sshd:session): session closed for user root
+2018-03-23T09:37:27.503723+00:00 70c63ece1ec2 sshd[13184]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T09:37:27.793263+00:00 70c63ece1ec2 sshd[13184]: pam_unix(sshd:session): session closed for user root
+2018-03-23T09:39:21.134983+00:00 70c63ece1ec2 sshd[13188]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T09:39:21.614194+00:00 70c63ece1ec2 sshd[13188]: pam_unix(sshd:session): session closed for user root
+2018-03-23T09:42:52.815366+00:00 70c63ece1ec2 sshd[13192]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T09:42:53.132583+00:00 70c63ece1ec2 sshd[13192]: pam_unix(sshd:session): session closed for user root
+2018-03-23T09:43:22.518922+00:00 70c63ece1ec2 sshd[13196]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T09:43:22.848833+00:00 70c63ece1ec2 sshd[13196]: pam_unix(sshd:session): session closed for user root
+2018-03-23T09:49:46.664393+00:00 70c63ece1ec2 login[13201]: pam_unix(login:session): session opened for user administrator by (uid=0)
+2018-03-23T09:49:52.039325+00:00 70c63ece1ec2 sshd[13215]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T09:49:52.301397+00:00 70c63ece1ec2 sshd[13215]: pam_unix(sshd:session): session closed for user root
+2018-03-23T09:51:40.498930+00:00 70c63ece1ec2 sshd[13221]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T09:51:40.726205+00:00 70c63ece1ec2 sshd[13221]: pam_unix(sshd:session): session closed for user root
+2018-03-23T09:57:27.597987+00:00 70c63ece1ec2 sshd[13225]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T09:57:28.500784+00:00 70c63ece1ec2 sshd[13225]: pam_unix(sshd:session): session closed for user root
+2018-03-23T09:58:15.148177+00:00 70c63ece1ec2 login[13230]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-23T09:58:15.155639+00:00 70c63ece1ec2 login[13231]: ROOT LOGIN  on '/dev/pts/0' from 'c94b5ae1.virtua.com.br'
+2018-03-23T10:00:05.152817+00:00 70c63ece1ec2 sshd[13245]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T10:00:05.620551+00:00 70c63ece1ec2 sshd[13245]: pam_unix(sshd:session): session closed for user root
+2018-03-23T10:02:12.349438+00:00 70c63ece1ec2 sshd[13249]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T10:02:12.637830+00:00 70c63ece1ec2 sshd[13249]: pam_unix(sshd:session): session closed for user root
+2018-03-23T10:04:33.304345+00:00 70c63ece1ec2 sshd[13253]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T10:04:33.775406+00:00 70c63ece1ec2 sshd[13253]: pam_unix(sshd:session): session closed for user root
+2018-03-23T10:09:45.969909+00:00 70c63ece1ec2 sshd[13261]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T10:09:46.281768+00:00 70c63ece1ec2 sshd[13261]: pam_unix(sshd:session): session closed for user root
+2018-03-23T10:11:00.153122+00:00 70c63ece1ec2 sshd[13271]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T10:11:00.950232+00:00 70c63ece1ec2 sshd[13271]: pam_unix(sshd:session): session closed for user root
+2018-03-23T10:15:32.441332+00:00 70c63ece1ec2 sshd[13295]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T10:15:32.740557+00:00 70c63ece1ec2 sshd[13295]: pam_unix(sshd:session): session closed for user root
+2018-03-23T10:17:23.404720+00:00 70c63ece1ec2 sshd[13303]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T10:17:24.916630+00:00 70c63ece1ec2 sshd[13303]: pam_unix(sshd:session): session closed for user root
+2018-03-23T10:22:26.340787+00:00 70c63ece1ec2 login[13315]: pam_unix(login:session): session opened for user admin by (uid=0)
+2018-03-23T10:26:02.048903+00:00 70c63ece1ec2 login[13332]: pam_unix(login:session): session opened for user admin by (uid=0)
+2018-03-23T10:29:18.175439+00:00 70c63ece1ec2 login[13349]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-23T10:29:18.183519+00:00 70c63ece1ec2 login[13350]: ROOT LOGIN  on '/dev/pts/0' from '177-103-65-4.dsl.telesp.net.br'
+2018-03-23T10:35:45.804580+00:00 70c63ece1ec2 sshd[13366]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T10:35:46.140804+00:00 70c63ece1ec2 sshd[13366]: pam_unix(sshd:session): session closed for user root
+2018-03-23T10:39:57.753492+00:00 70c63ece1ec2 login[13371]: pam_unix(login:auth): check pass; user unknown
+2018-03-23T10:39:57.753575+00:00 70c63ece1ec2 login[13371]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=187-74-214-198.dsl.telesp.net.br 
+2018-03-23T10:39:59.312497+00:00 70c63ece1ec2 sshd[13372]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+2018-03-23T10:40:00.608288+00:00 70c63ece1ec2 login[13371]: FAILED LOGIN (1) on '/dev/pts/0' from '187-74-214-198.dsl.telesp.net.br' FOR 'UNKNOWN', Authentication failure
+2018-03-23T10:40:01.015705+00:00 70c63ece1ec2 login[13371]: pam_unix(login:session): session opened for user guest by (uid=0)
+2018-03-23T10:40:01.393040+00:00 70c63ece1ec2 sshd[13372]: pam_unix(sshd:session): session closed for user admin
+2018-03-23T10:41:23.983296+00:00 70c63ece1ec2 sshd[13394]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T10:41:24.255277+00:00 70c63ece1ec2 sshd[13394]: pam_unix(sshd:session): session closed for user root
+2018-03-23T10:43:15.389111+00:00 70c63ece1ec2 sshd[13398]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T10:43:15.640966+00:00 70c63ece1ec2 sshd[13398]: pam_unix(sshd:session): session closed for user root
+2018-03-23T10:52:19.339726+00:00 70c63ece1ec2 sshd[13404]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T10:52:19.696891+00:00 70c63ece1ec2 sshd[13404]: pam_unix(sshd:session): session closed for user root
+2018-03-23T10:53:13.641579+00:00 70c63ece1ec2 sshd[13408]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T10:53:14.161719+00:00 70c63ece1ec2 sshd[13408]: pam_unix(sshd:session): session closed for user root
+2018-03-23T10:57:21.130422+00:00 70c63ece1ec2 sshd[13412]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T10:57:21.692588+00:00 70c63ece1ec2 sshd[13412]: pam_unix(sshd:session): session closed for user root
+2018-03-23T10:59:00.800619+00:00 70c63ece1ec2 sshd[13416]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T10:59:01.107351+00:00 70c63ece1ec2 sshd[13416]: pam_unix(sshd:session): session closed for user root
+2018-03-23T11:02:27.698459+00:00 70c63ece1ec2 login[13421]: pam_unix(login:auth): check pass; user unknown
+2018-03-23T11:02:27.698533+00:00 70c63ece1ec2 login[13421]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=189-69-108-41.dsl.telesp.net.br 
+2018-03-23T11:02:31.249043+00:00 70c63ece1ec2 login[13421]: FAILED LOGIN (1) on '/dev/pts/0' from '189-69-108-41.dsl.telesp.net.br' FOR 'UNKNOWN', Authentication failure
+2018-03-23T11:02:31.694477+00:00 70c63ece1ec2 login[13421]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-23T11:02:31.697635+00:00 70c63ece1ec2 login[13422]: ROOT LOGIN  on '/dev/pts/0' from '189-69-108-41.dsl.telesp.net.br'
+2018-03-23T11:04:46.851385+00:00 70c63ece1ec2 sshd[13436]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T11:04:48.846904+00:00 70c63ece1ec2 sshd[13436]: pam_unix(sshd:session): session closed for user root
+2018-03-23T11:12:35.048974+00:00 70c63ece1ec2 sshd[13440]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T11:12:35.193630+00:00 70c63ece1ec2 sshd[13440]: pam_unix(sshd:session): session closed for user root
+2018-03-23T11:23:08.957478+00:00 70c63ece1ec2 login[13447]: pam_unix(login:session): session opened for user admin by (uid=0)
+2018-03-23T11:28:46.428180+00:00 70c63ece1ec2 sshd[13471]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T11:28:46.934872+00:00 70c63ece1ec2 sshd[13471]: pam_unix(sshd:session): session closed for user root
+2018-03-23T11:29:32.168004+00:00 70c63ece1ec2 sshd[13475]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T11:29:32.983865+00:00 70c63ece1ec2 sshd[13475]: pam_unix(sshd:session): session closed for user root
+2018-03-23T11:37:20.311391+00:00 70c63ece1ec2 sshd[13480]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T11:37:20.604886+00:00 70c63ece1ec2 sshd[13480]: pam_unix(sshd:session): session closed for user root
+2018-03-23T11:43:51.175782+00:00 70c63ece1ec2 sshd[13486]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T11:43:51.514155+00:00 70c63ece1ec2 sshd[13486]: pam_unix(sshd:session): session closed for user root
+2018-03-23T11:47:05.011795+00:00 70c63ece1ec2 login[13491]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-23T11:47:05.019411+00:00 70c63ece1ec2 login[13492]: ROOT LOGIN  on '/dev/pts/1' from '177-188-3-222.dsl.telesp.net.br'
+2018-03-23T11:52:12.978836+00:00 70c63ece1ec2 sshd[13506]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T11:52:13.352022+00:00 70c63ece1ec2 sshd[13506]: pam_unix(sshd:session): session closed for user root
+2018-03-23T11:54:33.855535+00:00 70c63ece1ec2 login[13511]: pam_unix(login:session): session opened for user admin by (uid=0)
+2018-03-23T12:03:11.575142+00:00 70c63ece1ec2 sshd[13527]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T12:03:11.927846+00:00 70c63ece1ec2 sshd[13527]: pam_unix(sshd:session): session closed for user root
+2018-03-23T12:03:43.394731+00:00 70c63ece1ec2 login[13532]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-23T12:03:43.397847+00:00 70c63ece1ec2 login[13533]: ROOT LOGIN  on '/dev/pts/1' from '200-148-12-197.dsl.telesp.net.br'
+2018-03-23T12:13:12.193242+00:00 70c63ece1ec2 login[13548]: pam_unix(login:session): session opened for user support by (uid=0)
+2018-03-23T12:14:45.734551+00:00 70c63ece1ec2 sshd[13564]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T12:14:47.309921+00:00 70c63ece1ec2 sshd[13564]: pam_unix(sshd:session): session closed for user root
+2018-03-23T12:15:19.047042+00:00 70c63ece1ec2 login[13570]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-23T12:15:19.050415+00:00 70c63ece1ec2 login[13571]: ROOT LOGIN  on '/dev/pts/1' from 'host-80-41-232-66.as13285.net'
+2018-03-23T12:23:33.508744+00:00 70c63ece1ec2 sshd[13585]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T12:23:33.508819+00:00 70c63ece1ec2 sshd[13585]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=119.29.27.246 
+2018-03-23T12:25:39.306645+00:00 70c63ece1ec2 sshd[13587]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T12:25:39.633302+00:00 70c63ece1ec2 sshd[13587]: pam_unix(sshd:session): session closed for user root
+2018-03-23T12:25:40.997670+00:00 70c63ece1ec2 login[13592]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-23T12:25:41.005508+00:00 70c63ece1ec2 login[13593]: ROOT LOGIN  on '/dev/pts/1' from '179-98-212-68.dsl.telesp.net.br'
+2018-03-23T12:33:44.090303+00:00 70c63ece1ec2 login[13608]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-23T12:33:44.093603+00:00 70c63ece1ec2 login[13609]: ROOT LOGIN  on '/dev/pts/1' from 'medici1.lnk.telstra.net'
+2018-03-23T12:36:46.238728+00:00 70c63ece1ec2 login[13628]: pam_unix(login:session): session opened for user supervisor by (uid=0)
+2018-03-23T12:38:38.562135+00:00 70c63ece1ec2 sshd[13651]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T12:38:40.921734+00:00 70c63ece1ec2 sshd[13651]: pam_unix(sshd:session): session closed for user root
+2018-03-23T12:53:16.403914+00:00 70c63ece1ec2 login[13669]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-23T12:53:16.413570+00:00 70c63ece1ec2 login[13670]: ROOT LOGIN  on '/dev/pts/2' from '191-17-83-232.user.vivozap.com.br'
+2018-03-23T13:01:34.539898+00:00 70c63ece1ec2 sshd[13684]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T13:01:34.826212+00:00 70c63ece1ec2 sshd[13684]: pam_unix(sshd:session): session closed for user root
+2018-03-23T13:03:57.548973+00:00 70c63ece1ec2 sshd[13688]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T13:03:58.257918+00:00 70c63ece1ec2 sshd[13688]: pam_unix(sshd:session): session closed for user root
+2018-03-23T13:08:36.678333+00:00 70c63ece1ec2 sshd[9646]: pam_unix(sshd:session): session closed for user admin
+2018-03-23T13:08:38.096241+00:00 70c63ece1ec2 sshd[13692]: pam_unix(sshd:session): session opened for user admin by (uid=0)
