@@ -40,21 +40,20 @@ echo "pts/$counter" >> /etc/securetty
 done
 service openbsd-inetd restart
 
-usermod -p "" root && \
-    usermod -p "" admin && \
-    usermod -p "" admin1 && \
-    usermod -p "" guest && \
-    usermod -p "" cisco  && \
-    usermod -p "" support && \
-    usermod -p "" ubnt && \
-    usermod -p "" default && \
-    usermod -p "" Admin && \
-    usermod -p "" service && \
-    usermod -p "" supervisor && \
-    usermod -p "" Administrator && \
-    usermod -p "" administrator && \
-    usermod -p "" user && \
-    echo "Set none passwords for all users successfully"
+echo 'root:root' | chpasswd
+echo 'admin:admin' | chpasswd
+echo 'cisco:cisco' | chpasswd
+echo 'guest:guest' | chpasswd
+echo 'admin1:admin1' | chpasswd
+echo 'support:support' | chpasswd
+echo 'ubnt:ubnt' | chpasswd
+echo 'default:default' | chpasswd
+echo 'Admin:Admin' | chpasswd
+echo 'service:service' | chpasswd
+echo 'supervisor:supervisor' | chpasswd
+echo 'Administrator:Administrator' | chpasswd
+echo 'administrator:administrator' | chpasswd
+echo 'user:user' | chpasswd			# This is the default credentials for the huawei hg532 router models
 
 # Set up SSH service
 mkdir /var/run/sshd
@@ -77,29 +76,6 @@ service ssh stop && service ssh start
 iptables --table nat --append POSTROUTING --out-interface eth0 -j MASQUERADE && \
     iptables --append FORWARD --in-interface eth1 -j ACCEPT && \
     echo "NATing enabled"
-
-# Logkeys
-apt-get update && \
-    apt-get install -y \
-      autoconf \
-      git \
-      automake \
-      g++ \
-      language-pack-en-base \
-      make \
-      kbd && \
-    apt-get clean 
-locale-gen en_US.UTF-8
-git clone http://www.github.com/kernc/logkeys
-cd logkeys
-./autogen.sh
-cd build
-touch /dev/input/eventX && \
-    ../configure && \
-    make && \
-    make install
-logkeys --start --output=/var/log/zookeeper/zookeeper.log --device=/dev/input/event2 --us-keymap
-
 
 # Start the syslog daemon
 # This should be started after everything else so that none of the other tools being set up are logged
