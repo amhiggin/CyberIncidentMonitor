@@ -36,7 +36,7 @@ esac
 # Build the cowrie image
 build() {
 	echo "Building cowrie image..."
-        docker build -t cowrie -f "$(pwd)"/cowrie/DockerFile .
+        docker build --ulimit nproc=100:150 -t cowrie -f "$(pwd)"/cowrie/DockerFile .
         echo "Built cowrie image successfully."
 
         # define dmz net
@@ -163,7 +163,7 @@ define_router() {
 }
 
 build_router_image() {
-	docker build -t router -f "$(pwd)"/router/DockerFile .
+	docker build --ulimit nproc=1000:1200 -t router -f "$(pwd)"/router/DockerFile .
 }
 
 
