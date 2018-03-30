@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 # Fix uid/gid to 1000 for shared volumes
 groupadd -r -g 1000 admin && \
     useradd -r -g 1000 -d /admin -m -g admin admin

@@ -1,0 +1,6 @@
+This experiment was the third attempt to conduct the first experiment iteration of 12 planned iterations.
+The experiment ran for 50 hours.
+The parameters varied were:
+	- The model of router (Huawei HG532d)
+	- The passwords accepted on each of the cowrie honeypots in the honeynet
+The experiment was run for a third time because during the second iteration, the AWS instance went into meltdown because of the so-called 'forkbomb' phenomenon, where a process tries to recursively create instances of itself. It isn't clear why this happened, but seems to be due to an issue with cron.

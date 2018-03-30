@@ -1,0 +1,2 @@
+This was the second attempt at the first iteration of an experiment.
+The iteration failed because of the AWS instance going into meltdown, seemingly because of a 'forkbomb' error caused by Cron.

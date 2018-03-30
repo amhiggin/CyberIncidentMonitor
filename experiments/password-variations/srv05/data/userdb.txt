@@ -1,0 +1,13 @@
+admin:x:admin
+admin:x:password
+admin:x:manager
+admin:x:admin1
+admin:x:admin1234
+admin:x:motorola
+admin:x:pfsense
+admin:x:admin123
+admin:x:1234
+admin:x:changeme
+admin:x:default
+admin:x:7ujMko0admin
+admin:x:aerohive

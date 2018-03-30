@@ -1,0 +1,669 @@
+2018-03-23T21:43:33.340751+00:00 bbb023cecb74 sshd[270]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=157.122.148.22  user=admin
+2018-03-23T21:43:35.602614+00:00 bbb023cecb74 sshd[270]: Failed password for admin from 157.122.148.22 port 35674 ssh2
+2018-03-23T21:43:35.877395+00:00 bbb023cecb74 sshd[270]: Received disconnect from 157.122.148.22 port 35674:11: Normal Shutdown, Thank you for playing [preauth]
+2018-03-23T21:43:35.877428+00:00 bbb023cecb74 sshd[270]: Disconnected from 157.122.148.22 port 35674 [preauth]
+2018-03-23T21:45:02.931730+00:00 bbb023cecb74 sshd[272]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=46.32.104.210  user=admin
+2018-03-23T21:45:04.410883+00:00 bbb023cecb74 sshd[272]: Failed password for admin from 46.32.104.210 port 60655 ssh2
+2018-03-23T21:45:04.585713+00:00 bbb023cecb74 sshd[272]: Received disconnect from 46.32.104.210 port 60655:11: Normal Shutdown, Thank you for playing [preauth]
+2018-03-23T21:45:04.585748+00:00 bbb023cecb74 sshd[272]: Disconnected from 46.32.104.210 port 60655 [preauth]
+2018-03-23T21:46:01.703689+00:00 bbb023cecb74 sshd[274]: Invalid user mailnull from 41.39.134.88
+2018-03-23T21:46:01.703962+00:00 bbb023cecb74 sshd[274]: input_userauth_request: invalid user mailnull [preauth]
+2018-03-23T21:46:01.705444+00:00 bbb023cecb74 sshd[274]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T21:46:01.705511+00:00 bbb023cecb74 sshd[274]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=41.39.134.88 
+2018-03-23T21:46:02.949017+00:00 bbb023cecb74 sshd[274]: Failed password for invalid user mailnull from 41.39.134.88 port 24567 ssh2
+2018-03-23T21:46:03.221301+00:00 bbb023cecb74 sshd[274]: Received disconnect from 41.39.134.88 port 24567:11: Normal Shutdown, Thank you for playing [preauth]
+2018-03-23T21:46:03.221340+00:00 bbb023cecb74 sshd[274]: Disconnected from 41.39.134.88 port 24567 [preauth]
+2018-03-23T21:49:44.227264+00:00 bbb023cecb74 sshd[276]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=111.230.100.145  user=admin
+2018-03-23T21:49:46.087743+00:00 bbb023cecb74 sshd[276]: Failed password for admin from 111.230.100.145 port 56711 ssh2
+2018-03-23T21:49:46.312259+00:00 bbb023cecb74 sshd[276]: Received disconnect from 111.230.100.145 port 56711:11: Normal Shutdown, Thank you for playing [preauth]
+2018-03-23T21:49:46.312297+00:00 bbb023cecb74 sshd[276]: Disconnected from 111.230.100.145 port 56711 [preauth]
+2018-03-23T21:53:55.493416+00:00 bbb023cecb74 sshd[286]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.236.92.184  user=root
+2018-03-23T21:53:57.143276+00:00 bbb023cecb74 sshd[286]: Failed password for root from 109.236.92.184 port 50973 ssh2
+2018-03-23T21:53:57.238564+00:00 bbb023cecb74 sshd[286]: Connection closed by 109.236.92.184 port 50973 [preauth]
+2018-03-23T21:55:50.276780+00:00 bbb023cecb74 login[297]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/1 ruser= rhost=189-47-255-120.dsl.telesp.net.br  user=root
+2018-03-23T21:55:53.960639+00:00 bbb023cecb74 login[297]: FAILED LOGIN (1) on '/dev/pts/1' from '189-47-255-120.dsl.telesp.net.br' FOR 'root', Authentication failure
+2018-03-23T21:55:54.873491+00:00 bbb023cecb74 login[297]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/1 ruser= rhost=189-47-255-120.dsl.telesp.net.br  user=admin
+2018-03-23T21:55:58.650898+00:00 bbb023cecb74 login[297]: FAILED LOGIN (2) on '/dev/pts/1' from '189-47-255-120.dsl.telesp.net.br' FOR 'admin', Authentication failure
+2018-03-23T21:55:59.229130+00:00 bbb023cecb74 login[299]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/2 ruser= rhost=177.45.222.227  user=admin
+2018-03-23T21:56:01.824472+00:00 bbb023cecb74 login[299]: FAILED LOGIN (1) on '/dev/pts/2' from '177.45.222.227' FOR 'admin', Authentication failure
+2018-03-23T21:56:02.696769+00:00 bbb023cecb74 login[299]: pam_env(login:session): Unable to open env file: /etc/default/locale: No such file or directory
+2018-03-23T21:56:02.698870+00:00 bbb023cecb74 login[299]: pam_lastlog(login:session): file /var/log/lastlog created
+2018-03-23T21:56:02.699633+00:00 bbb023cecb74 login[299]: pam_unix(login:session): session opened for user admin by (uid=0)
+2018-03-23T21:56:02.867024+00:00 bbb023cecb74 login[297]: FAILED LOGIN (3) on '/dev/pts/1' from '189-47-255-120.dsl.telesp.net.br' FOR 'root', Authentication failure
+2018-03-23T21:56:06.913162+00:00 bbb023cecb74 login[297]: FAILED LOGIN (4) on '/dev/pts/1' from '189-47-255-120.dsl.telesp.net.br' FOR 'admin', Authentication failure
+2018-03-23T21:56:10.759994+00:00 bbb023cecb74 login[315]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/1 ruser= rhost=189-47-255-120.dsl.telesp.net.br  user=admin
+2018-03-23T21:56:13.830455+00:00 bbb023cecb74 login[315]: FAILED LOGIN (1) on '/dev/pts/1' from '189-47-255-120.dsl.telesp.net.br' FOR 'admin', Authentication failure
+2018-03-23T21:56:14.738019+00:00 bbb023cecb74 login[315]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/1 ruser= rhost=189-47-255-120.dsl.telesp.net.br  user=root
+2018-03-23T21:56:18.131692+00:00 bbb023cecb74 login[315]: FAILED LOGIN (2) on '/dev/pts/1' from '189-47-255-120.dsl.telesp.net.br' FOR 'root', Authentication failure
+2018-03-23T21:56:22.472423+00:00 bbb023cecb74 login[315]: FAILED LOGIN (3) on '/dev/pts/1' from '189-47-255-120.dsl.telesp.net.br' FOR 'admin', Authentication failure
+2018-03-23T21:56:24.542328+00:00 bbb023cecb74 sshd[316]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.236.92.184  user=root
+2018-03-23T21:56:25.627436+00:00 bbb023cecb74 login[315]: FAILED LOGIN (4) on '/dev/pts/1' from '189-47-255-120.dsl.telesp.net.br' FOR 'root', Authentication failure
+2018-03-23T21:56:27.315967+00:00 bbb023cecb74 sshd[316]: Failed password for root from 109.236.92.184 port 49402 ssh2
+2018-03-23T21:56:27.409604+00:00 bbb023cecb74 sshd[316]: Connection closed by 109.236.92.184 port 49402 [preauth]
+2018-03-23T21:56:30.760614+00:00 bbb023cecb74 login[319]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/1 ruser= rhost=189-47-255-120.dsl.telesp.net.br  user=root
+2018-03-23T21:56:34.448356+00:00 bbb023cecb74 login[319]: FAILED LOGIN (1) on '/dev/pts/1' from '189-47-255-120.dsl.telesp.net.br' FOR 'root', Authentication failure
+2018-03-23T21:56:37.569113+00:00 bbb023cecb74 login[319]: FAILED LOGIN (2) on '/dev/pts/1' from '189-47-255-120.dsl.telesp.net.br' FOR 'root', Authentication failure
+2018-03-23T21:56:38.466428+00:00 bbb023cecb74 login[319]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/1 ruser= rhost=189-47-255-120.dsl.telesp.net.br  user=admin
+2018-03-23T21:56:41.303063+00:00 bbb023cecb74 login[319]: FAILED LOGIN (3) on '/dev/pts/1' from '189-47-255-120.dsl.telesp.net.br' FOR 'admin', Authentication failure
+2018-03-23T21:56:45.356736+00:00 bbb023cecb74 login[319]: FAILED LOGIN (4) on '/dev/pts/1' from '189-47-255-120.dsl.telesp.net.br' FOR 'root', Authentication failure
+2018-03-23T21:56:48.774875+00:00 bbb023cecb74 login[319]: FAILED LOGIN (5) on '/dev/pts/1' from '189-47-255-120.dsl.telesp.net.br' FOR 'root', Authentication failure
+2018-03-23T21:56:48.776229+00:00 bbb023cecb74 login[319]: TOO MANY LOGIN TRIES (5) on '/dev/pts/1' from '189-47-255-120.dsl.telesp.net.br' FOR 'root'
+2018-03-23T21:56:48.776336+00:00 bbb023cecb74 login[319]: pam_mail(login:session): pam_putenv: delete non-existent entry; MAIL
+2018-03-23T21:56:48.776402+00:00 bbb023cecb74 login[319]: pam_unix(login:session): session closed for user root
+2018-03-23T21:56:48.777042+00:00 bbb023cecb74 login[319]: PAM 3 more authentication failures; logname= uid=0 euid=0 tty=/dev/pts/1 ruser= rhost=189-47-255-120.dsl.telesp.net.br  user=root
+2018-03-23T21:56:48.777054+00:00 bbb023cecb74 login[319]: PAM service(login) ignoring max retries; 4 > 3
+2018-03-23T21:56:51.104559+00:00 bbb023cecb74 login[325]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/1 ruser= rhost=189-47-255-120.dsl.telesp.net.br  user=admin1
+2018-03-23T21:56:54.090447+00:00 bbb023cecb74 login[325]: FAILED LOGIN (1) on '/dev/pts/1' from '189-47-255-120.dsl.telesp.net.br' FOR 'admin1', Authentication failure
+2018-03-23T21:56:55.013225+00:00 bbb023cecb74 login[325]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/1 ruser= rhost=189-47-255-120.dsl.telesp.net.br  user=root
+2018-03-23T21:56:57.849964+00:00 bbb023cecb74 login[325]: FAILED LOGIN (2) on '/dev/pts/1' from '189-47-255-120.dsl.telesp.net.br' FOR 'root', Authentication failure
+2018-03-23T21:57:01.215576+00:00 bbb023cecb74 login[325]: FAILED LOGIN (3) on '/dev/pts/1' from '189-47-255-120.dsl.telesp.net.br' FOR 'root', Authentication failure
+2018-03-23T21:57:02.136078+00:00 bbb023cecb74 login[325]: pam_env(login:session): Unable to open env file: /etc/default/locale: No such file or directory
+2018-03-23T21:57:02.136945+00:00 bbb023cecb74 login[325]: pam_unix(login:session): session opened for user service by (uid=0)
+2018-03-23T22:01:09.966768+00:00 bbb023cecb74 sshd[339]: Invalid user cod from 41.39.134.88
+2018-03-23T22:01:09.967023+00:00 bbb023cecb74 sshd[339]: input_userauth_request: invalid user cod [preauth]
+2018-03-23T22:01:09.968426+00:00 bbb023cecb74 sshd[339]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T22:01:09.968500+00:00 bbb023cecb74 sshd[339]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=41.39.134.88 
+2018-03-23T22:01:12.200204+00:00 bbb023cecb74 sshd[339]: Failed password for invalid user cod from 41.39.134.88 port 63864 ssh2
+2018-03-23T22:01:12.443177+00:00 bbb023cecb74 sshd[339]: Received disconnect from 41.39.134.88 port 63864:11: Normal Shutdown, Thank you for playing [preauth]
+2018-03-23T22:01:12.443216+00:00 bbb023cecb74 sshd[339]: Disconnected from 41.39.134.88 port 63864 [preauth]
+2018-03-23T22:03:14.738525+00:00 bbb023cecb74 login[342]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=151-239-102-38.tcg.ir  user=root
+2018-03-23T22:03:17.573154+00:00 bbb023cecb74 login[342]: FAILED LOGIN (1) on '/dev/pts/0' from '151-239-102-38.tcg.ir' FOR 'root', Authentication failure
+2018-03-23T22:03:21.400972+00:00 bbb023cecb74 login[342]: FAILED LOGIN (2) on '/dev/pts/0' from '151-239-102-38.tcg.ir' FOR 'root', Authentication failure
+2018-03-23T22:03:22.592192+00:00 bbb023cecb74 login[342]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=151-239-102-38.tcg.ir  user=Administrator
+2018-03-23T22:03:25.625628+00:00 bbb023cecb74 login[342]: FAILED LOGIN (3) on '/dev/pts/0' from '151-239-102-38.tcg.ir' FOR 'Administrator', Authentication failure
+2018-03-23T22:03:30.199807+00:00 bbb023cecb74 login[342]: FAILED LOGIN (4) on '/dev/pts/0' from '151-239-102-38.tcg.ir' FOR 'root', Authentication failure
+2018-03-23T22:03:34.459887+00:00 bbb023cecb74 login[344]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=151-239-102-38.tcg.ir  user=root
+2018-03-23T22:03:37.552555+00:00 bbb023cecb74 login[344]: FAILED LOGIN (1) on '/dev/pts/0' from '151-239-102-38.tcg.ir' FOR 'root', Authentication failure
+2018-03-23T22:03:38.608303+00:00 bbb023cecb74 login[344]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=151-239-102-38.tcg.ir  user=admin
+2018-03-23T22:03:41.935548+00:00 bbb023cecb74 login[344]: FAILED LOGIN (2) on '/dev/pts/0' from '151-239-102-38.tcg.ir' FOR 'admin', Authentication failure
+2018-03-23T22:03:45.468532+00:00 bbb023cecb74 login[344]: FAILED LOGIN (3) on '/dev/pts/0' from '151-239-102-38.tcg.ir' FOR 'root', Authentication failure
+2018-03-23T22:03:49.030166+00:00 bbb023cecb74 login[344]: FAILED LOGIN (4) on '/dev/pts/0' from '151-239-102-38.tcg.ir' FOR 'root', Authentication failure
+2018-03-23T22:03:50.089211+00:00 bbb023cecb74 login[344]: pam_unix(login:auth): check pass; user unknown
+2018-03-23T22:03:50.089311+00:00 bbb023cecb74 login[344]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=151-239-102-38.tcg.ir 
+2018-03-23T22:03:54.992012+00:00 bbb023cecb74 login[346]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=151-239-102-38.tcg.ir  user=root
+2018-03-23T22:03:58.409547+00:00 bbb023cecb74 login[346]: FAILED LOGIN (1) on '/dev/pts/0' from '151-239-102-38.tcg.ir' FOR 'root', Authentication failure
+2018-03-23T22:03:59.599410+00:00 bbb023cecb74 login[346]: pam_env(login:session): Unable to open env file: /etc/default/locale: No such file or directory
+2018-03-23T22:03:59.600257+00:00 bbb023cecb74 login[346]: pam_unix(login:session): session opened for user supervisor by (uid=0)
+2018-03-23T22:11:18.583276+00:00 bbb023cecb74 sshd[368]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.236.92.184  user=root
+2018-03-23T22:11:20.087210+00:00 bbb023cecb74 sshd[368]: Failed password for root from 109.236.92.184 port 50541 ssh2
+2018-03-23T22:11:20.185086+00:00 bbb023cecb74 sshd[368]: Connection closed by 109.236.92.184 port 50541 [preauth]
+2018-03-23T22:16:16.602093+00:00 bbb023cecb74 sshd[382]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.236.92.184  user=admin
+2018-03-23T22:16:18.683072+00:00 bbb023cecb74 sshd[382]: Failed password for admin from 109.236.92.184 port 44331 ssh2
+2018-03-23T22:16:18.783518+00:00 bbb023cecb74 sshd[382]: Connection closed by 109.236.92.184 port 44331 [preauth]
+2018-03-23T22:19:31.767725+00:00 bbb023cecb74 sshd[384]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=210.121.196.10  user=admin
+2018-03-23T22:19:33.953869+00:00 bbb023cecb74 sshd[384]: Failed password for admin from 210.121.196.10 port 38832 ssh2
+2018-03-23T22:19:34.191744+00:00 bbb023cecb74 sshd[384]: Received disconnect from 210.121.196.10 port 38832:11: Normal Shutdown, Thank you for playing [preauth]
+2018-03-23T22:19:34.191781+00:00 bbb023cecb74 sshd[384]: Disconnected from 210.121.196.10 port 38832 [preauth]
+2018-03-23T22:23:43.561129+00:00 bbb023cecb74 sshd[408]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.236.92.184  user=root
+2018-03-23T22:23:45.340957+00:00 bbb023cecb74 sshd[408]: Failed password for root from 109.236.92.184 port 46810 ssh2
+2018-03-23T22:23:45.434870+00:00 bbb023cecb74 sshd[408]: Connection closed by 109.236.92.184 port 46810 [preauth]
+2018-03-23T22:25:07.655767+00:00 bbb023cecb74 sshd[420]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=122.226.181.167  user=root
+2018-03-23T22:25:11.237675+00:00 bbb023cecb74 sshd[420]: Failed password for root from 122.226.181.167 port 35320 ssh2
+2018-03-23T22:25:11.495123+00:00 bbb023cecb74 sshd[420]: Accepted password for root from 122.226.181.167 port 35320 ssh2
+2018-03-23T22:25:11.496056+00:00 bbb023cecb74 sshd[420]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T22:25:11.499004+00:00 bbb023cecb74 sshd[420]: pam_env(sshd:session): Unable to open env file: /etc/default/locale: No such file or directory
+2018-03-23T22:25:11.733933+00:00 bbb023cecb74 sshd[420]: Received disconnect from 122.226.181.167 port 35320:11: 
+2018-03-23T22:25:11.733984+00:00 bbb023cecb74 sshd[420]: Disconnected from 122.226.181.167 port 35320
+2018-03-23T22:25:11.734073+00:00 bbb023cecb74 sshd[420]: pam_unix(sshd:session): session closed for user root
+2018-03-23T22:26:12.575514+00:00 bbb023cecb74 sshd[428]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.236.92.184  user=admin
+2018-03-23T22:26:14.475925+00:00 bbb023cecb74 sshd[428]: Failed password for admin from 109.236.92.184 port 44250 ssh2
+2018-03-23T22:26:14.571097+00:00 bbb023cecb74 sshd[428]: Connection closed by 109.236.92.184 port 44250 [preauth]
+2018-03-23T22:26:44.484835+00:00 bbb023cecb74 sshd[432]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.42.28.247  user=root
+2018-03-23T22:26:46.642935+00:00 bbb023cecb74 sshd[432]: Accepted password for root from 103.42.28.247 port 45011 ssh2
+2018-03-23T22:26:46.643838+00:00 bbb023cecb74 sshd[432]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T22:26:46.646494+00:00 bbb023cecb74 sshd[432]: pam_env(sshd:session): Unable to open env file: /etc/default/locale: No such file or directory
+2018-03-23T22:27:32.145671+00:00 bbb023cecb74 sshd[432]: Received disconnect from 103.42.28.247 port 45011:11: 
+2018-03-23T22:27:32.145704+00:00 bbb023cecb74 sshd[432]: Disconnected from 103.42.28.247 port 45011
+2018-03-23T22:27:32.145789+00:00 bbb023cecb74 sshd[432]: pam_unix(sshd:session): session closed for user root
+2018-03-23T22:27:49.569534+00:00 bbb023cecb74 login[579]: pam_unix(login:auth): check pass; user unknown
+2018-03-23T22:27:49.569606+00:00 bbb023cecb74 login[579]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=187-10-143-87.dsl.telesp.net.br 
+2018-03-23T22:27:54.630984+00:00 bbb023cecb74 login[579]: FAILED LOGIN (1) on '/dev/pts/0' from '187-10-143-87.dsl.telesp.net.br' FOR 'UNKNOWN', Authentication failure
+2018-03-23T22:27:55.559416+00:00 bbb023cecb74 login[579]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=187-10-143-87.dsl.telesp.net.br  user=root
+2018-03-23T22:27:58.915441+00:00 bbb023cecb74 login[579]: FAILED LOGIN (2) on '/dev/pts/0' from '187-10-143-87.dsl.telesp.net.br' FOR 'root', Authentication failure
+2018-03-23T22:27:59.849015+00:00 bbb023cecb74 login[579]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=187-10-143-87.dsl.telesp.net.br  user=admin
+2018-03-23T22:28:03.032240+00:00 bbb023cecb74 login[579]: FAILED LOGIN (3) on '/dev/pts/0' from '187-10-143-87.dsl.telesp.net.br' FOR 'admin', Authentication failure
+2018-03-23T22:28:09.956440+00:00 bbb023cecb74 login[641]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=187-10-143-87.dsl.telesp.net.br  user=admin
+2018-03-23T22:28:12.199317+00:00 bbb023cecb74 login[641]: FAILED LOGIN (1) on '/dev/pts/0' from '187-10-143-87.dsl.telesp.net.br' FOR 'admin', Authentication failure
+2018-03-23T22:28:13.322385+00:00 bbb023cecb74 login[641]: pam_env(login:session): Unable to open env file: /etc/default/locale: No such file or directory
+2018-03-23T22:28:13.323259+00:00 bbb023cecb74 login[641]: pam_unix(login:session): session opened for user user by (uid=0)
+2018-03-23T22:38:28.609825+00:00 bbb023cecb74 sshd[2710]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.27.239.27  user=admin
+2018-03-23T22:38:30.549660+00:00 bbb023cecb74 sshd[2710]: Failed password for admin from 103.27.239.27 port 58272 ssh2
+2018-03-23T22:38:30.787611+00:00 bbb023cecb74 sshd[2710]: Received disconnect from 103.27.239.27 port 58272:11: Normal Shutdown, Thank you for playing [preauth]
+2018-03-23T22:38:30.787644+00:00 bbb023cecb74 sshd[2710]: Disconnected from 103.27.239.27 port 58272 [preauth]
+2018-03-23T22:39:38.891127+00:00 bbb023cecb74 sshd[2952]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=42.7.26.61  user=root
+2018-03-23T22:39:42.879678+00:00 bbb023cecb74 sshd[2952]: Failed password for root from 42.7.26.61 port 18156 ssh2
+2018-03-23T22:39:46.567009+00:00 bbb023cecb74 sshd[2952]: Failed password for root from 42.7.26.61 port 18156 ssh2
+2018-03-23T22:39:49.801416+00:00 bbb023cecb74 sshd[2952]: Failed password for root from 42.7.26.61 port 18156 ssh2
+2018-03-23T22:39:52.113475+00:00 bbb023cecb74 sshd[2952]: Failed password for root from 42.7.26.61 port 18156 ssh2
+2018-03-23T22:39:54.701377+00:00 bbb023cecb74 sshd[2952]: Failed password for root from 42.7.26.61 port 18156 ssh2
+2018-03-23T22:39:58.036753+00:00 bbb023cecb74 sshd[2952]: Failed password for root from 42.7.26.61 port 18156 ssh2
+2018-03-23T22:39:58.036814+00:00 bbb023cecb74 sshd[2952]: error: maximum authentication attempts exceeded for root from 42.7.26.61 port 18156 ssh2 [preauth]
+2018-03-23T22:39:58.036831+00:00 bbb023cecb74 sshd[2952]: Disconnecting: Too many authentication failures [preauth]
+2018-03-23T22:39:58.037111+00:00 bbb023cecb74 sshd[2952]: PAM 6 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=42.7.26.61  user=root
+2018-03-23T22:39:58.037123+00:00 bbb023cecb74 sshd[2952]: PAM service(sshd) ignoring max retries; 7 > 3
+2018-03-23T22:40:02.997662+00:00 bbb023cecb74 sshd[3029]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=42.7.26.61  user=root
+2018-03-23T22:40:08.037387+00:00 bbb023cecb74 sshd[3029]: Failed password for root from 42.7.26.61 port 64140 ssh2
+2018-03-23T22:40:08.809956+00:00 bbb023cecb74 sshd[3029]: Accepted password for root from 42.7.26.61 port 64140 ssh2
+2018-03-23T22:40:08.810867+00:00 bbb023cecb74 sshd[3029]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T22:40:08.813535+00:00 bbb023cecb74 sshd[3029]: pam_env(sshd:session): Unable to open env file: /etc/default/locale: No such file or directory
+2018-03-23T22:40:09.075934+00:00 bbb023cecb74 sshd[3029]: Received disconnect from 42.7.26.61 port 64140:11: 
+2018-03-23T22:40:09.075968+00:00 bbb023cecb74 sshd[3029]: Disconnected from 42.7.26.61 port 64140
+2018-03-23T22:40:09.076044+00:00 bbb023cecb74 sshd[3029]: pam_unix(sshd:session): session closed for user root
+2018-03-23T22:50:33.779958+00:00 bbb023cecb74 sshd[5141]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=201.147.183.55  user=admin
+2018-03-23T22:50:35.920517+00:00 bbb023cecb74 sshd[5141]: Failed password for admin from 201.147.183.55 port 41222 ssh2
+2018-03-23T22:50:36.021712+00:00 bbb023cecb74 sshd[5141]: Received disconnect from 201.147.183.55 port 41222:11: Normal Shutdown, Thank you for playing [preauth]
+2018-03-23T22:50:36.021745+00:00 bbb023cecb74 sshd[5141]: Disconnected from 201.147.183.55 port 41222 [preauth]
+2018-03-23T22:55:27.952687+00:00 bbb023cecb74 sshd[6145]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=14.47.125.208  user=root
+2018-03-23T22:55:31.788877+00:00 bbb023cecb74 sshd[6145]: Failed password for root from 14.47.125.208 port 13748 ssh2
+2018-03-23T22:55:32.023076+00:00 bbb023cecb74 sshd[6145]: Accepted password for root from 14.47.125.208 port 13748 ssh2
+2018-03-23T22:55:32.024062+00:00 bbb023cecb74 sshd[6145]: pam_unix(sshd:session): session opened for user root by (uid=0)
+2018-03-23T22:55:32.026854+00:00 bbb023cecb74 sshd[6145]: pam_env(sshd:session): Unable to open env file: /etc/default/locale: No such file or directory
+2018-03-23T22:58:07.496068+00:00 bbb023cecb74 sshd[6145]: Received disconnect from 14.47.125.208 port 13748:11: 
+2018-03-23T22:58:07.496111+00:00 bbb023cecb74 sshd[6145]: Disconnected from 14.47.125.208 port 13748
+2018-03-23T22:58:07.496205+00:00 bbb023cecb74 sshd[6145]: pam_unix(sshd:session): session closed for user root
+2018-03-23T22:58:11.275111+00:00 bbb023cecb74 sshd[6740]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=216.245.215.98  user=admin
+2018-03-23T22:58:13.621458+00:00 bbb023cecb74 sshd[6740]: Failed password for admin from 216.245.215.98 port 46982 ssh2
+2018-03-23T22:58:13.661906+00:00 bbb023cecb74 sshd[6740]: Received disconnect from 216.245.215.98 port 46982:11: Normal Shutdown, Thank you for playing [preauth]
+2018-03-23T22:58:13.661937+00:00 bbb023cecb74 sshd[6740]: Disconnected from 216.245.215.98 port 46982 [preauth]
+2018-03-23T22:58:30.648374+00:00 bbb023cecb74 sshd[6804]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.236.92.184  user=admin
+2018-03-23T22:58:32.603544+00:00 bbb023cecb74 sshd[6804]: Failed password for admin from 109.236.92.184 port 52407 ssh2
+2018-03-23T22:58:32.695109+00:00 bbb023cecb74 sshd[6804]: Connection closed by 109.236.92.184 port 52407 [preauth]
+2018-03-23T23:05:24.831054+00:00 bbb023cecb74 sshd[8206]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=121.28.103.135  user=admin
+2018-03-23T23:05:26.620648+00:00 bbb023cecb74 sshd[8206]: Failed password for admin from 121.28.103.135 port 40792 ssh2
+2018-03-23T23:05:26.833493+00:00 bbb023cecb74 sshd[8206]: Received disconnect from 121.28.103.135 port 40792:11: Normal Shutdown, Thank you for playing [preauth]
+2018-03-23T23:05:26.833527+00:00 bbb023cecb74 sshd[8206]: Disconnected from 121.28.103.135 port 40792 [preauth]
+2018-03-23T23:06:40.334692+00:00 bbb023cecb74 login[8464]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=179-99-189-94.dsl.telesp.net.br  user=admin
+2018-03-23T23:06:44.402831+00:00 bbb023cecb74 login[8464]: FAILED LOGIN (1) on '/dev/pts/0' from '179-99-189-94.dsl.telesp.net.br' FOR 'admin', Authentication failure
+2018-03-23T23:06:45.290649+00:00 bbb023cecb74 login[8464]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=179-99-189-94.dsl.telesp.net.br  user=root
+2018-03-23T23:06:47.450389+00:00 bbb023cecb74 login[8464]: FAILED LOGIN (2) on '/dev/pts/0' from '179-99-189-94.dsl.telesp.net.br' FOR 'root', Authentication failure
+2018-03-23T23:06:51.118152+00:00 bbb023cecb74 login[8464]: FAILED LOGIN (3) on '/dev/pts/0' from '179-99-189-94.dsl.telesp.net.br' FOR 'root', Authentication failure
+2018-03-23T23:06:52.024915+00:00 bbb023cecb74 login[8464]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=179-99-189-94.dsl.telesp.net.br  user=administrator
+2018-03-23T23:06:55.125526+00:00 bbb023cecb74 login[8464]: FAILED LOGIN (4) on '/dev/pts/0' from '179-99-189-94.dsl.telesp.net.br' FOR 'administrator', Authentication failure
+2018-03-23T23:06:57.987167+00:00 bbb023cecb74 login[8464]: FAILED LOGIN (5) on '/dev/pts/0' from '179-99-189-94.dsl.telesp.net.br' FOR 'root', Authentication failure
+2018-03-23T23:06:57.991090+00:00 bbb023cecb74 login[8464]: TOO MANY LOGIN TRIES (5) on '/dev/pts/0' from '179-99-189-94.dsl.telesp.net.br' FOR 'root'
+2018-03-23T23:06:57.991176+00:00 bbb023cecb74 login[8464]: pam_mail(login:session): pam_putenv: delete non-existent entry; MAIL
+2018-03-23T23:06:57.991238+00:00 bbb023cecb74 login[8464]: pam_unix(login:session): session closed for user root
+2018-03-23T23:06:57.993553+00:00 bbb023cecb74 login[8464]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=179-99-189-94.dsl.telesp.net.br  user=root
+2018-03-23T23:07:00.698352+00:00 bbb023cecb74 login[8526]: pam_env(login:session): Unable to open env file: /etc/default/locale: No such file or directory
+2018-03-23T23:07:00.699093+00:00 bbb023cecb74 login[8526]: pam_unix(login:session): session opened for user admin by (uid=0)
+2018-03-23T23:08:26.635835+00:00 bbb023cecb74 sshd[8825]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=109.236.92.184  user=root
+2018-03-23T23:08:28.409445+00:00 bbb023cecb74 sshd[8825]: Failed password for root from 109.236.92.184 port 44030 ssh2
+2018-03-23T23:08:28.500786+00:00 bbb023cecb74 sshd[8825]: Connection closed by 109.236.92.184 port 44030 [preauth]
+2018-03-23T23:15:48.668206+00:00 bbb023cecb74 sshd[10312]: Did not receive identification string from 14.116.171.252
+2018-03-23T23:28:42.582175+00:00 bbb023cecb74 login[12897]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=177.45.155.6  user=admin
+2018-03-23T23:28:44.942483+00:00 bbb023cecb74 login[12897]: FAILED LOGIN (1) on '/dev/pts/0' from '177.45.155.6' FOR 'admin', Authentication failure
+2018-03-23T23:28:45.868996+00:00 bbb023cecb74 login[12897]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=177.45.155.6  user=root
+2018-03-23T23:28:48.845422+00:00 bbb023cecb74 login[12897]: FAILED LOGIN (2) on '/dev/pts/0' from '177.45.155.6' FOR 'root', Authentication failure
+2018-03-23T23:28:52.570462+00:00 bbb023cecb74 login[12897]: FAILED LOGIN (3) on '/dev/pts/0' from '177.45.155.6' FOR 'admin', Authentication failure
+2018-03-23T23:28:56.627191+00:00 bbb023cecb74 login[12897]: FAILED LOGIN (4) on '/dev/pts/0' from '177.45.155.6' FOR 'root', Authentication failure
+2018-03-23T23:29:00.995672+00:00 bbb023cecb74 login[12897]: FAILED LOGIN (5) on '/dev/pts/0' from '177.45.155.6' FOR 'root', Authentication failure
+2018-03-23T23:29:00.995789+00:00 bbb023cecb74 login[12897]: TOO MANY LOGIN TRIES (5) on '/dev/pts/0' from '177.45.155.6' FOR 'root'
+2018-03-23T23:29:00.995869+00:00 bbb023cecb74 login[12897]: pam_mail(login:session): pam_putenv: delete non-existent entry; MAIL
+2018-03-23T23:29:00.995933+00:00 bbb023cecb74 login[12897]: pam_unix(login:session): session closed for user root
+2018-03-23T23:29:00.995992+00:00 bbb023cecb74 login[12897]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=177.45.155.6  user=root
+2018-03-23T23:29:00.996003+00:00 bbb023cecb74 login[12897]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=177.45.155.6  user=admin
+2018-03-23T23:29:03.100099+00:00 bbb023cecb74 login[12974]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=177.45.155.6  user=root
+2018-03-23T23:29:05.580565+00:00 bbb023cecb74 login[12974]: FAILED LOGIN (1) on '/dev/pts/0' from '177.45.155.6' FOR 'root', Authentication failure
+2018-03-23T23:29:06.472781+00:00 bbb023cecb74 login[12974]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=177.45.155.6  user=admin
+2018-03-23T23:29:09.276860+00:00 bbb023cecb74 login[12974]: FAILED LOGIN (2) on '/dev/pts/0' from '177.45.155.6' FOR 'admin', Authentication failure
+2018-03-23T23:29:10.172091+00:00 bbb023cecb74 login[12974]: pam_env(login:session): Unable to open env file: /etc/default/locale: No such file or directory
+2018-03-23T23:29:10.172905+00:00 bbb023cecb74 login[12974]: pam_unix(login:session): session opened for user service by (uid=0)
+2018-03-23T23:30:17.268247+00:00 bbb023cecb74 sshd[13227]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=189.254.33.157  user=admin
+2018-03-23T23:30:19.021445+00:00 bbb023cecb74 sshd[13227]: Failed password for admin from 189.254.33.157 port 44831 ssh2
+2018-03-23T23:30:19.084881+00:00 bbb023cecb74 sshd[13227]: Received disconnect from 189.254.33.157 port 44831:11: Normal Shutdown, Thank you for playing [preauth]
+2018-03-23T23:30:19.084917+00:00 bbb023cecb74 sshd[13227]: Disconnected from 189.254.33.157 port 44831 [preauth]
+2018-03-23T23:33:11.231968+00:00 bbb023cecb74 sshd[13814]: Invalid user leon from 210.73.40.61
+2018-03-23T23:33:11.232219+00:00 bbb023cecb74 sshd[13814]: input_userauth_request: invalid user leon [preauth]
+2018-03-23T23:33:11.233715+00:00 bbb023cecb74 sshd[13814]: pam_unix(sshd:auth): check pass; user unknown
+2018-03-23T23:33:11.233782+00:00 bbb023cecb74 sshd[13814]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=210.73.40.61 
+2018-03-23T23:33:13.208505+00:00 bbb023cecb74 sshd[13814]: Failed password for invalid user leon from 210.73.40.61 port 44518 ssh2
+2018-03-23T23:33:13.460213+00:00 bbb023cecb74 sshd[13814]: Received disconnect from 210.73.40.61 port 44518:11: Normal Shutdown, Thank you for playing [preauth]
+2018-03-23T23:33:13.460247+00:00 bbb023cecb74 sshd[13814]: Disconnected from 210.73.40.61 port 44518 [preauth]
+2018-03-23T23:33:32.734014+00:00 bbb023cecb74 login[13877]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=78.188.84.63.static.ttnet.com.tr  user=root
+2018-03-23T23:33:36.467445+00:00 bbb023cecb74 login[13877]: FAILED LOGIN (1) on '/dev/pts/0' from '78.188.84.63.static.ttnet.com.tr' FOR 'root', Authentication failure
+2018-03-23T23:33:37.297271+00:00 bbb023cecb74 login[13877]: pam_env(login:session): Unable to open env file: /etc/default/locale: No such file or directory
+2018-03-23T23:33:37.297901+00:00 bbb023cecb74 login[13877]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-23T23:33:37.306086+00:00 bbb023cecb74 login[13908]: ROOT LOGIN  on '/dev/pts/0' from '78.188.84.63.static.ttnet.com.tr'
+2018-03-23T23:38:18.950703+00:00 bbb023cecb74 sshd[14850]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=217.23.2.77  user=root
+2018-03-23T23:38:20.735176+00:00 bbb023cecb74 sshd[14850]: Failed password for root from 217.23.2.77 port 60063 ssh2
+2018-03-23T23:38:20.838154+00:00 bbb023cecb74 sshd[14850]: Connection closed by 217.23.2.77 port 60063 [preauth]
+2018-03-23T23:40:48.840716+00:00 bbb023cecb74 sshd[15347]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=217.23.2.77  user=root
+2018-03-23T23:40:50.218538+00:00 bbb023cecb74 sshd[15347]: Failed password for root from 217.23.2.77 port 55290 ssh2
+2018-03-23T23:40:50.312533+00:00 bbb023cecb74 sshd[15347]: Connection closed by 217.23.2.77 port 55290 [preauth]
+2018-03-23T23:54:58.142798+00:00 bbb023cecb74 sshd[18171]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=61.164.67.36  user=root
+2018-03-23T23:54:59.876883+00:00 bbb023cecb74 sshd[18171]: Failed password for root from 61.164.67.36 port 36845 ssh2
+2018-03-23T23:55:00.113762+00:00 bbb023cecb74 sshd[18171]: Received disconnect from 61.164.67.36 port 36845:11: Normal Shutdown, Thank you for playing [preauth]
+2018-03-23T23:55:00.113796+00:00 bbb023cecb74 sshd[18171]: Disconnected from 61.164.67.36 port 36845 [preauth]
+2018-03-23T23:55:43.885001+00:00 bbb023cecb74 sshd[18338]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=217.23.2.77  user=root
+2018-03-23T23:55:45.463543+00:00 bbb023cecb74 sshd[18338]: Failed password for root from 217.23.2.77 port 49538 ssh2
+2018-03-23T23:55:45.561526+00:00 bbb023cecb74 sshd[18338]: Connection closed by 217.23.2.77 port 49538 [preauth]
+2018-03-24T00:00:44.900168+00:00 bbb023cecb74 sshd[19345]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=217.23.2.77  user=admin
+2018-03-24T00:00:46.468477+00:00 bbb023cecb74 sshd[19345]: Failed password for admin from 217.23.2.77 port 57362 ssh2
+2018-03-24T00:00:46.560143+00:00 bbb023cecb74 sshd[19345]: Connection closed by 217.23.2.77 port 57362 [preauth]
+2018-03-24T00:01:06.226108+00:00 bbb023cecb74 login[19408]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=191-19-131-143.user.vivozap.com.br  user=root
+2018-03-24T00:01:09.373984+00:00 bbb023cecb74 login[19408]: FAILED LOGIN (1) on '/dev/pts/0' from '191-19-131-143.user.vivozap.com.br' FOR 'root', Authentication failure
+2018-03-24T00:01:13.247163+00:00 bbb023cecb74 login[19408]: FAILED LOGIN (2) on '/dev/pts/0' from '191-19-131-143.user.vivozap.com.br' FOR 'root', Authentication failure
+2018-03-24T00:01:14.134095+00:00 bbb023cecb74 login[19408]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=191-19-131-143.user.vivozap.com.br  user=admin
+2018-03-24T00:01:17.459426+00:00 bbb023cecb74 login[19408]: FAILED LOGIN (3) on '/dev/pts/0' from '191-19-131-143.user.vivozap.com.br' FOR 'admin', Authentication failure
+2018-03-24T00:01:18.734141+00:00 bbb023cecb74 login[19408]: pam_unix(login:auth): check pass; user unknown
+2018-03-24T00:01:18.734219+00:00 bbb023cecb74 login[19408]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=191-19-131-143.user.vivozap.com.br 
+2018-03-24T00:01:21.879904+00:00 bbb023cecb74 login[19408]: FAILED LOGIN (4) on '/dev/pts/0' from '191-19-131-143.user.vivozap.com.br' FOR 'UNKNOWN', Authentication failure
+2018-03-24T00:01:27.237254+00:00 bbb023cecb74 login[19485]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=191-19-131-143.user.vivozap.com.br  user=admin
+2018-03-24T00:01:30.533188+00:00 bbb023cecb74 login[19485]: FAILED LOGIN (1) on '/dev/pts/0' from '191-19-131-143.user.vivozap.com.br' FOR 'admin', Authentication failure
+2018-03-24T00:01:31.399600+00:00 bbb023cecb74 login[19485]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=191-19-131-143.user.vivozap.com.br  user=root
+2018-03-24T00:01:34.723973+00:00 bbb023cecb74 login[19485]: FAILED LOGIN (2) on '/dev/pts/0' from '191-19-131-143.user.vivozap.com.br' FOR 'root', Authentication failure
+2018-03-24T00:01:38.227847+00:00 bbb023cecb74 login[19485]: FAILED LOGIN (3) on '/dev/pts/0' from '191-19-131-143.user.vivozap.com.br' FOR 'root', Authentication failure
+2018-03-24T00:01:43.118641+00:00 bbb023cecb74 login[19485]: FAILED LOGIN (4) on '/dev/pts/0' from '191-19-131-143.user.vivozap.com.br' FOR 'root', Authentication failure
+2018-03-24T00:01:47.953728+00:00 bbb023cecb74 login[19562]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=191-19-131-143.user.vivozap.com.br  user=admin
+2018-03-24T00:01:50.572512+00:00 bbb023cecb74 login[19562]: FAILED LOGIN (1) on '/dev/pts/0' from '191-19-131-143.user.vivozap.com.br' FOR 'admin', Authentication failure
+2018-03-24T00:01:51.540224+00:00 bbb023cecb74 login[19562]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=191-19-131-143.user.vivozap.com.br  user=root
+2018-03-24T00:01:54.482321+00:00 bbb023cecb74 login[19562]: FAILED LOGIN (2) on '/dev/pts/0' from '191-19-131-143.user.vivozap.com.br' FOR 'root', Authentication failure
+2018-03-24T00:01:59.983465+00:00 bbb023cecb74 login[19562]: FAILED LOGIN (3) on '/dev/pts/0' from '191-19-131-143.user.vivozap.com.br' FOR 'root', Authentication failure
+2018-03-24T00:02:04.887674+00:00 bbb023cecb74 login[19562]: FAILED LOGIN (4) on '/dev/pts/0' from '191-19-131-143.user.vivozap.com.br' FOR 'root', Authentication failure
+2018-03-24T00:02:09.443720+00:00 bbb023cecb74 login[19624]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=191-19-131-143.user.vivozap.com.br  user=admin
+2018-03-24T00:02:13.065234+00:00 bbb023cecb74 login[19624]: FAILED LOGIN (1) on '/dev/pts/0' from '191-19-131-143.user.vivozap.com.br' FOR 'admin', Authentication failure
+2018-03-24T00:02:14.048223+00:00 bbb023cecb74 login[19624]: pam_env(login:session): Unable to open env file: /etc/default/locale: No such file or directory
+2018-03-24T00:02:14.049101+00:00 bbb023cecb74 login[19624]: pam_unix(login:session): session opened for user guest by (uid=0)
+2018-03-24T00:08:14.915956+00:00 bbb023cecb74 sshd[20867]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=217.23.2.77  user=root
+2018-03-24T00:08:16.257474+00:00 bbb023cecb74 sshd[20867]: Failed password for root from 217.23.2.77 port 57100 ssh2
+2018-03-24T00:08:16.357867+00:00 bbb023cecb74 sshd[20867]: Connection closed by 217.23.2.77 port 57100 [preauth]
+2018-03-24T00:08:29.904190+00:00 bbb023cecb74 login[20915]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=152-254-207-21.user.vivozap.com.br  user=root
+2018-03-24T00:08:32.979213+00:00 bbb023cecb74 login[20915]: FAILED LOGIN (1) on '/dev/pts/0' from '152-254-207-21.user.vivozap.com.br' FOR 'root', Authentication failure
+2018-03-24T00:08:33.864046+00:00 bbb023cecb74 login[20915]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=152-254-207-21.user.vivozap.com.br  user=Admin
+2018-03-24T00:08:36.587926+00:00 bbb023cecb74 login[20915]: FAILED LOGIN (2) on '/dev/pts/0' from '152-254-207-21.user.vivozap.com.br' FOR 'Admin', Authentication failure
+2018-03-24T00:08:37.481801+00:00 bbb023cecb74 login[20915]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=152-254-207-21.user.vivozap.com.br  user=admin
+2018-03-24T00:08:40.527539+00:00 bbb023cecb74 login[20915]: FAILED LOGIN (3) on '/dev/pts/0' from '152-254-207-21.user.vivozap.com.br' FOR 'admin', Authentication failure
+2018-03-24T00:08:41.479718+00:00 bbb023cecb74 login[20915]: pam_env(login:session): Unable to open env file: /etc/default/locale: No such file or directory
+2018-03-24T00:08:41.480481+00:00 bbb023cecb74 login[20915]: pam_unix(login:session): session opened for user service by (uid=0)
+2018-03-24T00:10:45.915608+00:00 bbb023cecb74 sshd[21379]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=217.23.2.77  user=admin
+2018-03-24T00:10:47.653462+00:00 bbb023cecb74 sshd[21379]: Failed password for admin from 217.23.2.77 port 41718 ssh2
+2018-03-24T00:10:47.748736+00:00 bbb023cecb74 sshd[21379]: Connection closed by 217.23.2.77 port 41718 [preauth]
+2018-03-24T00:12:34.427954+00:00 bbb023cecb74 sshd[21726]: Connection closed by 14.116.171.252 port 38213 [preauth]
+2018-03-24T00:19:21.753689+00:00 bbb023cecb74 sshd[23093]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.26.99.120  user=admin
+2018-03-24T00:19:23.667910+00:00 bbb023cecb74 sshd[23093]: Failed password for admin from 103.26.99.120 port 12761 ssh2
+2018-03-24T00:19:23.914038+00:00 bbb023cecb74 sshd[23093]: Received disconnect from 103.26.99.120 port 12761:11: Normal Shutdown, Thank you for playing [preauth]
+2018-03-24T00:19:23.914077+00:00 bbb023cecb74 sshd[23093]: Disconnected from 103.26.99.120 port 12761 [preauth]
+2018-03-24T00:28:56.447267+00:00 bbb023cecb74 sshd[25049]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=185.45.163.238  user=admin
+2018-03-24T00:28:58.295219+00:00 bbb023cecb74 sshd[25049]: Failed password for admin from 185.45.163.238 port 33910 ssh2
+2018-03-24T00:28:58.388166+00:00 bbb023cecb74 sshd[25049]: Received disconnect from 185.45.163.238 port 33910:11: Normal Shutdown, Thank you for playing [preauth]
+2018-03-24T00:28:58.388204+00:00 bbb023cecb74 sshd[25049]: Disconnected from 185.45.163.238 port 33910 [preauth]
+2018-03-24T00:41:02.705083+00:00 bbb023cecb74 sshd[27466]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=103.20.149.252  user=admin
+2018-03-24T00:41:04.554365+00:00 bbb023cecb74 sshd[27466]: Failed password for admin from 103.20.149.252 port 41688 ssh2
+2018-03-24T00:41:04.818631+00:00 bbb023cecb74 sshd[27466]: Received disconnect from 103.20.149.252 port 41688:11: Normal Shutdown, Thank you for playing [preauth]
+2018-03-24T00:41:04.818666+00:00 bbb023cecb74 sshd[27466]: Disconnected from 103.20.149.252 port 41688 [preauth]
+2018-03-24T00:42:21.607498+00:00 bbb023cecb74 sshd[27738]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=178.19.130.191  user=admin
+2018-03-24T00:42:23.637179+00:00 bbb023cecb74 sshd[27738]: Failed password for admin from 178.19.130.191 port 50870 ssh2
+2018-03-24T00:42:23.750499+00:00 bbb023cecb74 sshd[27738]: Received disconnect from 178.19.130.191 port 50870:11: Normal Shutdown, Thank you for playing [preauth]
+2018-03-24T00:42:23.750535+00:00 bbb023cecb74 sshd[27738]: Disconnected from 178.19.130.191 port 50870 [preauth]
+2018-03-24T00:43:14.833745+00:00 bbb023cecb74 sshd[27920]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=217.23.2.77  user=admin
+2018-03-24T00:43:16.472097+00:00 bbb023cecb74 sshd[27920]: Failed password for admin from 217.23.2.77 port 51139 ssh2
+2018-03-24T00:43:16.565581+00:00 bbb023cecb74 sshd[27920]: Connection closed by 217.23.2.77 port 51139 [preauth]
+2018-03-24T00:43:26.808008+00:00 bbb023cecb74 login[27953]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=189-69-89-122.dsl.telesp.net.br  user=root
+2018-03-24T00:43:30.173655+00:00 bbb023cecb74 login[27953]: FAILED LOGIN (1) on '/dev/pts/0' from '189-69-89-122.dsl.telesp.net.br' FOR 'root', Authentication failure
+2018-03-24T00:43:34.831407+00:00 bbb023cecb74 login[27953]: FAILED LOGIN (2) on '/dev/pts/0' from '189-69-89-122.dsl.telesp.net.br' FOR 'root', Authentication failure
+2018-03-24T00:43:36.635701+00:00 bbb023cecb74 login[27953]: pam_unix(login:auth): check pass; user unknown
+2018-03-24T00:43:36.635775+00:00 bbb023cecb74 login[27953]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=189-69-89-122.dsl.telesp.net.br 
+2018-03-24T00:43:39.214132+00:00 bbb023cecb74 login[27953]: FAILED LOGIN (3) on '/dev/pts/0' from '189-69-89-122.dsl.telesp.net.br' FOR 'UNKNOWN', Authentication failure
+2018-03-24T00:43:46.373603+00:00 bbb023cecb74 login[28015]: pam_env(login:session): Unable to open env file: /etc/default/locale: No such file or directory
+2018-03-24T00:43:46.374407+00:00 bbb023cecb74 login[28015]: pam_unix(login:session): session opened for user admin by (uid=0)
+2018-03-24T00:46:58.753548+00:00 bbb023cecb74 sshd[28674]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=128.199.91.171  user=admin
+2018-03-24T00:47:00.808574+00:00 bbb023cecb74 sshd[28674]: Failed password for admin from 128.199.91.171 port 34170 ssh2
+2018-03-24T00:47:01.038418+00:00 bbb023cecb74 sshd[28674]: Received disconnect from 128.199.91.171 port 34170:11: Normal Shutdown, Thank you for playing [preauth]
+2018-03-24T00:47:01.038452+00:00 bbb023cecb74 sshd[28674]: Disconnected from 128.199.91.171 port 34170 [preauth]
+2018-03-24T00:53:11.864507+00:00 bbb023cecb74 sshd[29921]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=217.23.2.77  user=root
+2018-03-24T00:53:13.793847+00:00 bbb023cecb74 sshd[29921]: Failed password for root from 217.23.2.77 port 44801 ssh2
+2018-03-24T00:53:13.888324+00:00 bbb023cecb74 sshd[29921]: Connection closed by 217.23.2.77 port 44801 [preauth]
+2018-03-24T01:10:25.412958+00:00 bbb023cecb74 login[2076]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/1 ruser= rhost=179-97-172-245.dsl.telesp.net.br  user=admin
+2018-03-24T01:10:30.140853+00:00 bbb023cecb74 login[2076]: FAILED LOGIN (1) on '/dev/pts/1' from '179-97-172-245.dsl.telesp.net.br' FOR 'admin', Authentication failure
+2018-03-24T01:10:31.015667+00:00 bbb023cecb74 login[2076]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/1 ruser= rhost=179-97-172-245.dsl.telesp.net.br  user=root
+2018-03-24T01:10:33.866529+00:00 bbb023cecb74 login[2076]: FAILED LOGIN (2) on '/dev/pts/1' from '179-97-172-245.dsl.telesp.net.br' FOR 'root', Authentication failure
+2018-03-24T01:10:37.227614+00:00 bbb023cecb74 login[2076]: FAILED LOGIN (3) on '/dev/pts/1' from '179-97-172-245.dsl.telesp.net.br' FOR 'admin', Authentication failure
+2018-03-24T01:10:40.397810+00:00 bbb023cecb74 login[2076]: FAILED LOGIN (4) on '/dev/pts/1' from '179-97-172-245.dsl.telesp.net.br' FOR 'admin', Authentication failure
+2018-03-24T01:10:45.396620+00:00 bbb023cecb74 login[2307]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/1 ruser= rhost=179-97-172-245.dsl.telesp.net.br  user=root
+2018-03-24T01:10:47.630499+00:00 bbb023cecb74 login[2307]: FAILED LOGIN (1) on '/dev/pts/1' from '179-97-172-245.dsl.telesp.net.br' FOR 'root', Authentication failure
+2018-03-24T01:10:51.928711+00:00 bbb023cecb74 login[2307]: FAILED LOGIN (2) on '/dev/pts/1' from '179-97-172-245.dsl.telesp.net.br' FOR 'root', Authentication failure
+2018-03-24T01:10:52.811792+00:00 bbb023cecb74 login[2307]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/1 ruser= rhost=179-97-172-245.dsl.telesp.net.br  user=admin
+2018-03-24T01:10:55.983823+00:00 bbb023cecb74 login[2307]: FAILED LOGIN (3) on '/dev/pts/1' from '179-97-172-245.dsl.telesp.net.br' FOR 'admin', Authentication failure
+2018-03-24T01:10:59.372544+00:00 bbb023cecb74 login[2307]: FAILED LOGIN (4) on '/dev/pts/1' from '179-97-172-245.dsl.telesp.net.br' FOR 'root', Authentication failure
+2018-03-24T01:11:03.587433+00:00 bbb023cecb74 login[2307]: FAILED LOGIN (5) on '/dev/pts/1' from '179-97-172-245.dsl.telesp.net.br' FOR 'root', Authentication failure
+2018-03-24T01:11:03.590918+00:00 bbb023cecb74 login[2307]: TOO MANY LOGIN TRIES (5) on '/dev/pts/1' from '179-97-172-245.dsl.telesp.net.br' FOR 'root'
+2018-03-24T01:11:03.591001+00:00 bbb023cecb74 login[2307]: pam_mail(login:session): pam_putenv: delete non-existent entry; MAIL
+2018-03-24T01:11:03.591063+00:00 bbb023cecb74 login[2307]: pam_unix(login:session): session closed for user root
+2018-03-24T01:11:03.592836+00:00 bbb023cecb74 login[2307]: PAM 3 more authentication failures; logname= uid=0 euid=0 tty=/dev/pts/1 ruser= rhost=179-97-172-245.dsl.telesp.net.br  user=root
+2018-03-24T01:11:03.592848+00:00 bbb023cecb74 login[2307]: PAM service(login) ignoring max retries; 4 > 3
+2018-03-24T01:11:07.231714+00:00 bbb023cecb74 login[2500]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/1 ruser= rhost=179-97-172-245.dsl.telesp.net.br  user=admin
+2018-03-24T01:11:10.788212+00:00 bbb023cecb74 login[2500]: FAILED LOGIN (1) on '/dev/pts/1' from '179-97-172-245.dsl.telesp.net.br' FOR 'admin', Authentication failure
+2018-03-24T01:11:11.661891+00:00 bbb023cecb74 login[2500]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/1 ruser= rhost=179-97-172-245.dsl.telesp.net.br  user=root
+2018-03-24T01:11:15.247590+00:00 bbb023cecb74 login[2500]: FAILED LOGIN (2) on '/dev/pts/1' from '179-97-172-245.dsl.telesp.net.br' FOR 'root', Authentication failure
+2018-03-24T01:11:18.959441+00:00 bbb023cecb74 login[2500]: FAILED LOGIN (3) on '/dev/pts/1' from '179-97-172-245.dsl.telesp.net.br' FOR 'root', Authentication failure
+2018-03-24T01:11:19.835792+00:00 bbb023cecb74 login[2500]: pam_env(login:session): Unable to open env file: /etc/default/locale: No such file or directory
+2018-03-24T01:11:19.836556+00:00 bbb023cecb74 login[2500]: pam_unix(login:session): session opened for user user by (uid=0)
+2018-03-24T01:23:12.871757+00:00 bbb023cecb74 sshd[9789]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=217.23.2.77  user=root
+2018-03-24T01:23:15.046824+00:00 bbb023cecb74 sshd[9789]: Failed password for root from 217.23.2.77 port 42148 ssh2
+2018-03-24T01:23:15.140400+00:00 bbb023cecb74 sshd[9789]: Connection closed by 217.23.2.77 port 42148 [preauth]
+2018-03-24T01:25:42.952992+00:00 bbb023cecb74 sshd[11303]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=217.23.2.77  user=root
+2018-03-24T01:25:45.052857+00:00 bbb023cecb74 sshd[11303]: Failed password for root from 217.23.2.77 port 45245 ssh2
+2018-03-24T01:25:45.154767+00:00 bbb023cecb74 sshd[11303]: Connection closed by 217.23.2.77 port 45245 [preauth]
+2018-03-24T01:27:37.922979+00:00 bbb023cecb74 login[12431]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=177.40.108.200.static.host.gvt.net.br  user=root
+2018-03-24T01:27:42.229267+00:00 bbb023cecb74 login[12431]: FAILED LOGIN (1) on '/dev/pts/0' from '177.40.108.200.static.host.gvt.net.br' FOR 'root', Authentication failure
+2018-03-24T01:27:42.990321+00:00 bbb023cecb74 login[12431]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=177.40.108.200.static.host.gvt.net.br  user=admin
+2018-03-24T01:27:45.855719+00:00 bbb023cecb74 login[12431]: FAILED LOGIN (2) on '/dev/pts/0' from '177.40.108.200.static.host.gvt.net.br' FOR 'admin', Authentication failure
+2018-03-24T01:27:49.107140+00:00 bbb023cecb74 login[12431]: FAILED LOGIN (3) on '/dev/pts/0' from '177.40.108.200.static.host.gvt.net.br' FOR 'admin', Authentication failure
+2018-03-24T01:27:53.175991+00:00 bbb023cecb74 login[12431]: FAILED LOGIN (4) on '/dev/pts/0' from '177.40.108.200.static.host.gvt.net.br' FOR 'root', Authentication failure
+2018-03-24T01:27:58.365176+00:00 bbb023cecb74 login[12659]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=177.40.108.200.static.host.gvt.net.br  user=supervisor
+2018-03-24T01:28:00.816909+00:00 bbb023cecb74 login[12659]: FAILED LOGIN (1) on '/dev/pts/0' from '177.40.108.200.static.host.gvt.net.br' FOR 'supervisor', Authentication failure
+2018-03-24T01:28:01.576430+00:00 bbb023cecb74 login[12659]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=177.40.108.200.static.host.gvt.net.br  user=root
+2018-03-24T01:28:05.646668+00:00 bbb023cecb74 login[12659]: FAILED LOGIN (2) on '/dev/pts/0' from '177.40.108.200.static.host.gvt.net.br' FOR 'root', Authentication failure
+2018-03-24T01:28:09.507833+00:00 bbb023cecb74 login[12659]: FAILED LOGIN (3) on '/dev/pts/0' from '177.40.108.200.static.host.gvt.net.br' FOR 'root', Authentication failure
+2018-03-24T01:28:10.268495+00:00 bbb023cecb74 login[12659]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=177.40.108.200.static.host.gvt.net.br  user=admin
+2018-03-24T01:28:12.690400+00:00 bbb023cecb74 login[12659]: FAILED LOGIN (4) on '/dev/pts/0' from '177.40.108.200.static.host.gvt.net.br' FOR 'admin', Authentication failure
+2018-03-24T01:28:16.991543+00:00 bbb023cecb74 login[12659]: FAILED LOGIN (5) on '/dev/pts/0' from '177.40.108.200.static.host.gvt.net.br' FOR 'root', Authentication failure
+2018-03-24T01:28:16.995562+00:00 bbb023cecb74 login[12659]: TOO MANY LOGIN TRIES (5) on '/dev/pts/0' from '177.40.108.200.static.host.gvt.net.br' FOR 'root'
+2018-03-24T01:28:16.995666+00:00 bbb023cecb74 login[12659]: pam_mail(login:session): pam_putenv: delete non-existent entry; MAIL
+2018-03-24T01:28:16.995728+00:00 bbb023cecb74 login[12659]: pam_unix(login:session): session closed for user root
+2018-03-24T01:28:16.997742+00:00 bbb023cecb74 login[12659]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=177.40.108.200.static.host.gvt.net.br  user=root
+2018-03-24T01:28:19.354852+00:00 bbb023cecb74 login[12889]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=177.40.108.200.static.host.gvt.net.br  user=admin1
+2018-03-24T01:28:22.131168+00:00 bbb023cecb74 login[12889]: FAILED LOGIN (1) on '/dev/pts/0' from '177.40.108.200.static.host.gvt.net.br' FOR 'admin1', Authentication failure
+2018-03-24T01:28:22.898298+00:00 bbb023cecb74 login[12889]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=177.40.108.200.static.host.gvt.net.br  user=admin
+2018-03-24T01:28:24.996799+00:00 bbb023cecb74 login[12889]: FAILED LOGIN (2) on '/dev/pts/0' from '177.40.108.200.static.host.gvt.net.br' FOR 'admin', Authentication failure
+2018-03-24T01:28:29.267943+00:00 bbb023cecb74 login[12889]: FAILED LOGIN (3) on '/dev/pts/0' from '177.40.108.200.static.host.gvt.net.br' FOR 'admin', Authentication failure
+2018-03-24T01:28:30.026151+00:00 bbb023cecb74 login[12889]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=177.40.108.200.static.host.gvt.net.br  user=root
+2018-03-24T01:28:32.567758+00:00 bbb023cecb74 login[12889]: FAILED LOGIN (4) on '/dev/pts/0' from '177.40.108.200.static.host.gvt.net.br' FOR 'root', Authentication failure
+2018-03-24T01:28:35.491786+00:00 bbb023cecb74 login[12889]: FAILED LOGIN (5) on '/dev/pts/0' from '177.40.108.200.static.host.gvt.net.br' FOR 'admin', Authentication failure
+2018-03-24T01:28:35.495651+00:00 bbb023cecb74 login[12889]: TOO MANY LOGIN TRIES (5) on '/dev/pts/0' from '177.40.108.200.static.host.gvt.net.br' FOR 'admin'
+2018-03-24T01:28:35.495744+00:00 bbb023cecb74 login[12889]: pam_mail(login:session): pam_putenv: delete non-existent entry; MAIL
+2018-03-24T01:28:35.495807+00:00 bbb023cecb74 login[12889]: pam_unix(login:session): session closed for user admin
+2018-03-24T01:28:35.497905+00:00 bbb023cecb74 login[12889]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=177.40.108.200.static.host.gvt.net.br  user=admin
+2018-03-24T01:28:37.434805+00:00 bbb023cecb74 login[13052]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=177.40.108.200.static.host.gvt.net.br  user=root
+2018-03-24T01:28:40.421000+00:00 bbb023cecb74 login[13052]: FAILED LOGIN (1) on '/dev/pts/0' from '177.40.108.200.static.host.gvt.net.br' FOR 'root', Authentication failure
+2018-03-24T01:28:44.193022+00:00 bbb023cecb74 login[13052]: FAILED LOGIN (2) on '/dev/pts/0' from '177.40.108.200.static.host.gvt.net.br' FOR 'root', Authentication failure
+2018-03-24T01:28:44.958108+00:00 bbb023cecb74 login[13052]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=177.40.108.200.static.host.gvt.net.br  user=admin
+2018-03-24T01:28:45.943977+00:00 bbb023cecb74 login[13103]: pam_unix(login:auth): check pass; user unknown
+2018-03-24T01:28:45.944049+00:00 bbb023cecb74 login[13103]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/1 ruser= rhost=191-205-32-94.user.vivozap.com.br 
+2018-03-24T01:28:47.086426+00:00 bbb023cecb74 login[13052]: FAILED LOGIN (3) on '/dev/pts/0' from '177.40.108.200.static.host.gvt.net.br' FOR 'admin', Authentication failure
+2018-03-24T01:28:47.862858+00:00 bbb023cecb74 login[13052]: pam_env(login:session): Unable to open env file: /etc/default/locale: No such file or directory
+2018-03-24T01:28:47.863760+00:00 bbb023cecb74 login[13052]: pam_unix(login:session): session opened for user support by (uid=0)
+2018-03-24T01:28:48.251288+00:00 bbb023cecb74 login[13103]: FAILED LOGIN (1) on '/dev/pts/1' from '191-205-32-94.user.vivozap.com.br' FOR 'UNKNOWN', Authentication failure
+2018-03-24T01:28:49.111360+00:00 bbb023cecb74 login[13103]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/1 ruser= rhost=191-205-32-94.user.vivozap.com.br  user=admin
+2018-03-24T01:28:52.067132+00:00 bbb023cecb74 login[13103]: FAILED LOGIN (2) on '/dev/pts/1' from '191-205-32-94.user.vivozap.com.br' FOR 'admin', Authentication failure
+2018-03-24T01:28:52.920727+00:00 bbb023cecb74 login[13103]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/1 ruser= rhost=191-205-32-94.user.vivozap.com.br  user=root
+2018-03-24T01:28:55.199381+00:00 bbb023cecb74 login[13103]: FAILED LOGIN (3) on '/dev/pts/1' from '191-205-32-94.user.vivozap.com.br' FOR 'root', Authentication failure
+2018-03-24T01:28:56.274201+00:00 bbb023cecb74 login[13103]: pam_env(login:session): Unable to open env file: /etc/default/locale: No such file or directory
+2018-03-24T01:28:56.274963+00:00 bbb023cecb74 login[13103]: pam_unix(login:session): session opened for user supervisor by (uid=0)
+2018-03-24T01:29:27.265600+00:00 bbb023cecb74 sshd[13629]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=52.172.35.223  user=admin
+2018-03-24T01:29:28.587599+00:00 bbb023cecb74 sshd[13629]: Failed password for admin from 52.172.35.223 port 23119 ssh2
+2018-03-24T01:29:28.831893+00:00 bbb023cecb74 sshd[13629]: Received disconnect from 52.172.35.223 port 23119:11: Normal Shutdown, Thank you for playing [preauth]
+2018-03-24T01:29:28.831928+00:00 bbb023cecb74 sshd[13629]: Disconnected from 52.172.35.223 port 23119 [preauth]
+2018-03-24T01:32:01.488666+00:00 bbb023cecb74 login[15172]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/1 ruser= rhost=23-119-36-103.lightspeed.jcvlfl.sbcglobal.net  user=administrator
+2018-03-24T01:32:04.706011+00:00 bbb023cecb74 login[15172]: FAILED LOGIN (1) on '/dev/pts/1' from '23-119-36-103.lightspeed.jcvlfl.sbcglobal.net' FOR 'administrator', Authentication failure
+2018-03-24T01:32:04.983110+00:00 bbb023cecb74 login[15172]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/1 ruser= rhost=23-119-36-103.lightspeed.jcvlfl.sbcglobal.net  user=root
+2018-03-24T01:32:07.297903+00:00 bbb023cecb74 login[15172]: FAILED LOGIN (2) on '/dev/pts/1' from '23-119-36-103.lightspeed.jcvlfl.sbcglobal.net' FOR 'root', Authentication failure
+2018-03-24T01:32:07.569046+00:00 bbb023cecb74 login[15172]: pam_env(login:session): Unable to open env file: /etc/default/locale: No such file or directory
+2018-03-24T01:32:07.569878+00:00 bbb023cecb74 login[15172]: pam_unix(login:session): session opened for user guest by (uid=0)
+2018-03-24T01:33:55.900102+00:00 bbb023cecb74 login[16358]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/1 ruser= rhost=201-13-79-128.dsl.telesp.net.br  user=root
+2018-03-24T01:34:00.961535+00:00 bbb023cecb74 login[16358]: FAILED LOGIN (1) on '/dev/pts/1' from '201-13-79-128.dsl.telesp.net.br' FOR 'root', Authentication failure
+2018-03-24T01:34:04.642277+00:00 bbb023cecb74 login[16358]: FAILED LOGIN (2) on '/dev/pts/1' from '201-13-79-128.dsl.telesp.net.br' FOR 'root', Authentication failure
+2018-03-24T01:34:05.560402+00:00 bbb023cecb74 login[16358]: pam_env(login:session): Unable to open env file: /etc/default/locale: No such file or directory
+2018-03-24T01:34:05.561001+00:00 bbb023cecb74 login[16358]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-24T01:34:05.564232+00:00 bbb023cecb74 login[16499]: ROOT LOGIN  on '/dev/pts/1' from '201-13-79-128.dsl.telesp.net.br'
+2018-03-24T01:38:35.391621+00:00 bbb023cecb74 login[19207]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=191-19-152-116.user.vivozap.com.br  user=root
+2018-03-24T01:38:38.695585+00:00 bbb023cecb74 login[19207]: FAILED LOGIN (1) on '/dev/pts/0' from '191-19-152-116.user.vivozap.com.br' FOR 'root', Authentication failure
+2018-03-24T01:38:43.294410+00:00 bbb023cecb74 login[19207]: FAILED LOGIN (2) on '/dev/pts/0' from '191-19-152-116.user.vivozap.com.br' FOR 'root', Authentication failure
+2018-03-24T01:38:47.685555+00:00 bbb023cecb74 login[19207]: FAILED LOGIN (3) on '/dev/pts/0' from '191-19-152-116.user.vivozap.com.br' FOR 'root', Authentication failure
+2018-03-24T01:38:48.956843+00:00 bbb023cecb74 login[19207]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=191-19-152-116.user.vivozap.com.br  user=administrator
+2018-03-24T01:38:52.759763+00:00 bbb023cecb74 login[19207]: FAILED LOGIN (4) on '/dev/pts/0' from '191-19-152-116.user.vivozap.com.br' FOR 'administrator', Authentication failure
+2018-03-24T01:38:55.980393+00:00 bbb023cecb74 login[19439]: pam_env(login:session): Unable to open env file: /etc/default/locale: No such file or directory
+2018-03-24T01:38:55.981163+00:00 bbb023cecb74 login[19439]: pam_unix(login:session): session opened for user service by (uid=0)
+2018-03-24T01:40:43.855134+00:00 bbb023cecb74 sshd[20539]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=217.23.2.77  user=root
+2018-03-24T01:40:45.648524+00:00 bbb023cecb74 sshd[20539]: Failed password for root from 217.23.2.77 port 45502 ssh2
+2018-03-24T01:40:45.743458+00:00 bbb023cecb74 sshd[20539]: Connection closed by 217.23.2.77 port 45502 [preauth]
+2018-03-24T01:41:31.813457+00:00 bbb023cecb74 sshd[20977]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=183.82.0.15  user=admin
+2018-03-24T01:41:33.195438+00:00 bbb023cecb74 sshd[20977]: Failed password for admin from 183.82.0.15 port 50384 ssh2
+2018-03-24T01:41:33.462208+00:00 bbb023cecb74 sshd[20977]: Received disconnect from 183.82.0.15 port 50384:11: Normal Shutdown, Thank you for playing [preauth]
+2018-03-24T01:41:33.462244+00:00 bbb023cecb74 sshd[20977]: Disconnected from 183.82.0.15 port 50384 [preauth]
+2018-03-24T01:45:43.905941+00:00 bbb023cecb74 sshd[23510]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=217.23.2.77  user=admin
+2018-03-24T01:45:45.217464+00:00 bbb023cecb74 sshd[23510]: Failed password for admin from 217.23.2.77 port 41435 ssh2
+2018-03-24T01:45:45.316518+00:00 bbb023cecb74 sshd[23510]: Connection closed by 217.23.2.77 port 41435 [preauth]
+2018-03-24T01:46:07.974517+00:00 bbb023cecb74 login[23741]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/1 ruser= rhost=39.116.25.248  user=root
+2018-03-24T01:46:10.558855+00:00 bbb023cecb74 login[23741]: FAILED LOGIN (1) on '/dev/pts/1' from '39.116.25.248' FOR 'root', Authentication failure
+2018-03-24T01:46:16.299488+00:00 bbb023cecb74 login[23741]: FAILED LOGIN (2) on '/dev/pts/1' from '39.116.25.248' FOR 'root', Authentication failure
+2018-03-24T01:46:18.784159+00:00 bbb023cecb74 login[23741]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/1 ruser= rhost=39.116.25.248  user=admin
+2018-03-24T01:46:21.045100+00:00 bbb023cecb74 login[23741]: FAILED LOGIN (3) on '/dev/pts/1' from '39.116.25.248' FOR 'admin', Authentication failure
+2018-03-24T01:46:29.771447+00:00 bbb023cecb74 login[23974]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/1 ruser= rhost=39.116.25.248  user=root
+2018-03-24T01:46:32.973448+00:00 bbb023cecb74 login[23974]: FAILED LOGIN (1) on '/dev/pts/1' from '39.116.25.248' FOR 'root', Authentication failure
+2018-03-24T01:46:35.796848+00:00 bbb023cecb74 login[23974]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/1 ruser= rhost=39.116.25.248  user=admin
+2018-03-24T01:46:39.349422+00:00 bbb023cecb74 login[23974]: FAILED LOGIN (2) on '/dev/pts/1' from '39.116.25.248' FOR 'admin', Authentication failure
+2018-03-24T01:46:49.348457+00:00 bbb023cecb74 login[24170]: pam_unix(login:auth): check pass; user unknown
+2018-03-24T01:46:49.348532+00:00 bbb023cecb74 login[24170]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/1 ruser= rhost=39.116.25.248 
+2018-03-24T01:46:52.577506+00:00 bbb023cecb74 login[24170]: FAILED LOGIN (1) on '/dev/pts/1' from '39.116.25.248' FOR 'UNKNOWN', Authentication failure
+2018-03-24T01:46:54.794923+00:00 bbb023cecb74 login[24170]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/1 ruser= rhost=39.116.25.248  user=root
+2018-03-24T01:46:57.469432+00:00 bbb023cecb74 login[24170]: FAILED LOGIN (2) on '/dev/pts/1' from '39.116.25.248' FOR 'root', Authentication failure
+2018-03-24T01:46:59.784659+00:00 bbb023cecb74 login[24170]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/1 ruser= rhost=39.116.25.248  user=admin
+2018-03-24T01:47:02.489422+00:00 bbb023cecb74 login[24170]: FAILED LOGIN (3) on '/dev/pts/1' from '39.116.25.248' FOR 'admin', Authentication failure
+2018-03-24T01:47:09.799158+00:00 bbb023cecb74 login[24398]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/1 ruser= rhost=39.116.25.248  user=root
+2018-03-24T01:47:13.857506+00:00 bbb023cecb74 login[24398]: FAILED LOGIN (1) on '/dev/pts/1' from '39.116.25.248' FOR 'root', Authentication failure
+2018-03-24T01:47:18.774410+00:00 bbb023cecb74 login[24398]: FAILED LOGIN (2) on '/dev/pts/1' from '39.116.25.248' FOR 'root', Authentication failure
+2018-03-24T01:47:20.972585+00:00 bbb023cecb74 login[24398]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/1 ruser= rhost=39.116.25.248  user=admin
+2018-03-24T01:47:30.961069+00:00 bbb023cecb74 login[24596]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/1 ruser= rhost=39.116.25.248  user=root
+2018-03-24T01:47:33.633478+00:00 bbb023cecb74 login[24596]: FAILED LOGIN (1) on '/dev/pts/1' from '39.116.25.248' FOR 'root', Authentication failure
+2018-03-24T01:47:38.873397+00:00 bbb023cecb74 login[24596]: FAILED LOGIN (2) on '/dev/pts/1' from '39.116.25.248' FOR 'root', Authentication failure
+2018-03-24T01:47:41.758958+00:00 bbb023cecb74 login[24596]: pam_env(login:session): Unable to open env file: /etc/default/locale: No such file or directory
+2018-03-24T01:47:41.759697+00:00 bbb023cecb74 login[24596]: pam_unix(login:session): session opened for user guest by (uid=0)
+2018-03-24T01:51:58.859038+00:00 bbb023cecb74 sshd[27488]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=80.254.122.201  user=admin
+2018-03-24T01:52:00.652222+00:00 bbb023cecb74 sshd[27488]: Failed password for admin from 80.254.122.201 port 55317 ssh2
+2018-03-24T01:52:00.815099+00:00 bbb023cecb74 sshd[27488]: Received disconnect from 80.254.122.201 port 55317:11: Normal Shutdown, Thank you for playing [preauth]
+2018-03-24T01:52:00.815134+00:00 bbb023cecb74 sshd[27488]: Disconnected from 80.254.122.201 port 55317 [preauth]
+2018-03-24T01:53:13.867704+00:00 bbb023cecb74 sshd[28211]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=217.23.2.77  user=root
+2018-03-24T01:53:15.289470+00:00 bbb023cecb74 sshd[28211]: Failed password for root from 217.23.2.77 port 41428 ssh2
+2018-03-24T01:53:15.384365+00:00 bbb023cecb74 sshd[28211]: Connection closed by 217.23.2.77 port 41428 [preauth]
+2018-03-24T01:55:44.852385+00:00 bbb023cecb74 sshd[29806]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=217.23.2.77  user=admin
+2018-03-24T01:55:46.333461+00:00 bbb023cecb74 sshd[29806]: Failed password for admin from 217.23.2.77 port 49526 ssh2
+2018-03-24T01:55:46.425016+00:00 bbb023cecb74 sshd[29806]: Connection closed by 217.23.2.77 port 49526 [preauth]
+2018-03-24T01:59:58.246605+00:00 bbb023cecb74 login[32388]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/3 ruser= rhost=187-56-98-143.dsl.telesp.net.br  user=Admin
+2018-03-24T02:00:02.540693+00:00 bbb023cecb74 login[32388]: FAILED LOGIN (1) on '/dev/pts/3' from '187-56-98-143.dsl.telesp.net.br' FOR 'Admin', Authentication failure
+2018-03-24T02:00:03.457864+00:00 bbb023cecb74 login[32388]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/3 ruser= rhost=187-56-98-143.dsl.telesp.net.br  user=root
+2018-03-24T02:00:06.315561+00:00 bbb023cecb74 login[32388]: FAILED LOGIN (2) on '/dev/pts/3' from '187-56-98-143.dsl.telesp.net.br' FOR 'root', Authentication failure
+2018-03-24T02:00:07.691921+00:00 bbb023cecb74 login[32388]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/3 ruser= rhost=187-56-98-143.dsl.telesp.net.br  user=admin
+2018-03-24T02:00:10.871733+00:00 bbb023cecb74 login[32388]: FAILED LOGIN (3) on '/dev/pts/3' from '187-56-98-143.dsl.telesp.net.br' FOR 'admin', Authentication failure
+2018-03-24T02:00:15.263288+00:00 bbb023cecb74 login[32388]: FAILED LOGIN (4) on '/dev/pts/3' from '187-56-98-143.dsl.telesp.net.br' FOR 'admin', Authentication failure
+2018-03-24T02:00:18.712192+00:00 bbb023cecb74 login[32572]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/3 ruser= rhost=187-56-98-143.dsl.telesp.net.br  user=admin
+2018-03-24T02:00:21.156153+00:00 bbb023cecb74 login[32572]: FAILED LOGIN (1) on '/dev/pts/3' from '187-56-98-143.dsl.telesp.net.br' FOR 'admin', Authentication failure
+2018-03-24T02:00:22.062561+00:00 bbb023cecb74 login[32572]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/3 ruser= rhost=187-56-98-143.dsl.telesp.net.br  user=root
+2018-03-24T02:00:24.830353+00:00 bbb023cecb74 login[32572]: FAILED LOGIN (2) on '/dev/pts/3' from '187-56-98-143.dsl.telesp.net.br' FOR 'root', Authentication failure
+2018-03-24T02:00:28.611599+00:00 bbb023cecb74 login[32572]: FAILED LOGIN (3) on '/dev/pts/3' from '187-56-98-143.dsl.telesp.net.br' FOR 'root', Authentication failure
+2018-03-24T02:00:31.723600+00:00 bbb023cecb74 login[32572]: FAILED LOGIN (4) on '/dev/pts/3' from '187-56-98-143.dsl.telesp.net.br' FOR 'admin', Authentication failure
+2018-03-24T02:00:35.450483+00:00 bbb023cecb74 login[32572]: FAILED LOGIN (5) on '/dev/pts/3' from '187-56-98-143.dsl.telesp.net.br' FOR 'root', Authentication failure
+2018-03-24T02:00:35.453971+00:00 bbb023cecb74 login[32572]: TOO MANY LOGIN TRIES (5) on '/dev/pts/3' from '187-56-98-143.dsl.telesp.net.br' FOR 'root'
+2018-03-24T02:00:35.454071+00:00 bbb023cecb74 login[32572]: pam_mail(login:session): pam_putenv: delete non-existent entry; MAIL
+2018-03-24T02:00:35.454173+00:00 bbb023cecb74 login[32572]: pam_unix(login:session): session closed for user root
+2018-03-24T02:00:35.455932+00:00 bbb023cecb74 login[32572]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=/dev/pts/3 ruser= rhost=187-56-98-143.dsl.telesp.net.br  user=root
+2018-03-24T02:00:35.455947+00:00 bbb023cecb74 login[32572]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=/dev/pts/3 ruser= rhost=187-56-98-143.dsl.telesp.net.br  user=admin
+2018-03-24T02:00:37.639308+00:00 bbb023cecb74 login[356]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/3 ruser= rhost=187-56-98-143.dsl.telesp.net.br  user=root
+2018-03-24T02:00:40.497602+00:00 bbb023cecb74 login[356]: FAILED LOGIN (1) on '/dev/pts/3' from '187-56-98-143.dsl.telesp.net.br' FOR 'root', Authentication failure
+2018-03-24T02:00:43.571533+00:00 bbb023cecb74 login[356]: FAILED LOGIN (2) on '/dev/pts/3' from '187-56-98-143.dsl.telesp.net.br' FOR 'root', Authentication failure
+2018-03-24T02:00:44.693160+00:00 bbb023cecb74 login[356]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/3 ruser= rhost=187-56-98-143.dsl.telesp.net.br  user=default
+2018-03-24T02:00:47.490887+00:00 bbb023cecb74 login[356]: FAILED LOGIN (3) on '/dev/pts/3' from '187-56-98-143.dsl.telesp.net.br' FOR 'default', Authentication failure
+2018-03-24T02:00:51.010572+00:00 bbb023cecb74 login[356]: FAILED LOGIN (4) on '/dev/pts/3' from '187-56-98-143.dsl.telesp.net.br' FOR 'root', Authentication failure
+2018-03-24T02:00:51.904239+00:00 bbb023cecb74 login[356]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/3 ruser= rhost=187-56-98-143.dsl.telesp.net.br  user=admin
+2018-03-24T02:00:54.852104+00:00 bbb023cecb74 login[356]: FAILED LOGIN (5) on '/dev/pts/3' from '187-56-98-143.dsl.telesp.net.br' FOR 'admin', Authentication failure
+2018-03-24T02:00:54.855827+00:00 bbb023cecb74 login[356]: TOO MANY LOGIN TRIES (5) on '/dev/pts/3' from '187-56-98-143.dsl.telesp.net.br' FOR 'admin'
+2018-03-24T02:00:54.855921+00:00 bbb023cecb74 login[356]: pam_mail(login:session): pam_putenv: delete non-existent entry; MAIL
+2018-03-24T02:00:54.855992+00:00 bbb023cecb74 login[356]: pam_unix(login:session): session closed for user admin
+2018-03-24T02:00:54.857721+00:00 bbb023cecb74 login[356]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=/dev/pts/3 ruser= rhost=187-56-98-143.dsl.telesp.net.br  user=root
+2018-03-24T02:00:57.713949+00:00 bbb023cecb74 login[790]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=187-56-98-143.dsl.telesp.net.br  user=root
+2018-03-24T02:01:00.284493+00:00 bbb023cecb74 sshd[948]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=110.10.189.182  user=admin
+2018-03-24T02:01:00.692239+00:00 bbb023cecb74 login[790]: FAILED LOGIN (1) on '/dev/pts/0' from '187-56-98-143.dsl.telesp.net.br' FOR 'root', Authentication failure
+2018-03-24T02:01:01.597105+00:00 bbb023cecb74 login[790]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=187-56-98-143.dsl.telesp.net.br  user=admin
+2018-03-24T02:01:02.484156+00:00 bbb023cecb74 sshd[948]: Failed password for admin from 110.10.189.182 port 40342 ssh2
+2018-03-24T02:01:02.687711+00:00 bbb023cecb74 sshd[948]: Received disconnect from 110.10.189.182 port 40342:11: Normal Shutdown, Thank you for playing [preauth]
+2018-03-24T02:01:02.687745+00:00 bbb023cecb74 sshd[948]: Disconnected from 110.10.189.182 port 40342 [preauth]
+2018-03-24T02:01:05.826558+00:00 bbb023cecb74 login[790]: FAILED LOGIN (2) on '/dev/pts/0' from '187-56-98-143.dsl.telesp.net.br' FOR 'admin', Authentication failure
+2018-03-24T02:01:09.555506+00:00 bbb023cecb74 login[790]: FAILED LOGIN (3) on '/dev/pts/0' from '187-56-98-143.dsl.telesp.net.br' FOR 'admin', Authentication failure
+2018-03-24T02:01:10.680745+00:00 bbb023cecb74 login[790]: pam_env(login:session): Unable to open env file: /etc/default/locale: No such file or directory
+2018-03-24T02:01:10.681529+00:00 bbb023cecb74 login[790]: pam_unix(login:session): session opened for user admin by (uid=0)
+2018-03-24T02:11:26.653934+00:00 bbb023cecb74 login[19663]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=adsl-32.176.58.240.tellas.gr  user=root
+2018-03-24T02:11:29.907694+00:00 bbb023cecb74 login[19663]: FAILED LOGIN (1) on '/dev/pts/0' from 'adsl-32.176.58.240.tellas.gr' FOR 'root', Authentication failure
+2018-03-24T02:11:34.165913+00:00 bbb023cecb74 login[19663]: FAILED LOGIN (2) on '/dev/pts/0' from 'adsl-32.176.58.240.tellas.gr' FOR 'root', Authentication failure
+2018-03-24T02:11:37.962451+00:00 bbb023cecb74 login[19663]: FAILED LOGIN (3) on '/dev/pts/0' from 'adsl-32.176.58.240.tellas.gr' FOR 'root', Authentication failure
+2018-03-24T02:11:41.381471+00:00 bbb023cecb74 login[19663]: FAILED LOGIN (4) on '/dev/pts/0' from 'adsl-32.176.58.240.tellas.gr' FOR 'root', Authentication failure
+2018-03-24T02:11:46.797135+00:00 bbb023cecb74 login[20212]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=adsl-32.176.58.240.tellas.gr  user=root
+2018-03-24T02:11:48.916319+00:00 bbb023cecb74 login[20212]: FAILED LOGIN (1) on '/dev/pts/0' from 'adsl-32.176.58.240.tellas.gr' FOR 'root', Authentication failure
+2018-03-24T02:11:52.591069+00:00 bbb023cecb74 login[20212]: FAILED LOGIN (2) on '/dev/pts/0' from 'adsl-32.176.58.240.tellas.gr' FOR 'root', Authentication failure
+2018-03-24T02:11:56.597867+00:00 bbb023cecb74 login[20212]: FAILED LOGIN (3) on '/dev/pts/0' from 'adsl-32.176.58.240.tellas.gr' FOR 'root', Authentication failure
+2018-03-24T02:12:00.426166+00:00 bbb023cecb74 login[20212]: FAILED LOGIN (4) on '/dev/pts/0' from 'adsl-32.176.58.240.tellas.gr' FOR 'root', Authentication failure
+2018-03-24T02:12:04.569501+00:00 bbb023cecb74 login[20212]: FAILED LOGIN (5) on '/dev/pts/0' from 'adsl-32.176.58.240.tellas.gr' FOR 'root', Authentication failure
+2018-03-24T02:12:04.570731+00:00 bbb023cecb74 login[20212]: TOO MANY LOGIN TRIES (5) on '/dev/pts/0' from 'adsl-32.176.58.240.tellas.gr' FOR 'root'
+2018-03-24T02:12:04.570813+00:00 bbb023cecb74 login[20212]: pam_mail(login:session): pam_putenv: delete non-existent entry; MAIL
+2018-03-24T02:12:04.570877+00:00 bbb023cecb74 login[20212]: pam_unix(login:session): session closed for user root
+2018-03-24T02:12:04.571484+00:00 bbb023cecb74 login[20212]: PAM 4 more authentication failures; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=adsl-32.176.58.240.tellas.gr  user=root
+2018-03-24T02:12:04.571496+00:00 bbb023cecb74 login[20212]: PAM service(login) ignoring max retries; 5 > 3
+2018-03-24T02:12:08.593285+00:00 bbb023cecb74 login[20914]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=adsl-32.176.58.240.tellas.gr  user=root
+2018-03-24T02:12:12.034748+00:00 bbb023cecb74 login[20914]: FAILED LOGIN (1) on '/dev/pts/0' from 'adsl-32.176.58.240.tellas.gr' FOR 'root', Authentication failure
+2018-03-24T02:12:12.921745+00:00 bbb023cecb74 login[20914]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=adsl-32.176.58.240.tellas.gr  user=administrator
+2018-03-24T02:12:16.101607+00:00 bbb023cecb74 login[20914]: FAILED LOGIN (2) on '/dev/pts/0' from 'adsl-32.176.58.240.tellas.gr' FOR 'administrator', Authentication failure
+2018-03-24T02:12:20.489769+00:00 bbb023cecb74 login[20914]: FAILED LOGIN (3) on '/dev/pts/0' from 'adsl-32.176.58.240.tellas.gr' FOR 'root', Authentication failure
+2018-03-24T02:12:21.369288+00:00 bbb023cecb74 login[20914]: pam_env(login:session): Unable to open env file: /etc/default/locale: No such file or directory
+2018-03-24T02:12:21.370103+00:00 bbb023cecb74 login[20914]: pam_unix(login:session): session opened for user user by (uid=0)
+2018-03-24T02:19:10.159266+00:00 bbb023cecb74 login[1984]: pam_env(login:session): Unable to open env file: /etc/default/locale: No such file or directory
+2018-03-24T02:19:10.159846+00:00 bbb023cecb74 login[1984]: pam_unix(login:session): session opened for user root by (uid=0)
+2018-03-24T02:19:10.163220+00:00 bbb023cecb74 login[2022]: ROOT LOGIN  on '/dev/pts/0' from 'c-71-60-134-73.hsd1.pa.comcast.net'
+2018-03-24T02:20:38.879503+00:00 bbb023cecb74 login[9679]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=host22-108-dynamic.4-87-r.retail.telecomitalia.it  user=root
+2018-03-24T02:20:38.925929+00:00 bbb023cecb74 login[9687]: pam_unix(login:auth): check pass; user unknown
+2018-03-24T02:20:38.925995+00:00 bbb023cecb74 login[9687]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/1 ruser= rhost=host22-108-dynamic.4-87-r.retail.telecomitalia.it 
+2018-03-24T02:20:41.682940+00:00 bbb023cecb74 login[9687]: FAILED LOGIN (1) on '/dev/pts/1' from 'host22-108-dynamic.4-87-r.retail.telecomitalia.it' FOR 'UNKNOWN', Authentication failure
+2018-03-24T02:20:41.682965+00:00 bbb023cecb74 login[9679]: FAILED LOGIN (1) on '/dev/pts/0' from 'host22-108-dynamic.4-87-r.retail.telecomitalia.it' FOR 'root', Authentication failure
+2018-03-24T02:20:42.394882+00:00 bbb023cecb74 login[9679]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=host22-108-dynamic.4-87-r.retail.telecomitalia.it  user=admin
+2018-03-24T02:20:42.418697+00:00 bbb023cecb74 login[9687]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/1 ruser= rhost=host22-108-dynamic.4-87-r.retail.telecomitalia.it  user=root
+2018-03-24T02:20:45.890760+00:00 bbb023cecb74 login[9679]: FAILED LOGIN (2) on '/dev/pts/0' from 'host22-108-dynamic.4-87-r.retail.telecomitalia.it' FOR 'admin', Authentication failure
+2018-03-24T02:20:45.914178+00:00 bbb023cecb74 login[9687]: FAILED LOGIN (2) on '/dev/pts/1' from 'host22-108-dynamic.4-87-r.retail.telecomitalia.it' FOR 'root', Authentication failure
+2018-03-24T02:20:49.892607+00:00 bbb023cecb74 login[9679]: FAILED LOGIN (3) on '/dev/pts/0' from 'host22-108-dynamic.4-87-r.retail.telecomitalia.it' FOR 'root', Authentication failure
+2018-03-24T02:20:49.954273+00:00 bbb023cecb74 login[9687]: FAILED LOGIN (3) on '/dev/pts/1' from 'host22-108-dynamic.4-87-r.retail.telecomitalia.it' FOR 'root', Authentication failure
+2018-03-24T02:20:50.581581+00:00 bbb023cecb74 login[9679]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=host22-108-dynamic.4-87-r.retail.telecomitalia.it  user=guest
+2018-03-24T02:20:53.226409+00:00 bbb023cecb74 login[9679]: FAILED LOGIN (4) on '/dev/pts/0' from 'host22-108-dynamic.4-87-r.retail.telecomitalia.it' FOR 'guest', Authentication failure
+2018-03-24T02:20:53.310429+00:00 bbb023cecb74 login[9687]: FAILED LOGIN (4) on '/dev/pts/1' from 'host22-108-dynamic.4-87-r.retail.telecomitalia.it' FOR 'root', Authentication failure
+2018-03-24T02:20:56.870357+00:00 bbb023cecb74 login[9679]: FAILED LOGIN (5) on '/dev/pts/0' from 'host22-108-dynamic.4-87-r.retail.telecomitalia.it' FOR 'root', Authentication failure
+2018-03-24T02:20:56.871704+00:00 bbb023cecb74 login[9679]: TOO MANY LOGIN TRIES (5) on '/dev/pts/0' from 'host22-108-dynamic.4-87-r.retail.telecomitalia.it' FOR 'root'
+2018-03-24T02:20:56.871790+00:00 bbb023cecb74 login[9679]: pam_mail(login:session): pam_putenv: delete non-existent entry; MAIL
+2018-03-24T02:20:56.871852+00:00 bbb023cecb74 login[9679]: pam_unix(login:session): session closed for user root
+2018-03-24T02:20:56.872458+00:00 bbb023cecb74 login[9679]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=host22-108-dynamic.4-87-r.retail.telecomitalia.it  user=root
+2018-03-24T02:20:57.013465+00:00 bbb023cecb74 login[9687]: FAILED LOGIN (5) on '/dev/pts/1' from 'host22-108-dynamic.4-87-r.retail.telecomitalia.it' FOR 'root', Authentication failure
+2018-03-24T02:20:57.014729+00:00 bbb023cecb74 login[9687]: TOO MANY LOGIN TRIES (5) on '/dev/pts/1' from 'host22-108-dynamic.4-87-r.retail.telecomitalia.it' FOR 'root'
+2018-03-24T02:20:57.014836+00:00 bbb023cecb74 login[9687]: pam_mail(login:session): pam_putenv: delete non-existent entry; MAIL
+2018-03-24T02:20:57.014899+00:00 bbb023cecb74 login[9687]: pam_unix(login:session): session closed for user root
+2018-03-24T02:20:57.015492+00:00 bbb023cecb74 login[9687]: PAM 3 more authentication failures; logname= uid=0 euid=0 tty=/dev/pts/1 ruser= rhost=host22-108-dynamic.4-87-r.retail.telecomitalia.it  user=root
+2018-03-24T02:20:57.015505+00:00 bbb023cecb74 login[9687]: PAM service(login) ignoring max retries; 4 > 3
+2018-03-24T02:20:59.473925+00:00 bbb023cecb74 login[11757]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=host22-108-dynamic.4-87-r.retail.telecomitalia.it  user=root
+2018-03-24T02:20:59.476724+00:00 bbb023cecb74 login[11789]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/1 ruser= rhost=host22-108-dynamic.4-87-r.retail.telecomitalia.it  user=guest
+2018-03-24T02:21:02.470710+00:00 bbb023cecb74 login[11757]: FAILED LOGIN (1) on '/dev/pts/0' from 'host22-108-dynamic.4-87-r.retail.telecomitalia.it' FOR 'root', Authentication failure
+2018-03-24T02:21:02.474219+00:00 bbb023cecb74 login[11789]: FAILED LOGIN (1) on '/dev/pts/1' from 'host22-108-dynamic.4-87-r.retail.telecomitalia.it' FOR 'guest', Authentication failure
+2018-03-24T02:21:03.208183+00:00 bbb023cecb74 login[11757]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser= rhost=host22-108-dynamic.4-87-r.retail.telecomitalia.it  user=admin
+2018-03-24T02:21:03.213135+00:00 bbb023cecb74 login[11789]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/1 ruser= rhost=host22-108-dynamic.4-87-r.retail.telecomitalia.it  user=root
+2018-03-24T02:21:05.529611+00:00 bbb023cecb74 login[11757]: FAILED LOGIN (2) on '/dev/pts/0' from 'host22-108-dynamic.4-87-r.retail.telecomitalia.it' FOR 'admin', Authentication failure
+2018-03-24T02:21:05.534033+00:00 bbb023cecb74 login[11789]: FAILED LOGIN (2) on '/dev/pts/1' from 'host22-108-dynamic.4-87-r.retail.telecomitalia.it' FOR 'root', Authentication failure
+2018-03-24T02:21:06.253823+00:00 bbb023cecb74 login[11789]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/1 ruser= rhost=host22-108-dynamic.4-87-r.retail.telecomitalia.it  user=admin
+2018-03-24T02:21:09.183065+00:00 bbb023cecb74 login[11757]: FAILED LOGIN (3) on '/dev/pts/0' from 'host22-108-dynamic.4-87-r.retail.telecomitalia.it' FOR 'root', Authentication failure
+2018-03-24T02:21:09.189964+00:00 bbb023cecb74 login[11789]: FAILED LOGIN (3) on '/dev/pts/1' from 'host22-108-dynamic.4-87-r.retail.telecomitalia.it' FOR 'admin', Authentication failure
+2018-03-24T02:21:13.153982+00:00 bbb023cecb74 login[11757]: FAILED LOGIN (4) on '/dev/pts/0' from 'host22-108-dynamic.4-87-r.retail.telecomitalia.it' FOR 'admin', Authentication failure
+2018-03-24T02:21:13.158003+00:00 bbb023cecb74 login[11789]: FAILED LOGIN (4) on '/dev/pts/1' from 'host22-108-dynamic.4-87-r.retail.telecomitalia.it' FOR 'root', Authentication failure
+2018-03-24T02:21:13.864392+00:00 bbb023cecb74 login[11757]: pam_env(login:session): Unable to open env file: /etc/default/locale: No such file or directory
+2018-03-24T02:21:13.865192+00:00 bbb023cecb74 login[11757]: pam_unix(login:session): session opened for user admin by (uid=0)
+2018-03-24T02:21:16.459981+00:00 bbb023cecb74 login[11789]: FAILED LOGIN (5) on '/dev/pts/1' from 'host22-108-dynamic.4-87-r.retail.telecomitalia.it' FOR 'root', Authentication failure
+2018-03-24T02:21:16.461430+00:00 bbb023cecb74 login[11789]: TOO MANY LOGIN TRIES (5) on '/dev/pts/1' from 'host22-108-dynamic.4-87-r.retail.telecomitalia.it' FOR 'root'
+2018-03-24T02:21:16.461519+00:00 bbb023cecb74 login[11789]: pam_mail(login:session): pam_putenv: delete non-existent entry; MAIL
+2018-03-24T02:21:16.461582+00:00 bbb023cecb74 login[11789]: pam_unix(login:session): session closed for user root
+2018-03-24T02:21:16.462206+00:00 bbb023cecb74 login[11789]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=/dev/pts/1 ruser= rhost=host22-108-dynamic.4-87-r.retail.telecomitalia.it  user=root
+2018-03-24T02:21:18.752981+00:00 bbb023cecb74 login[13522]: pam_unix(login:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/1 ruser= rhost=host22-108-dynamic.4-87-r.retail.telecomitalia.it  user=admin
+2018-03-24T02:21:21.662179+00:00 bbb023cecb74 login[13522]: FAILED LOGIN (1) on '/dev/pts/1' from 'host22-108-dynamic.4-87-r.retail.telecomitalia.it' FOR 'admin', Authentication failure
+2018-03-24T02:21:22.732081+00:00 bbb023cecb74 login[13522]: pam_env(login:session): Unable to open env file: /etc/default/locale: No such file or directory
+2018-03-24T02:21:22.732822+00:00 bbb023cecb74 login[13522]: pam_unix(login:session): session opened for user admin by (uid=0)
+2018-03-24T02:24:13.997760+00:00 bbb023cecb74 sshd[29158]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=139.198.14.94  user=admin
+2018-03-24T02:24:16.097167+00:00 bbb023cecb74 sshd[29158]: Failed password for admin from 139.198.14.94 port 60436 ssh2
+2018-03-24T02:24:16.381393+00:00 bbb023cecb74 sshd[29158]: Received disconnect from 139.198.14.94 port 60436:11: Normal Shutdown, Thank you for playing [preauth]
+2018-03-24T02:24:16.381426+00:00 bbb023cecb74 sshd[29158]: Disconnected from 139.198.14.94 port 60436 [preauth]
+2018-03-24T02:28:14.357568+00:00 bbb023cecb74 sshd[17001]: fatal: fork of unprivileged child failed
+2018-03-24T02:32:04.299113+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T02:37:30.449057+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T02:38:14.210111+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T02:41:53.565084+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T02:43:16.120270+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T02:48:37.180018+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T03:08:06.252863+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T03:13:29.432363+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T03:18:32.173059+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T03:26:47.108871+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T03:30:21.550548+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T03:30:31.242049+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T03:39:59.060422+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T03:40:57.222924+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T03:42:49.405936+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T03:54:08.412869+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T04:01:45.992422+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T04:07:02.616596+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T04:12:52.237030+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T04:23:17.175263+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T04:43:10.338375+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T04:43:23.079986+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T04:44:41.437068+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T04:49:52.758513+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T04:52:43.160265+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T04:56:44.308391+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T05:03:07.220035+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T05:15:10.203280+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T05:25:32.159240+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T05:30:41.407351+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T05:31:33.392622+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T05:57:29.195260+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T06:02:46.854201+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T06:07:52.173628+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T06:31:20.419816+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T06:37:14.187936+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T06:47:37.201015+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T06:56:36.248070+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T06:59:39.200554+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T07:10:02.171868+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T07:14:25.727132+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T07:28:42.485872+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T07:32:36.143127+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T07:42:02.232848+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T07:52:27.162791+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T07:59:58.695814+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T08:00:08.638052+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T08:00:12.391125+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T08:00:17.117564+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T08:14:10.897690+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T08:21:58.163927+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T08:23:54.114063+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T08:32:22.174231+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T08:33:35.378874+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T08:44:23.221750+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T08:54:07.275284+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T08:54:07.278524+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T08:54:47.133943+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T09:00:19.478048+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T09:07:04.335386+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T09:08:49.938207+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T09:26:44.149867+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T09:28:51.814686+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T09:37:07.158415+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T09:47:58.097157+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T10:01:26.849127+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T10:06:34.186518+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T10:10:01.349804+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T10:16:57.170931+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T10:29:04.217731+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T10:31:33.976124+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T10:39:27.114638+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T10:50:51.262877+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T10:55:54.388882+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T11:11:14.785177+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T11:11:30.192548+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T11:21:52.172904+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T11:39:45.488970+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T11:51:27.155045+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T12:01:52.179900+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T12:05:17.314657+00:00 bbb023cecb74 sshd[220]: error: fork: Resource temporarily unavailable
+2018-03-24T12:57:56.396113+00:00 bbb023cecb74 su[157]: Successful su for admin by root
+2018-03-24T12:57:56.396183+00:00 bbb023cecb74 su[157]: + ??? root:admin
+2018-03-24T12:57:56.397834+00:00 bbb023cecb74 su[157]: pam_env(su:session): Unable to open env file: /etc/default/locale: No such file or directory
+2018-03-24T12:57:56.399617+00:00 bbb023cecb74 su[157]: pam_unix(su:session): session opened for user admin by (uid=0)
+2018-03-24T12:59:18.052779+00:00 bbb023cecb74 su[157]: pam_unix(su:session): session closed for user admin

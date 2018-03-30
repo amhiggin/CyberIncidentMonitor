@@ -1,0 +1,13 @@
+2018-03-24T15:15:26.870190+0000 [-] Python Version 2.7.9 (default, Jun 29 2016, 13:08:31) [GCC 4.9.2]
+2018-03-24T15:15:26.870240+0000 [-] Twisted Version 17.9.0
+2018-03-24T15:15:26.872527+0000 [-] Loaded output engine: jsonlog
+2018-03-24T15:15:26.873432+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 17.9.0 (/cowrie/cowrie-git/cowrie-env/bin/python2 2.7.9) starting up.
+2018-03-24T15:15:26.873580+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollReactor.
+2018-03-24T15:15:26.876549+0000 [-] CowrieSSHFactory starting on 22
+2018-03-24T15:15:26.876817+0000 [cowrie.ssh.factory.CowrieSSHFactory#info] Starting factory <cowrie.ssh.factory.CowrieSSHFactory instance at 0x7f803cd5d320>
+2018-03-24T15:15:26.877061+0000 [-] Generating new RSA keypair...
+2018-03-24T15:15:26.928953+0000 [-] Generating new DSA keypair...
+2018-03-24T15:15:26.970746+0000 [-] Ready to accept SSH connections
+2018-03-24T15:15:26.973180+0000 [-] HoneyPotTelnetFactory starting on 23
+2018-03-24T15:15:26.973456+0000 [cowrie.telnet.transport.HoneyPotTelnetFactory#info] Starting factory <cowrie.telnet.transport.HoneyPotTelnetFactory instance at 0x7f803cd5d3f8>
+2018-03-24T15:15:26.973716+0000 [-] Ready to accept Telnet connections
